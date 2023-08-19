@@ -15,20 +15,18 @@ Why do I care about mypy when I'm primarily focused on improving pyright? Becaus
 It's difficult to say how the DAU (daily active user) count compares between mypy and pyright, but I think they are comparable. My best guess is that mypy's DAU is still somewhat higher than pyright's, even if we include Pylance users who enable type checking. Pypi [download stats](https://pypistats.org/packages/mypy) indicate that mypy peaks at ~750K downloads per day. By comparison, pyright peaks at ~40K downloads per day. In addition, some non-negligible fraction of Pylance's 4M active users enable type checking via pyright.
 
 ## Summary of Analysis
-Over the past couple weeks, I've spent about many looking at every issue in the mypy issue tracker — about 2550 in total. I identified about 250 issues that were no longer applicable (most of them already fixed in the latest version of mypy), and these have been closed.
+Over the past couple weeks, I've invested many hours looking at every issue in the mypy issue tracker — about 2550 in total. I identified about 250 issues that were no longer applicable (most of them already fixed in the latest version of mypy), and these have been closed with the help of mypy project maintainers (thanks!).
 
-I categorized the remaining issues into the following buckets:
-* [Recommend close](https://github.com/erictraut/mypy_issues/blob/main/recommend_close.md#features-and-bugs-that-i-recommend-closing) — issues that I recommend closing for a variety of reasons
-* [Questionable](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable) - issues that I didn't have time to think deeply about but I consider them questionable for one reason or another; I would likely recommend closing the majority of these
-* [Features requiring standardization](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable) - features that require new PEPs or at least a discussion in the python/typing forums; these could all be closed and redirected to python/typing
-* [Issues not applicable to pyright](https://github.com/erictraut/mypy_issues/blob/main/not_applicable.md#issues-not-applicable-to-pyright) - issues that are specific to mypy (internal implementation suggestions, documentation, stubtest, build improvements, etc.)
-* [Features intentionally not implemented in pyright](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-intentionally-not-supported-in-pyright) - features that I have intentionally rejected in the past on principle or because I feel it's not feasible
-* [Features in pyright but missing from mypy](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-supported-in-pyright-but-missing-from-mypy) - features that are already implemented in some form in pyright
-* [Bugs in both mypy and pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-both-mypy-and-pyright) - bugs that repro in both mypy and pyright; these will be fixed shortly
-* [Bugs in mypy bug not in pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-mypy-but-not-in-pyright) - bugs that repro in mypy but do not in pyright; a significant number of these are minor issues (like error messages that could be marginally clearer or extreme edge cases that probably affect very few users) and could reasonably be closed as "won't fix"
+I've categorized the remaining issues into the following buckets:
+* [Recommend close](https://github.com/erictraut/mypy_issues/blob/main/recommend_close.md#features-and-bugs-that-i-recommend-closing): issues that I recommend closing for a variety of reasons
+* [Questionable](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable): issues that I didn't have time to think deeply about but I consider them questionable for one reason or another; I would likely recommend closing the majority of these
+* [Features requiring standardization](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable): features that require new PEPs or at least a discussion in the python/typing forums; these could all be closed and redirected to python/typing
+* [Issues not applicable to pyright](https://github.com/erictraut/mypy_issues/blob/main/not_applicable.md#issues-not-applicable-to-pyright): issues that are specific to mypy (internal implementation suggestions, documentation, stubtest, build improvements, etc.)
+* [Features intentionally not implemented in pyright](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-intentionally-not-supported-in-pyright): features that I have intentionally rejected in the past on principle or because I feel it's not feasible
+* [Features in pyright but missing from mypy](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-supported-in-pyright-but-missing-from-mypy): features that are already implemented in some form in pyright
+* [Bugs in both mypy and pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-both-mypy-and-pyright): bugs that repro in both mypy and pyright; these will be fixed shortly
+* [Bugs in mypy bug not in pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-mypy-but-not-in-pyright): bugs that repro in mypy but do not in pyright; a significant number of these are minor issues (like error messages that could be marginally clearer or extreme edge cases that probably affect very few users) and could reasonably be closed as "won't fix"
 
-
-The remaining issues break down as follow:
 
 | Category                                          | Count |
 | ------------------------------------------------- | ----- |
@@ -45,7 +43,7 @@ The remaining issues break down as follow:
 
 ## Summary of top issues
 
-As I looked through all of the open issues in the mypy issue tracker, I looked for common requests, sources of confusion, and root causes for bugs. Here's a list sorted roughly by importance.
+I looked for common bugs, requests, and sources of confusion. Here's a list sorted roughly by importance.
 
 1. Union vs Join: About 70 bugs would be fixed if this were addressed; could be ported from basedmypy source base
 2. isinstance narrowing of a TypeVar: When mypy narrows a variable of type T based on an isinstance type guard, it forgets that the type is T, which causes many false positives; pyright uses "type conditions" (a lightweight type of intersection) to handle this
