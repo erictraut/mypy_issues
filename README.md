@@ -25,7 +25,7 @@ I've categorized the remaining issues into the following buckets:
 * [Features intentionally not implemented in pyright](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-intentionally-not-supported-in-pyright): features that I have intentionally rejected in the past on principle or because I feel it's not feasible
 * [Features in pyright but missing from mypy](https://github.com/erictraut/mypy_issues/blob/main/features.md#features-supported-in-pyright-but-missing-from-mypy): features that are already implemented in some form in pyright
 * [Bugs in both mypy and pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-both-mypy-and-pyright): bugs that repro in both mypy and pyright; these will be fixed shortly
-* [Bugs in mypy bug not in pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-mypy-but-not-in-pyright): bugs that repro in mypy but do not in pyright; a significant number of these are minor issues (like error messages that could be marginally clearer or extreme edge cases that probably affect very few users) and could reasonably be closed as "won't fix"
+* [Bugs in mypy but not in pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-mypy-but-not-in-pyright): bugs that repro in mypy but do not in pyright; a significant number of these are minor issues (like error messages that could be marginally clearer or extreme edge cases that probably affect very few users) and could reasonably be closed as "won't fix"
 
 
 | Category                                          | Count |
