@@ -29,7 +29,7 @@ I've categorized the remaining issues into the following buckets:
 
 
 | Category                                          | Count |
-| ------------------------------------------------- | ----- |
+| ------------------------------------------------- | ----: |
 | Recommend close                                   | 311   |
 | Questionable                                      | 206   |
 | Features requiring standardization                | 55    |
@@ -41,13 +41,13 @@ I've categorized the remaining issues into the following buckets:
 | _Total_                                           | 2285  |
 
 
-## Summary of top issues
+## Summary of Top Issues
 
 I looked for common bugs, requests, and sources of confusion. Here's a list sorted roughly by importance.
 
 1. Union vs Join: About 70 bugs would be fixed if this were addressed; could be ported from basedmypy source base
 2. isinstance narrowing of a TypeVar: When mypy narrows a variable of type T based on an isinstance type guard, it forgets that the type is T, which causes many false positives; pyright uses "type conditions" (a lightweight type of intersection) to handle this
-3. \*\* unpacking for args (#15321): I recently changed pyright's behavior to match mypy's in this regard, but I think we should both consider changing this behavior because it results in many false positives
+3. \*\* unpacking for args ([#15321](https://github.com/python/mypy/issues/15321)): I recently changed pyright's behavior to match mypy's in this regard, but I think we should both consider changing this behavior because it results in many false positives
 4. Assignment narrowing consistency (#2008): Mypy's current behavior is confusing, inconsistent, and leads to many false positives
 5. Various narrowing and exhaustion issues with match statements
 6. Side-effect modifications that invalidate local narrowing (document): It should be clearly documented that mypy does not perform global analysis, so non-local side effects made by calls do not affect local type narrowing

@@ -99,9 +99,6 @@ This isn't how stubs are designed to work, not feasible
 - https://github.com/python/mypy/issues/5090
 This is something that should be dictated by typeshed
 
-- https://github.com/python/mypy/issues/5107
-Not actionable
-
 - https://github.com/python/mypy/issues/5119
 Meta-issue is complete
 

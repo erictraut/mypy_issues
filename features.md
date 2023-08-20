@@ -4,6 +4,7 @@
 - https://github.com/python/mypy/issues/6143
 - https://github.com/python/mypy/issues/6835
 - https://github.com/python/mypy/issues/7419
+- https://github.com/python/mypy/issues/8663
 - https://github.com/python/mypy/issues/9226
 - https://github.com/python/mypy/issues/10002
 - https://github.com/python/mypy/issues/13643
