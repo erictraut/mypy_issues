@@ -72,9 +72,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/4430
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/4437
-Type comments are deprecated
-
 - https://github.com/python/mypy/issues/4551
 Working correctly (not a bug)
 
@@ -893,9 +890,6 @@ Conditional types not feasible to track; not supported
 
 - https://github.com/python/mypy/issues/15525
 Unreasonable feature request; straightforward workaround
-
-- https://github.com/python/mypy/issues/15549
-Working correctly; provided code sample is buggy (should be staticmethod)
 
 - https://github.com/python/mypy/issues/15581
 Unreasonable feature request; would require special-casing and/or new type system features for little or no gain; unlikely to ever be implemented
