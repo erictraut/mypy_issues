@@ -303,9 +303,7 @@
 
 ### Meta Issues
 
-- https://github.com/python/mypy/issues/10195
 - https://github.com/python/mypy/issues/11201
-- https://github.com/python/mypy/issues/11753
 - https://github.com/python/mypy/issues/12840
 - https://github.com/python/mypy/issues/15277
 
@@ -373,7 +371,6 @@
 - https://github.com/python/mypy/issues/7787
 - https://github.com/python/mypy/issues/7998
 - https://github.com/python/mypy/issues/8043
-- https://github.com/python/mypy/issues/8055
 - https://github.com/python/mypy/issues/8240
 - https://github.com/python/mypy/issues/8584
 - https://github.com/python/mypy/issues/8620
@@ -426,6 +423,7 @@
 - https://github.com/python/mypy/issues/15906
 - https://github.com/python/mypy/issues/15907
 - https://github.com/python/mypy/issues/15909
+- https://github.com/python/mypy/issues/15919
 
 ### Miscellaneous (Nonapplicable Bugs or Features)
 

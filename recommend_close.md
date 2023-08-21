@@ -456,9 +456,6 @@ Working correctly (not a bug); cross-function mutations not supported
 - https://github.com/python/mypy/issues/10823
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/10856
-This isn't how overloads work
-
 - https://github.com/python/mypy/issues/10878
 This isn't how overloads work
 
@@ -512,9 +509,6 @@ Working correctly (not a bug); represents misunderstanding of constrained TypeVa
 
 - https://github.com/python/mypy/issues/11302
 `new_class` is too dynamic to support statically
-
-- https://github.com/python/mypy/issues/11337
-This bug has been fixed
 
 - https://github.com/python/mypy/issues/11404
 Conditional types not feasible to track; not supported
