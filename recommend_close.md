@@ -54,9 +54,6 @@ Current behavior is correct
 - https://github.com/python/mypy/issues/3912
 Insufficient interest
 
-- https://github.com/python/mypy/issues/3960
-Should be a third-party plugin, not built in
-
 - https://github.com/python/mypy/issues/4019
 Not feasible in general
 
@@ -95,9 +92,6 @@ This isn't how stubs are designed to work, not feasible
 
 - https://github.com/python/mypy/issues/5090
 This is something that should be dictated by typeshed
-
-- https://github.com/python/mypy/issues/5119
-Meta-issue is complete
 
 - https://github.com/python/mypy/issues/5125
 Working correctly (not a bug)
@@ -677,9 +671,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/12842
 Working correctly (not a bug); bug represents misunderstanding of variance
-
-- https://github.com/python/mypy/issues/12949
-Duplicate of 8252
 
 - https://github.com/python/mypy/issues/12971
 Can't handle due to circularity
