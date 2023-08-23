@@ -23,7 +23,6 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/6936
 - https://github.com/python/mypy/issues/6948
 - https://github.com/python/mypy/issues/7121
-- https://github.com/python/mypy/issues/7326
 - https://github.com/python/mypy/issues/7626
 - https://github.com/python/mypy/issues/7790
 - https://github.com/python/mypy/issues/7856
