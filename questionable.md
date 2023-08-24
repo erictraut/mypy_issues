@@ -1,18 +1,13 @@
 ## Features and bugs that are questionable
 I need to think more about these, but would probably end up closing the majority of them
 
-- https://github.com/python/mypy/issues/363
 - https://github.com/python/mypy/issues/495
 - https://github.com/python/mypy/issues/737
-- https://github.com/python/mypy/issues/1021
-- https://github.com/python/mypy/issues/1314
 - https://github.com/python/mypy/issues/1533
 - https://github.com/python/mypy/issues/1555
 - https://github.com/python/mypy/issues/1998
 - https://github.com/python/mypy/issues/2090
-- https://github.com/python/mypy/issues/2113
 - https://github.com/python/mypy/issues/2199
-- https://github.com/python/mypy/issues/2220
 - https://github.com/python/mypy/issues/2288
 - https://github.com/python/mypy/issues/2351
 - https://github.com/python/mypy/issues/2352
@@ -28,6 +23,7 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/3208
 - https://github.com/python/mypy/issues/3224
 - https://github.com/python/mypy/issues/3819
+
 - https://github.com/python/mypy/issues/3829
 - https://github.com/python/mypy/issues/3853
 - https://github.com/python/mypy/issues/3964
@@ -195,7 +191,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/15683
 - https://github.com/python/mypy/issues/15706
 - https://github.com/python/mypy/issues/15756
-- https://github.com/python/mypy/issues/15772
 - https://github.com/python/mypy/issues/15773
 - https://github.com/python/mypy/issues/15790
 - https://github.com/python/mypy/issues/15797

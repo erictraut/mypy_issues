@@ -1,7 +1,19 @@
 ## Features and bugs that I recommend closing
 
+- https://github.com/python/mypy/issues/363
+I recommend fixing this in typeshed by changing NotImplemented so it's declared as type NotImplementedError rather than Any
+
+- https://github.com/python/mypy/issues/1021
+I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
+
 - https://github.com/python/mypy/issues/1052
 This is an inappropriate abuse of NoReturn
+
+- https://github.com/python/mypy/issues/2220
+Not a type checker error; straightforward workaround
+
+- https://github.com/python/mypy/issues/1314
+I don't see a good way to fix this without leading to false positives; plus, it's not a big problem
 
 - https://github.com/python/mypy/issues/1393
 Type checker errors in try block shouldn't be suppressed - slippery slope
@@ -908,3 +920,7 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
+
+- https://github.com/python/mypy/issues/15940
+Not a mypy issue
+
