@@ -47,7 +47,7 @@ I looked for common bugs, requests, and sources of confusion. Here's a list sort
 
 1. Union vs Join: About 70 bugs would be fixed if this were addressed; could be ported from basedmypy source base
 2. isinstance narrowing of a TypeVar: When mypy narrows a variable of type T based on an isinstance type guard, it forgets that the type is T, which causes many false positives; pyright uses "type conditions" (a lightweight type of intersection) to handle this
-3. \*\* unpacking for args ([#15321](https://github.com/python/mypy/issues/15321)): I recently changed pyright's behavior to match mypy's in this regard, but I think we should both consider changing this behavior because it results in many false positives
+3. \*\* unpacking for args ([#15321](https://github.com/python/mypy/issues/15321), [#8862](https://github.com/python/mypy/issues/8862)): I recently changed pyright's behavior to match mypy's in this regard, but I think we should both consider changing this behavior because it results in many false positives
 4. Assignment narrowing consistency (#2008): Mypy's current behavior is confusing, inconsistent, and leads to many false positives
 5. Various narrowing and exhaustion issues with match statements
 6. Bug affecting type narrowing of variables assigned conditionally in loops (#15917, etc).

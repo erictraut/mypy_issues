@@ -18,9 +18,6 @@ I don't see a good way to fix this without leading to false positives; plus, it'
 - https://github.com/python/mypy/issues/1393
 Type checker errors in try block shouldn't be suppressed - slippery slope
 
-- https://github.com/python/mypy/issues/1503
-Too dynamic
-
 - https://github.com/python/mypy/issues/1831
 Type[C] doesn't imply callable
 
@@ -87,17 +84,20 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/4572
 This is an inappropriate abuse of NoReturn
 
+- https://github.com/python/mypy/issues/4574
+Working correctly (not a bug)
+
 - https://github.com/python/mypy/issues/4676
 Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/4690
+Poorly-motivated suggestion
 
 - https://github.com/python/mypy/issues/4791
 Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/4819
 Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/5017
-VarArg and KwArg are deprecated
 
 - https://github.com/python/mypy/issues/5028
 This isn't how stubs are designed to work, not feasible
@@ -117,9 +117,6 @@ Not actionable
 - https://github.com/python/mypy/issues/5382
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/5383
-Aliases of dataclass too dynamic; use PEP 681
-
 - https://github.com/python/mypy/issues/5406
 Aliases of attrs too dynamic; use PEP 681
 
@@ -138,9 +135,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/5550
 Working correctly (not a bug); use PEP 484 forms
 
-- https://github.com/python/mypy/issues/5605
-Illegal use of TypeVar
-
 - https://github.com/python/mypy/issues/5651
 Working correctly; not actionable
 
@@ -153,8 +147,14 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/5710
 Working correctly; would require a change in typeshed
 
+- https://github.com/python/mypy/issues/5774
+I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
+
 - https://github.com/python/mypy/issues/5775
 Working correctly; define your own covariant version of AnyStr
+
+- https://github.com/python/mypy/issues/5803
+Properties are not the same as descriptors or attributes, so this shouldn't be allowed
 
 - https://github.com/python/mypy/issues/5843
 Working correctly; insufficient context to infer type of lambda
@@ -189,6 +189,9 @@ Feature request represents misunderstanding of type system
 - https://github.com/python/mypy/issues/6933
 Working correctly (not a bug)
 
+- https://github.com/python/mypy/issues/7012
+`__name__` is writable, so it isn't safe to infer literal type
+
 - https://github.com/python/mypy/issues/7109
 Working correctly (not a bug)
 
@@ -200,6 +203,9 @@ Already covered by --strict-equality
 
 - https://github.com/python/mypy/issues/7338
 Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/7339
+Type narrowing isn't safe in this case; use one of several workarounds
 
 - https://github.com/python/mypy/issues/7374
 Invalid proposal; represent misunderstanding of NoReturn
@@ -285,8 +291,8 @@ Not generally possible to implement, recommend workaround
 - https://github.com/python/mypy/issues/8622
 Edge case, not worth added complexity; recommend TypeGuard
 
-- https://github.com/python/mypy/issues/8750
-Duplicate?
+- https://github.com/python/mypy/issues/8705
+Not possible in type system today; workaround provided
 
 - https://github.com/python/mypy/issues/8764
 Conditional types not feasible to track; not supported
@@ -318,23 +324,17 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/9128
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/9160
-Can't fix this edge case without breaking more common cases
-
 - https://github.com/python/mypy/issues/9194
 Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/9201
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/9213
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/9369
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/9373
 Working correctly; type violation occurs at the use site, so it should be reported there
+
+- https://github.com/python/mypy/issues/9356
+Poorly-motivated feature request; Too dynamic to handle in static type checker
 
 - https://github.com/python/mypy/issues/9388
 Working correctly; list is invariant
@@ -416,9 +416,6 @@ Not worth special casing for this edge case
 
 - https://github.com/python/mypy/issues/10314
 `__all__` in stubs should reflect actual value in library
-
-- https://github.com/python/mypy/issues/10339
-This isn't how literals work
 
 - https://github.com/python/mypy/issues/10371
 Bidirectional type inference can't work across iteration
@@ -642,9 +639,6 @@ This isn't a reasonable type narrowing pattern, too complex
 - https://github.com/python/mypy/issues/12466
 Current output looks fine to me; request is poorly motivated
 
-- https://github.com/python/mypy/issues/12487
-Poorly-motivated feature request with very little support
-
 - https://github.com/python/mypy/issues/12570
 Poorly-motivated feature request; fragile code that doesn't work with deferred annotation evaluation
 
@@ -759,9 +753,6 @@ Poorly-motivated feature request with no support in past year
 - https://github.com/python/mypy/issues/13992
 Working as designed (not a bug)
 
-- https://github.com/python/mypy/issues/14023
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/14052
 Dynamic manipulation of namespaces not supportable in static type checker
 
@@ -861,56 +852,14 @@ Unclear bug report; waiting for more info, but none provided
 - https://github.com/python/mypy/issues/15026
 Working correctly (not a bug); base is not staticmethod
 
-- https://github.com/python/mypy/issues/15057
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/15072
-Appears to be a misunderstanding; waiting for confirmation
-
-- https://github.com/python/mypy/issues/15096
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/15107
-Incorrect understanding of Generic; nothing actionable
-
 - https://github.com/python/mypy/issues/15175
 Poorly-motivated feature; unlikely to ever be implemented
-
-- https://github.com/python/mypy/issues/15309
-Working as designed (not a bug); code sample is buggy (misuses TypeVars)
-
-- https://github.com/python/mypy/issues/15333
-Appears to be fixed in 1.5
-
-- https://github.com/python/mypy/issues/15517
-Conditional types not feasible to track; not supported
-
-- https://github.com/python/mypy/issues/15525
-Unreasonable feature request; straightforward workaround
-
-- https://github.com/python/mypy/issues/15581
-Unreasonable feature request; would require special-casing and/or new type system features for little or no gain; unlikely to ever be implemented
-
-- https://github.com/python/mypy/issues/15620
-Working correctly with latest version
 
 - https://github.com/python/mypy/issues/15692
 Working correctly
 
-- https://github.com/python/mypy/issues/15703
-Unreasonable type narrowing pattern; too complex; use TypeGuard
-
-- https://github.com/python/mypy/issues/15705
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/15755
 Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/15785
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/15803
-Working correctly (not a bug); sample code is buggy
 
 - https://github.com/python/mypy/issues/15825
 Ill-advised feature request for reasons discussed
@@ -920,7 +869,4 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
-
-- https://github.com/python/mypy/issues/15940
-Not a mypy issue
 
