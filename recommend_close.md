@@ -222,9 +222,6 @@ Working correctly based on typeshed definition; not worth special casing
 - https://github.com/python/mypy/issues/7666
 Working correctly; if stub is incorrect, then fix the stub
 
-- https://github.com/python/mypy/issues/7726
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/7752
 Too much of an edge case and too complex
 
@@ -339,9 +336,6 @@ Poorly-motivated feature request; Too dynamic to handle in static type checker
 - https://github.com/python/mypy/issues/9388
 Working correctly; list is invariant
 
-- https://github.com/python/mypy/issues/9393
-Runtime modification of `__path__` is too dynamic
-
 - https://github.com/python/mypy/issues/9464
 Too complex to implement in constraint solver
 
@@ -353,6 +347,9 @@ Appears to be fixed; Could not repro
 
 - https://github.com/python/mypy/issues/9710
 Code is missing appropriate type annotation
+
+- https://github.com/python/mypy/issues/9712
+Classes that are intended to be generic should derive from `Generic`, not define their own `__class_getitem__`
 
 - https://github.com/python/mypy/issues/9749
 Monkey patching is too dynamic for (and antithetical to) static type checking
@@ -371,9 +368,6 @@ Working correctly (not a bug); cross-function mutations not supported
 
 - https://github.com/python/mypy/issues/9871
 Redefining at arbitrary locations won't work because applicable declaration will be ambiguous
-
-- https://github.com/python/mypy/issues/9875
-Aliases of dataclass too dynamic; use PEP 681
 
 - https://github.com/python/mypy/issues/9890
 Too complex for automatic type narrowing; use TypeGuard
@@ -423,8 +417,8 @@ Bidirectional type inference can't work across iteration
 - https://github.com/python/mypy/issues/10380
 Conditional types not feasible to track; not supported
 
-- https://github.com/python/mypy/issues/10427
-Working correctly (not a bug)
+- https://github.com/python/mypy/issues/10439
+Type guard pattern too complex; recommend TypeGuard
 
 - https://github.com/python/mypy/issues/10465
 Runtime state can't be tracked statically, so this check isn't feasible for a static type checker
@@ -506,6 +500,9 @@ This would promote further use of TYPE_CHECKING in cases where it would be inadv
 
 - https://github.com/python/mypy/issues/11230
 This isn't how TypeGuard is spec'ed to work
+
+- https://github.com/python/mypy/issues/11291
+Poorly-motivated feature request
 
 - https://github.com/python/mypy/issues/11301
 Working correctly (not a bug); represents misunderstanding of constrained TypeVars
@@ -597,9 +594,6 @@ Working correctly (and nothing actionable)
 - https://github.com/python/mypy/issues/12156
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/12166
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/12206
 Suggested fix would be inconsistent and would almost never apply, so not worth it
 
@@ -681,20 +675,41 @@ Working correctly (not a bug); bug represents misunderstanding of variance
 - https://github.com/python/mypy/issues/12971
 Can't handle due to circularity
 
+- https://github.com/python/mypy/issues/12944
+Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/13051
+Type checkers don't generally verify that `super.__init__` is called, so this shouldn't apply to `dataclass` either
+
 - https://github.com/python/mypy/issues/13071
 Working correctly (not a bug); class lacks a `__getattr__`
 
 - https://github.com/python/mypy/issues/13120
 Working correctly (not a bug in mypy); `field` is designed to use within dataclass, not outside
 
+- https://github.com/python/mypy/issues/13127
+Asymmetric properties are legit, so this isn't an error
+
 - https://github.com/python/mypy/issues/13134
 Not practical to implement; unlikely to ever happen
+
+- https://github.com/python/mypy/issues/13180
+This is how dataclass are intended to work in static type checking; not a bug
+
+- https://github.com/python/mypy/issues/13185
+Variance checks for type variables in nominal classes would be too noisy; problem will go away with PEP 695
+
+- https://github.com/python/mypy/issues/13194
+These are not equivalent; mypy is correct in flagging these as errors
 
 - https://github.com/python/mypy/issues/13224
 Working correctly (not a bug); second example doesn't involve a delete
 
 - https://github.com/python/mypy/issues/13240
 Working correctly (not a bug); cross-function mutations not supported
+
+- https://github.com/python/mypy/issues/13309
+Typeshed bug; mypy is doing the right thing here
 
 - https://github.com/python/mypy/issues/13363
 Poorly-motivated feature request
@@ -735,9 +750,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/13921
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/13926
-"partially-defined" option doesn't exist
-
 - https://github.com/python/mypy/issues/13946
 Working as designed; suggested change is not pragmatic and would result in massive churn with very little benefit
 
@@ -759,6 +771,9 @@ Dynamic manipulation of namespaces not supportable in static type checker
 - https://github.com/python/mypy/issues/14106
 Working as designed
 
+- https://github.com/python/mypy/issues/14145
+Problem with numpy type annotations, not a mypy bug
+
 - https://github.com/python/mypy/issues/14160
 Conditional types not feasible to track; not supported
 
@@ -767,6 +782,9 @@ Suggested workarounds are preferable
 
 - https://github.com/python/mypy/issues/14227
 Working correctly (not a bug in mypy)
+
+- https://github.com/python/mypy/issues/14256
+More of a linting error and very obscure
 
 - https://github.com/python/mypy/issues/14261
 Working correctly; represents misunderstanding of type narrowing
@@ -782,6 +800,9 @@ Requires global analysis, not practical
 
 - https://github.com/python/mypy/issues/14314
 `@property` requires significant special-casing because it's not generic; third-party property-like classes won't work
+
+- https://github.com/python/mypy/issues/14315
+Code sample misuses type alias
 
 - https://github.com/python/mypy/issues/14346
 Poorly-motivated feature request; type annotations should be explicit
@@ -809,6 +830,9 @@ Working as designed; poorly-motivated feature request
 
 - https://github.com/python/mypy/issues/14666
 Feature request represents misunderstanding of overloads
+
+- https://github.com/python/mypy/issues/14723
+Cannot repro
 
 - https://github.com/python/mypy/issues/14741
 Working correctly (not a bug in mypy); not worth special casing
@@ -855,6 +879,9 @@ Working correctly (not a bug); base is not staticmethod
 - https://github.com/python/mypy/issues/15175
 Poorly-motivated feature; unlikely to ever be implemented
 
+- https://github.com/python/mypy/issues/15509
+Requires global analysis, not practical
+
 - https://github.com/python/mypy/issues/15692
 Working correctly
 
@@ -867,6 +894,10 @@ Ill-advised feature request for reasons discussed
 - https://github.com/python/mypy/issues/15835
 Working correctly (not a bug)
 
+- https://github.com/python/mypy/issues/15872
+This isn't how union type checking works
+
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
+
 
