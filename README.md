@@ -30,15 +30,15 @@ I've categorized the remaining issues into the following buckets:
 
 | Category                                          | Count |
 | ------------------------------------------------- | ----: |
-| Recommend close                                   | 311   |
-| Questionable                                      | 206   |
-| Features requiring standardization                | 55    |
-| Issues not applicable to pyright                  | 467   |
-| Features intentionally not implemented in pyright | 11    |
-| Features in pyright but missing from mypy         | 137   |
-| Bugs in both mypy and pyright                     | 4     |
-| Bugs in mypy but not in pyright                   | 1094  |
-| _Total_                                           | 2285  |
+| Recommend close                                   | 299   |
+| Questionable                                      | 148   |
+| Features requiring standardization                | 53    |
+| Issues not applicable to pyright                  | 470   |
+| Features intentionally not implemented in pyright | 13    |
+| Features in pyright but missing from mypy         | 142   |
+| Bugs in pyright but not in mypy                   | 2     |
+| Bugs in mypy but not in pyright                   | 1099  |
+| _Total_                                           | 2224  |
 
 
 ## Summary of Top Issues

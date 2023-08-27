@@ -831,9 +831,6 @@ Working as designed; poorly-motivated feature request
 - https://github.com/python/mypy/issues/14666
 Feature request represents misunderstanding of overloads
 
-- https://github.com/python/mypy/issues/14723
-Cannot repro
-
 - https://github.com/python/mypy/issues/14741
 Working correctly (not a bug in mypy); not worth special casing
 
@@ -900,4 +897,6 @@ This isn't how union type checking works
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
 
+- https://github.com/python/mypy/issues/15963
+Working correctly (not a bug)
 
