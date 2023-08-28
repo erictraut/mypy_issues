@@ -15,17 +15,8 @@ Not a type checker error; straightforward workaround
 - https://github.com/python/mypy/issues/1314
 I don't see a good way to fix this without leading to false positives; plus, it's not a big problem
 
-- https://github.com/python/mypy/issues/1393
-Type checker errors in try block shouldn't be suppressed - slippery slope
-
 - https://github.com/python/mypy/issues/1831
 Type[C] doesn't imply callable
-
-- https://github.com/python/mypy/issues/1882
-It's legit to call conditionally-defined variable potentially undefined
-
-- https://github.com/python/mypy/issues/2267
-Only applicable to old versions of Python
 
 - https://github.com/python/mypy/issues/2563
 `classproperty` is deprecated
@@ -39,12 +30,6 @@ Odd idiom with obvious workaround
 - https://github.com/python/mypy/issues/3060
 Type is deprecated, obvious workaround
 
-- https://github.com/python/mypy/issues/3102
-Insufficient benefit and too disruptive
-
-- https://github.com/python/mypy/issues/3123
-Edge case that is not worth special-case logic
-
 - https://github.com/python/mypy/issues/3178
 This isn't how TypeVar constraints are supposed to work
 
@@ -53,12 +38,6 @@ Issue too general
 
 - https://github.com/python/mypy/issues/3325
 Document the behavior and close
-
-- https://github.com/python/mypy/issues/3431
-Current behavior is correct
-
-- https://github.com/python/mypy/issues/3724
-Current behavior is correct
 
 - https://github.com/python/mypy/issues/3912
 Insufficient interest
@@ -71,9 +50,6 @@ Requires global analysis, not practical
 
 - https://github.com/python/mypy/issues/4266
 Not worth special-case logic, use # type: ignore
-
-- https://github.com/python/mypy/issues/4304
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/4430
 Working correctly (not a bug)
@@ -93,9 +69,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/4690
 Poorly-motivated suggestion
 
-- https://github.com/python/mypy/issues/4791
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/4819
 Working correctly (not a bug)
 
@@ -105,23 +78,11 @@ This isn't how stubs are designed to work, not feasible
 - https://github.com/python/mypy/issues/5090
 This is something that should be dictated by typeshed
 
-- https://github.com/python/mypy/issues/5125
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/5235
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/5272
-Not actionable
-
 - https://github.com/python/mypy/issues/5382
 Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/5406
 Aliases of attrs too dynamic; use PEP 681
-
-- https://github.com/python/mypy/issues/5445
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/5481
 Working correctly (not a bug); use property instead
@@ -132,17 +93,11 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/5510
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/5550
-Working correctly (not a bug); use PEP 484 forms
-
 - https://github.com/python/mypy/issues/5651
 Working correctly; not actionable
 
 - https://github.com/python/mypy/issues/5666
 Based on misunderstanding of type system
-
-- https://github.com/python/mypy/issues/5669
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/5710
 Working correctly; would require a change in typeshed
@@ -150,32 +105,17 @@ Working correctly; would require a change in typeshed
 - https://github.com/python/mypy/issues/5774
 I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
 
-- https://github.com/python/mypy/issues/5775
-Working correctly; define your own covariant version of AnyStr
-
 - https://github.com/python/mypy/issues/5803
 Properties are not the same as descriptors or attributes, so this shouldn't be allowed
 
 - https://github.com/python/mypy/issues/5843
 Working correctly; insufficient context to infer type of lambda
 
-- https://github.com/python/mypy/issues/5897
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/6109
-Could not repro; probably fixed
-
 - https://github.com/python/mypy/issues/6157
 Working correctly; bug is in sample code
 
 - https://github.com/python/mypy/issues/6178
 Working correctly; class methods should enforce covariance
-
-- https://github.com/python/mypy/issues/6244
-`abstractclassmethod` is deprecated
-
-- https://github.com/python/mypy/issues/6478
-This isn't how union type checking works
 
 - https://github.com/python/mypy/issues/6577
 Working correctly (not a bug)
@@ -524,9 +464,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/11505
 Poorly motivated feature request
-
-- https://github.com/python/mypy/issues/11516
-Represents misunderstanding of type system
 
 - https://github.com/python/mypy/issues/11529
 Occurs only on older versions of Python; increasingly irrelevant
@@ -896,7 +833,4 @@ This isn't how union type checking works
 
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
-
-- https://github.com/python/mypy/issues/15963
-Working correctly (not a bug)
 

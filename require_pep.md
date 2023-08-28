@@ -14,7 +14,6 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/5504
 - https://github.com/python/mypy/issues/5523
 - https://github.com/python/mypy/issues/5597
-- https://github.com/python/mypy/issues/5687
 - https://github.com/python/mypy/issues/5756
 - https://github.com/python/mypy/issues/6002
 - https://github.com/python/mypy/issues/6066
