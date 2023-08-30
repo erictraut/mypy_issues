@@ -801,9 +801,6 @@ Working correctly (not a bug); feature request isn't feasible
 - https://github.com/python/mypy/issues/14931
 Fixed in latest version
 
-- https://github.com/python/mypy/issues/14937
-Working correctly (not a bug); nothing actionable
-
 - https://github.com/python/mypy/issues/14967
 Unclear bug report; waiting for more info, but none provided
 
@@ -833,4 +830,13 @@ This isn't how union type checking works
 
 - https://github.com/python/mypy/issues/15848
 Working correctly (not a bug); sample code is buggy
+
+- https://github.com/python/mypy/issues/15977
+Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/15997
+Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/15998
+Working correctly (not a bug)
 

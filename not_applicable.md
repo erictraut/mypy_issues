@@ -509,4 +509,6 @@
 - https://github.com/python/mypy/issues/15884
 - https://github.com/python/mypy/issues/15902
 - https://github.com/python/mypy/issues/15936
+- https://github.com/python/mypy/issues/15988
+- https://github.com/python/mypy/issues/15994
 

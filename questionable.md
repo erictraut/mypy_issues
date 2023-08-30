@@ -3,6 +3,7 @@ I need to think more about these, but would probably end up closing the majority
 
 - https://github.com/python/mypy/issues/495
 - https://github.com/python/mypy/issues/737
+- https://github.com/python/mypy/issues/1393
 - https://github.com/python/mypy/issues/1533
 - https://github.com/python/mypy/issues/1555
 - https://github.com/python/mypy/issues/1998
@@ -36,6 +37,7 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/6063
 - https://github.com/python/mypy/issues/6135
 - https://github.com/python/mypy/issues/6192
+- https://github.com/python/mypy/issues/6478
 - https://github.com/python/mypy/issues/6613
 - https://github.com/python/mypy/issues/6647
 - https://github.com/python/mypy/issues/6748
@@ -149,5 +151,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/15805
 - https://github.com/python/mypy/issues/15822
 - https://github.com/python/mypy/issues/15834
+- https://github.com/python/mypy/issues/15843
 - https://github.com/python/mypy/issues/15900
 - https://github.com/python/mypy/issues/15964
