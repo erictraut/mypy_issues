@@ -840,3 +840,11 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/15998
 Working correctly (not a bug)
 
+- https://github.com/python/mypy/issues/15999
+Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/16007
+Code is buggy; mypy is working as intended
+
+- https://github.com/python/mypy/issues/15850
+Very old unsupported version of mypy
