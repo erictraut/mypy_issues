@@ -330,9 +330,6 @@ Working correctly; represents misunderstanding of how type declarations work
 - https://github.com/python/mypy/issues/10079
 Goes against the principles for mypy (don't infer parameter types)
 
-- https://github.com/python/mypy/issues/10151
-Working correctly (fixed)
-
 - https://github.com/python/mypy/issues/10164
 Would involve a complete rewrite of the constraint solver, not going to happen
 
@@ -662,9 +659,6 @@ Working correctly (no bug)
 
 - https://github.com/python/mypy/issues/13548
 This would be incredibly complicated to support for non-static conditionals; unlikely to ever be implemented
-
-- https://github.com/python/mypy/issues/13701
-Dynamic modification of sys.path isn't feasible for a static type checker to handle
 
 - https://github.com/python/mypy/issues/13719
 Not feasible to implement in static type checker
