@@ -1,5 +1,4 @@
 ## Bugs in pyright but not in mypy
-These have been logged in the pyright issue tracker
 
 - https://github.com/python/mypy/issues/12278
 
@@ -713,7 +712,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/13058
 - https://github.com/python/mypy/issues/13060
 - https://github.com/python/mypy/issues/13062
-- https://github.com/python/mypy/issues/13064
 - https://github.com/python/mypy/issues/13073
 - https://github.com/python/mypy/issues/13083
 - https://github.com/python/mypy/issues/13087
@@ -1104,3 +1102,7 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/15969
 - https://github.com/python/mypy/issues/15982
 - https://github.com/python/mypy/issues/16001
+- https://github.com/python/mypy/issues/16024
+- https://github.com/python/mypy/issues/16025
+- https://github.com/python/mypy/issues/16033
+- https://github.com/python/mypy/issues/16044
