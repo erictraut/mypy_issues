@@ -514,4 +514,5 @@
 - https://github.com/python/mypy/issues/16014
 - https://github.com/python/mypy/issues/16032
 - https://github.com/python/mypy/issues/16045
+- https://github.com/python/mypy/issues/16060
 
