@@ -114,7 +114,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/13979
 - https://github.com/python/mypy/issues/14070
 - https://github.com/python/mypy/issues/14073
-- https://github.com/python/mypy/issues/14113
 - https://github.com/python/mypy/issues/14244
 - https://github.com/python/mypy/issues/14310
 - https://github.com/python/mypy/issues/14343

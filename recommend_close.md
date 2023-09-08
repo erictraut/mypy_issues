@@ -849,3 +849,5 @@ Far outside the intended use of `dataclass_transform`
 - https://github.com/python/mypy/issues/16041
 Comparison overlap cannot be precise because of `__eq__` overrides
 
+- https://github.com/python/mypy/issues/16072
+Working correctly (not a bug)

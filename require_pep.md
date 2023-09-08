@@ -50,5 +50,4 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/13951
 - https://github.com/python/mypy/issues/14236
 - https://github.com/python/mypy/issues/15189
-- https://github.com/python/mypy/issues/15458
 - https://github.com/python/mypy/issues/15772
