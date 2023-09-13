@@ -99,6 +99,7 @@
 - https://github.com/python/mypy/issues/15695
 - https://github.com/python/mypy/issues/15741
 - https://github.com/python/mypy/issues/15743
+- https://github.com/python/mypy/issues/16092
 
 ### Stub Generation
 
@@ -516,5 +517,5 @@
 - https://github.com/python/mypy/issues/16014
 - https://github.com/python/mypy/issues/16032
 - https://github.com/python/mypy/issues/16045
-- https://github.com/python/mypy/issues/16088
+- https://github.com/python/mypy/issues/16098
 
