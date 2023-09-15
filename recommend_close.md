@@ -857,3 +857,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/16089
 Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/16118
+No repro, probably due to old version

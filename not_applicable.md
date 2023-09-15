@@ -110,7 +110,6 @@
 - https://github.com/python/mypy/issues/9104
 - https://github.com/python/mypy/issues/9327
 - https://github.com/python/mypy/issues/9599
-- https://github.com/python/mypy/issues/9986
 - https://github.com/python/mypy/issues/10492
 - https://github.com/python/mypy/issues/10493
 - https://github.com/python/mypy/issues/10526
@@ -119,7 +118,6 @@
 - https://github.com/python/mypy/issues/11092
 - https://github.com/python/mypy/issues/12160
 - https://github.com/python/mypy/issues/12178
-- https://github.com/python/mypy/issues/12441
 - https://github.com/python/mypy/issues/12992
 - https://github.com/python/mypy/issues/13574
 - https://github.com/python/mypy/issues/13661
@@ -134,6 +132,7 @@
 - https://github.com/python/mypy/issues/15315
 - https://github.com/python/mypy/issues/15752
 - https://github.com/python/mypy/issues/15888
+- https://github.com/python/mypy/issues/16114
 
 ### Stubtest
 
