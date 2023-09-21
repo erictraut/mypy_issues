@@ -1,5 +1,5 @@
 # Mypy Issue Tracker Analysis
-Updated 26 Aug 2023
+Updated 20 Sep 2023
 
 This project is an attempt to analyze and summarize the issues tracked in the mypy issue tracker.
 
@@ -30,15 +30,16 @@ I've categorized the remaining issues into the following buckets:
 
 | Category                                          | Count |
 | ------------------------------------------------- | ----: |
-| Recommend close                                   | 299   |
-| Questionable                                      | 148   |
-| Features requiring standardization                | 53    |
-| Issues not applicable to pyright                  | 470   |
-| Features intentionally not implemented in pyright | 13    |
-| Features in pyright but missing from mypy         | 142   |
-| Bugs in pyright but not in mypy                   | 2     |
-| Bugs in mypy but not in pyright                   | 1099  |
-| _Total_                                           | 2224  |
+| Recommend close                                   |  289  |
+| Questionable                                      |  153  |
+| Features requiring standardization                |   51  |
+| Issues not applicable to pyright                  |  478  |
+| Features intentionally not implemented in pyright |   13  |
+| Features in pyright but missing from mypy         |  146  |
+| Features in mypy but missing from pyright         |    1  |
+| Bugs in pyright but not in mypy                   |    1  |
+| Bugs in mypy but not in pyright                   | 1108  |
+| _Total_                                           | 2240  |
 
 
 ## Summary of Top Issues
@@ -57,5 +58,5 @@ I looked for common bugs, requests, and sources of confusion. Here's a list sort
 9. Aliases of (or partials of) `dataclass` and `field` (document): It should be clearly documented that static type checkers will not work with aliases of `dataclass` or `field` or if these are used in "creative" ways
 10. Overload implementation do not honor overload constraints (document): It should be clearly documented that overload signatures are not used when the implementation of an overloaded function is type checked
 11. Namespace conflicts for names used in annotations (document): It should be clearly documented that shadowed names used within type annotations (e.g. a class-scoped attribute called `int` or `dict`) may not resolve the same way as at runtime; the runtime resolution rules are complex and likely to change (e.g. when deferred evaluation is enabled by default), so code should not rely on a particular resolution order
-12. Misunderstanding of how TYPE_CHECKING works and its pitfalls (document): It should be clearly documented that the use of `TYPE_CHECKING` can lead to differences between type checking and runtime behavior, so it can lead to code being less robust; there are cases where use of `TYPE_CHECKING` cannot be avoided, but it is often used out of expediency rather than a true need
+12. Misunderstanding of how TYPE_CHECKING works and its pitfalls (document): It should be clearly documented that the use of `TYPE_CHECKING` can lead to differences between type checking and runtime behavior, so it can cause code to be less robust; there are cases where use of `TYPE_CHECKING` cannot be avoided, but it is often used out of expediency rather than a true need
 

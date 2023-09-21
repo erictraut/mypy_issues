@@ -860,3 +860,9 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/16146
 Working correctly (not a bug)
+
+- https://github.com/python/mypy/issues/16150
+Working correctly; bug is in sample code
+
+- https://github.com/python/mypy/issues/16152
+Working correctly; bug is in opencv-python stubs
