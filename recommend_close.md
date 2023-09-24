@@ -75,9 +75,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/5028
 This isn't how stubs are designed to work, not feasible
 
-- https://github.com/python/mypy/issues/5090
-This is something that should be dictated by typeshed
-
 - https://github.com/python/mypy/issues/5382
 Working correctly (not a bug)
 
@@ -861,8 +858,3 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/16146
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/16150
-Working correctly; bug is in sample code
-
-- https://github.com/python/mypy/issues/16152
-Working correctly; bug is in opencv-python stubs

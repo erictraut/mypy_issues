@@ -79,7 +79,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/11388
 - https://github.com/python/mypy/issues/11397
 - https://github.com/python/mypy/issues/11436
-- https://github.com/python/mypy/issues/11516
 - https://github.com/python/mypy/issues/11537
 - https://github.com/python/mypy/issues/11538
 - https://github.com/python/mypy/issues/11582
@@ -154,3 +153,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/15964
 - https://github.com/python/mypy/issues/16097
 - https://github.com/python/mypy/issues/16095
+- https://github.com/python/mypy/issues/16160
+- https://github.com/python/mypy/issues/16161
+- https://github.com/python/mypy/issues/16164
