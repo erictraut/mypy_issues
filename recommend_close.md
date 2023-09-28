@@ -858,3 +858,12 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/16146
 Working correctly (not a bug)
 
+- https://github.com/python/mypy/issues/16179
+Can't repro; likely user error
+
+- https://github.com/python/mypy/issues/16185
+Behavior is correct (not a bug)
+
+- https://github.com/python/mypy/issues/16191
+Behavior is correct (not a bug); need to refactor code
+

@@ -38,7 +38,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/6135
 - https://github.com/python/mypy/issues/6192
 - https://github.com/python/mypy/issues/6478
-- https://github.com/python/mypy/issues/6613
 - https://github.com/python/mypy/issues/6647
 - https://github.com/python/mypy/issues/6748
 - https://github.com/python/mypy/issues/6967
