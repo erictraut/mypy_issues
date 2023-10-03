@@ -867,3 +867,6 @@ Behavior is correct (not a bug)
 - https://github.com/python/mypy/issues/16191
 Behavior is correct (not a bug); need to refactor code
 
+- https://github.com/python/mypy/issues/16200
+Behavior is correct (not a bug)
+
