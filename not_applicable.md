@@ -522,4 +522,5 @@
 - https://github.com/python/mypy/issues/16143
 - https://github.com/python/mypy/issues/16170
 - https://github.com/python/mypy/issues/16189
+- https://github.com/python/mypy/issues/16227
 
