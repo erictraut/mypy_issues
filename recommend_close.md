@@ -870,6 +870,5 @@ Behavior is correct (not a bug); need to refactor code
 - https://github.com/python/mypy/issues/16200
 Behavior is correct (not a bug)
 
-- https://github.com/python/mypy/issues/16220
-Working correctly; Incorrect understanding of how return types work
-
+- https://github.com/python/mypy/issues/16243
+Behavior is correct (not a bug)
