@@ -304,7 +304,6 @@
 - https://github.com/python/mypy/issues/15828
 - https://github.com/python/mypy/issues/16012
 - https://github.com/python/mypy/issues/16043
-- https://github.com/python/mypy/issues/16077
 - https://github.com/python/mypy/issues/16209
 
 ### Meta Issues
@@ -521,4 +520,5 @@
 - https://github.com/python/mypy/issues/16170
 - https://github.com/python/mypy/issues/16189
 - https://github.com/python/mypy/issues/16227
+- https://github.com/python/mypy/issues/16265
 

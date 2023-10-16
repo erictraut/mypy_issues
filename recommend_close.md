@@ -872,3 +872,9 @@ Behavior is correct (not a bug)
 
 - https://github.com/python/mypy/issues/16243
 Behavior is correct (not a bug)
+
+- https://github.com/python/mypy/issues/16256
+Not able to repro
+
+- https://github.com/python/mypy/issues/16261
+Mypy is correct; due to the way `lru_cache` is defined
