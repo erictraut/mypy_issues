@@ -427,7 +427,6 @@
 - https://github.com/python/mypy/issues/15906
 - https://github.com/python/mypy/issues/15907
 - https://github.com/python/mypy/issues/15909
-- https://github.com/python/mypy/issues/15919
 
 ### Miscellaneous (Nonapplicable Bugs or Features)
 

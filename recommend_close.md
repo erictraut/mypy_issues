@@ -878,3 +878,6 @@ Not able to repro
 
 - https://github.com/python/mypy/issues/16261
 Mypy is correct; due to the way `lru_cache` is defined
+
+- https://github.com/python/mypy/issues/16287
+Error message seems fine

@@ -16,6 +16,7 @@
 
 ## Features supported in mypy but missing from pyright
 - https://github.com/python/mypy/issues/15410
+- https://github.com/python/mypy/issues/16270
 
 ## Features supported in pyright but missing from mypy
 
@@ -166,3 +167,4 @@
 - https://github.com/python/mypy/issues/16111
 - https://github.com/python/mypy/issues/16113
 - https://github.com/python/mypy/issues/16224
+- https://github.com/python/mypy/issues/16286
