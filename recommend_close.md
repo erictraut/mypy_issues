@@ -879,5 +879,14 @@ Not able to repro
 - https://github.com/python/mypy/issues/16261
 Mypy is correct; due to the way `lru_cache` is defined
 
-- https://github.com/python/mypy/issues/16287
+- https://github.com/python/mypy/issues/16291
+Not a bug
+
+- https://github.com/python/mypy/issues/16295
 Error message seems fine
+
+- https://github.com/python/mypy/issues/16313
+Not a well-motivated feature request
+
+- https://github.com/python/mypy/issues/16333
+Not a bug

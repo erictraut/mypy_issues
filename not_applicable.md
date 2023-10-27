@@ -48,6 +48,7 @@
 - https://github.com/python/mypy/issues/15731
 - https://github.com/python/mypy/issues/16163
 - https://github.com/python/mypy/issues/16214
+- https://github.com/python/mypy/issues/16336
 
 ### Documentation
 
@@ -183,6 +184,7 @@
 - https://github.com/python/mypy/issues/14239
 - https://github.com/python/mypy/issues/14829
 - https://github.com/python/mypy/issues/15757
+- https://github.com/python/mypy/issues/16316
 
 ### Daemon (dmypy)
 
@@ -427,6 +429,9 @@
 - https://github.com/python/mypy/issues/15906
 - https://github.com/python/mypy/issues/15907
 - https://github.com/python/mypy/issues/15909
+- https://github.com/python/mypy/issues/16312
+- https://github.com/python/mypy/issues/16318
+- https://github.com/python/mypy/issues/16341
 
 ### Miscellaneous (Nonapplicable Bugs or Features)
 
@@ -518,6 +523,5 @@
 - https://github.com/python/mypy/issues/16143
 - https://github.com/python/mypy/issues/16170
 - https://github.com/python/mypy/issues/16189
-- https://github.com/python/mypy/issues/16227
 - https://github.com/python/mypy/issues/16265
-
+- https://github.com/python/mypy/issues/16339
