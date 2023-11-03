@@ -117,7 +117,6 @@
 - https://github.com/python/mypy/issues/11979
 - https://github.com/python/mypy/issues/11990
 - https://github.com/python/mypy/issues/12172
-- https://github.com/python/mypy/issues/12280
 - https://github.com/python/mypy/issues/12286
 - https://github.com/python/mypy/issues/12341
 - https://github.com/python/mypy/issues/12352
@@ -146,7 +145,6 @@
 - https://github.com/python/mypy/issues/14445
 - https://github.com/python/mypy/issues/14585
 - https://github.com/python/mypy/issues/14604
-- https://github.com/python/mypy/issues/14697
 - https://github.com/python/mypy/issues/14767
 - https://github.com/python/mypy/issues/14771
 - https://github.com/python/mypy/issues/14851

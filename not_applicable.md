@@ -35,6 +35,7 @@
 - https://github.com/python/mypy/issues/15276
 - https://github.com/python/mypy/issues/15739
 - https://github.com/python/mypy/issues/15973
+- https://github.com/python/mypy/issues/16391
 
 ### Caching
 
@@ -48,7 +49,7 @@
 - https://github.com/python/mypy/issues/15731
 - https://github.com/python/mypy/issues/16163
 - https://github.com/python/mypy/issues/16214
-- https://github.com/python/mypy/issues/16336
+- https://github.com/python/mypy/issues/16363
 
 ### Documentation
 
@@ -216,9 +217,6 @@
 - https://github.com/python/mypy/issues/15615
 - https://github.com/python/mypy/issues/15622
 - https://github.com/python/mypy/issues/15677
-- https://github.com/python/mypy/issues/15780
-- https://github.com/python/mypy/issues/15781
-- https://github.com/python/mypy/issues/15794
 - https://github.com/python/mypy/issues/15795
 - https://github.com/python/mypy/issues/15801
 - https://github.com/python/mypy/issues/15802
@@ -311,7 +309,6 @@
 ### Meta Issues
 
 - https://github.com/python/mypy/issues/11201
-- https://github.com/python/mypy/issues/12840
 - https://github.com/python/mypy/issues/15277
 
 ### Mypy Internals and Build System
@@ -426,11 +423,9 @@
 - https://github.com/python/mypy/issues/15301
 - https://github.com/python/mypy/issues/15303
 - https://github.com/python/mypy/issues/15326
-- https://github.com/python/mypy/issues/15906
 - https://github.com/python/mypy/issues/15907
 - https://github.com/python/mypy/issues/15909
 - https://github.com/python/mypy/issues/16312
-- https://github.com/python/mypy/issues/16318
 - https://github.com/python/mypy/issues/16341
 
 ### Miscellaneous (Nonapplicable Bugs or Features)

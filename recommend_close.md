@@ -342,9 +342,6 @@ Conditional types not feasible to track; not supported
 - https://github.com/python/mypy/issues/10246
 Not worth special casing for this edge case
 
-- https://github.com/python/mypy/issues/10314
-`__all__` in stubs should reflect actual value in library
-
 - https://github.com/python/mypy/issues/10371
 Bidirectional type inference can't work across iteration
 
@@ -855,12 +852,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/16089
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/16146
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/16179
-Can't repro; likely user error
-
 - https://github.com/python/mypy/issues/16185
 Behavior is correct (not a bug)
 
@@ -890,3 +881,7 @@ Not a well-motivated feature request
 
 - https://github.com/python/mypy/issues/16333
 Not a bug
+
+- https://github.com/python/mypy/issues/16384
+Illegal use of type parameters in a variable type declaration
+
