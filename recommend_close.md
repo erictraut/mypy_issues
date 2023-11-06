@@ -885,3 +885,5 @@ Not a bug
 - https://github.com/python/mypy/issues/16384
 Illegal use of type parameters in a variable type declaration
 
+- https://github.com/python/mypy/issues/16403
+Not a bug

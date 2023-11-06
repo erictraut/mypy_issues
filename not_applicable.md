@@ -35,7 +35,6 @@
 - https://github.com/python/mypy/issues/15276
 - https://github.com/python/mypy/issues/15739
 - https://github.com/python/mypy/issues/15973
-- https://github.com/python/mypy/issues/16391
 
 ### Caching
 
@@ -520,3 +519,4 @@
 - https://github.com/python/mypy/issues/16189
 - https://github.com/python/mypy/issues/16265
 - https://github.com/python/mypy/issues/16339
+- https://github.com/python/mypy/issues/16400
