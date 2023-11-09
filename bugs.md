@@ -5,6 +5,7 @@
 ## Bugs in both pyright and mypy
 
 - https://github.com/python/mypy/issues/16349
+- https://github.com/python/mypy/issues/16376
 
 ## Bugs in mypy but not in pyright
 Some of these involve judgement calls, and it's possible that I've made some mistakes in interpreting the intent behind some of these bugs
@@ -926,7 +927,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/14861
 - https://github.com/python/mypy/issues/14869
 - https://github.com/python/mypy/issues/14886
-- https://github.com/python/mypy/issues/14890
 - https://github.com/python/mypy/issues/14891
 - https://github.com/python/mypy/issues/14896
 - https://github.com/python/mypy/issues/14914
@@ -1136,3 +1136,5 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16402
 - https://github.com/python/mypy/issues/16405
 - https://github.com/python/mypy/issues/16410
+- https://github.com/python/mypy/issues/16413
+- https://github.com/python/mypy/issues/16423

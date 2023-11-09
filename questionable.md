@@ -21,7 +21,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/3056
 - https://github.com/python/mypy/issues/3144
 - https://github.com/python/mypy/issues/3183
-- https://github.com/python/mypy/issues/3208
 - https://github.com/python/mypy/issues/3224
 - https://github.com/python/mypy/issues/3819
 - https://github.com/python/mypy/issues/3829
