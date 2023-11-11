@@ -155,6 +155,7 @@
 - https://github.com/python/mypy/issues/15302
 - https://github.com/python/mypy/issues/15717
 - https://github.com/python/mypy/issues/16414
+- https://github.com/python/mypy/issues/16443
 
 ### Configuration
 
@@ -523,3 +524,4 @@
 - https://github.com/python/mypy/issues/16339
 - https://github.com/python/mypy/issues/16400
 - https://github.com/python/mypy/issues/16419
+- https://github.com/python/mypy/issues/16450

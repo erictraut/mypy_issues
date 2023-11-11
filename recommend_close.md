@@ -890,3 +890,12 @@ Not a bug
 
 - https://github.com/python/mypy/issues/16412
 Improper use of ParamSpec
+
+- https://github.com/python/mypy/issues/16429
+Not a bug
+
+- https://github.com/python/mypy/issues/16437
+Bug in stubs
+
+- https://github.com/python/mypy/issues/16441
+Not a bug
