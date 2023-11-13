@@ -148,13 +148,11 @@
 - https://github.com/python/mypy/issues/13906
 - https://github.com/python/mypy/issues/14560
 - https://github.com/python/mypy/issues/14924
-- https://github.com/python/mypy/issues/14950
 - https://github.com/python/mypy/issues/15011
 - https://github.com/python/mypy/issues/15023
 - https://github.com/python/mypy/issues/15146
 - https://github.com/python/mypy/issues/15302
 - https://github.com/python/mypy/issues/15717
-- https://github.com/python/mypy/issues/16414
 - https://github.com/python/mypy/issues/16443
 
 ### Configuration
@@ -307,11 +305,12 @@
 - https://github.com/python/mypy/issues/16043
 - https://github.com/python/mypy/issues/16209
 - https://github.com/python/mypy/issues/16420
+- https://github.com/python/mypy/issues/16480
 
 ### Meta Issues
 
-- https://github.com/python/mypy/issues/11201
 - https://github.com/python/mypy/issues/15277
+- https://github.com/python/mypy/issues/16472
 
 ### Mypy Internals and Build System
 
@@ -378,7 +377,6 @@
 - https://github.com/python/mypy/issues/7998
 - https://github.com/python/mypy/issues/8043
 - https://github.com/python/mypy/issues/8240
-- https://github.com/python/mypy/issues/8584
 - https://github.com/python/mypy/issues/8620
 - https://github.com/python/mypy/issues/8624
 - https://github.com/python/mypy/issues/8783
@@ -456,7 +454,6 @@
 - https://github.com/python/mypy/issues/8594
 - https://github.com/python/mypy/issues/8670
 - https://github.com/python/mypy/issues/8688
-- https://github.com/python/mypy/issues/8754
 - https://github.com/python/mypy/issues/8835
 - https://github.com/python/mypy/issues/8918
 - https://github.com/python/mypy/issues/9153
@@ -480,7 +477,6 @@
 - https://github.com/python/mypy/issues/12049
 - https://github.com/python/mypy/issues/12168
 - https://github.com/python/mypy/issues/12196
-- https://github.com/python/mypy/issues/12397
 - https://github.com/python/mypy/issues/12442
 - https://github.com/python/mypy/issues/12592
 - https://github.com/python/mypy/issues/12646
@@ -504,7 +500,6 @@
 - https://github.com/python/mypy/issues/15614
 - https://github.com/python/mypy/issues/15632
 - https://github.com/python/mypy/issues/15634
-- https://github.com/python/mypy/issues/15704
 - https://github.com/python/mypy/issues/15831
 - https://github.com/python/mypy/issues/15866
 - https://github.com/python/mypy/issues/15868
@@ -524,4 +519,3 @@
 - https://github.com/python/mypy/issues/16339
 - https://github.com/python/mypy/issues/16400
 - https://github.com/python/mypy/issues/16419
-- https://github.com/python/mypy/issues/16450

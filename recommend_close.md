@@ -888,14 +888,11 @@ Illegal use of type parameters in a variable type declaration
 - https://github.com/python/mypy/issues/16403
 Not a bug
 
-- https://github.com/python/mypy/issues/16412
-Improper use of ParamSpec
-
 - https://github.com/python/mypy/issues/16429
 Not a bug
 
 - https://github.com/python/mypy/issues/16437
 Bug in stubs
 
-- https://github.com/python/mypy/issues/16441
+- https://github.com/python/mypy/issues/16476
 Not a bug
