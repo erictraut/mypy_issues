@@ -896,3 +896,15 @@ Bug in stubs
 
 - https://github.com/python/mypy/issues/16476
 Not a bug
+
+- https://github.com/python/mypy/issues/16495
+Not a bug
+
+- https://github.com/python/mypy/issues/16501
+Not a bug
+
+- https://github.com/python/mypy/issues/16506
+Incorrect use of annotations
+
+- https://github.com/python/mypy/issues/16515
+Not a bug

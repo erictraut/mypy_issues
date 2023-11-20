@@ -160,3 +160,7 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/16289
 - https://github.com/python/mypy/issues/16426
 - https://github.com/python/mypy/issues/16434
+- https://github.com/python/mypy/issues/16491
+- https://github.com/python/mypy/issues/16499
+- https://github.com/python/mypy/issues/16521
+- https://github.com/python/mypy/issues/16528
