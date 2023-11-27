@@ -888,16 +888,10 @@ Illegal use of type parameters in a variable type declaration
 - https://github.com/python/mypy/issues/16403
 Not a bug
 
-- https://github.com/python/mypy/issues/16429
-Not a bug
-
 - https://github.com/python/mypy/issues/16437
 Bug in stubs
 
 - https://github.com/python/mypy/issues/16476
-Not a bug
-
-- https://github.com/python/mypy/issues/16495
 Not a bug
 
 - https://github.com/python/mypy/issues/16501
@@ -907,4 +901,16 @@ Not a bug
 Incorrect use of annotations
 
 - https://github.com/python/mypy/issues/16515
+Not a bug
+
+- https://github.com/python/mypy/issues/16549
+Not a bug
+
+- https://github.com/python/mypy/issues/16558
+Not a bug
+
+- https://github.com/python/mypy/issues/16563
+Not a bug
+
+- https://github.com/python/mypy/issues/16565
 Not a bug

@@ -35,6 +35,7 @@
 - https://github.com/python/mypy/issues/15276
 - https://github.com/python/mypy/issues/15739
 - https://github.com/python/mypy/issues/15973
+- https://github.com/python/mypy/issues/16536
 
 ### Caching
 
@@ -100,6 +101,7 @@
 - https://github.com/python/mypy/issues/15695
 - https://github.com/python/mypy/issues/15743
 - https://github.com/python/mypy/issues/16092
+- https://github.com/python/mypy/issues/16553
 
 ### Stub Generation
 
@@ -135,6 +137,7 @@
 - https://github.com/python/mypy/issues/16138
 - https://github.com/python/mypy/issues/16183
 - https://github.com/python/mypy/issues/16486
+- https://github.com/python/mypy/issues/16543
 
 ### Stubtest
 
@@ -425,7 +428,6 @@
 - https://github.com/python/mypy/issues/15907
 - https://github.com/python/mypy/issues/15909
 - https://github.com/python/mypy/issues/16312
-- https://github.com/python/mypy/issues/16341
 
 ### Miscellaneous (Nonapplicable Bugs or Features)
 
@@ -519,3 +521,4 @@
 - https://github.com/python/mypy/issues/16400
 - https://github.com/python/mypy/issues/16419
 - https://github.com/python/mypy/issues/16497
+- https://github.com/python/mypy/issues/16537
