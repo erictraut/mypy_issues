@@ -158,6 +158,7 @@
 - https://github.com/python/mypy/issues/15717
 - https://github.com/python/mypy/issues/16443
 - https://github.com/python/mypy/issues/16508
+- https://github.com/python/mypy/issues/16583
 
 ### Configuration
 
@@ -225,6 +226,7 @@
 - https://github.com/python/mypy/issues/15802
 - https://github.com/python/mypy/issues/15823
 - https://github.com/python/mypy/issues/16190
+- https://github.com/python/mypy/issues/16580
 
 ### Plugins & Plugin Interface
 
@@ -313,6 +315,7 @@
 
 - https://github.com/python/mypy/issues/15277
 - https://github.com/python/mypy/issues/16472
+- https://github.com/python/mypy/issues/16602
 
 ### Mypy Internals and Build System
 
@@ -522,3 +525,4 @@
 - https://github.com/python/mypy/issues/16419
 - https://github.com/python/mypy/issues/16497
 - https://github.com/python/mypy/issues/16537
+- https://github.com/python/mypy/issues/16586
