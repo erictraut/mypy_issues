@@ -1,13 +1,16 @@
 # What are the subtyping rules for `tuple[T, ...]`?
 Is it a gradual type, or is it shorthand for a union?
+https://discuss.python.org/t/what-are-the-subtyping-rules-for-tuple-t/39837
 
 # Should "type" statements in class be allowed to reference class-scoped TypeVars?
+https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-scoped-typevar/40026
+
+# Meaning of `type`, `Type`, `type[Any]` and `Type[Any]`
+https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
 
 ^ Already Filed
 ------------------------------------
 v Not Yet Filed
-
-# Meaning of `type`, `Type`, `type[Any]` and `Type[Any]`
 
 # Variance computation
 Which attributes and methods are exempt?
@@ -83,4 +86,10 @@ https://discuss.python.org/t/pep-705-read-only-typeddict-items/37867/7?u=erictra
 
 # How should type checkers differentiate between protocol methods and "default implementations" in stubs?
 https://github.com/microsoft/pyright/issues/6624
+
+# Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
+https://github.com/python/mypy/issues/11030
+
+# What are the type evaluation rules for `super`?
+https://github.com/microsoft/pyright/issues/6660
 

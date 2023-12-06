@@ -497,7 +497,6 @@
 - https://github.com/python/mypy/issues/14660
 - https://github.com/python/mypy/issues/14663
 - https://github.com/python/mypy/issues/14698
-- https://github.com/python/mypy/issues/15148
 - https://github.com/python/mypy/issues/15250
 - https://github.com/python/mypy/issues/15269
 - https://github.com/python/mypy/issues/15551

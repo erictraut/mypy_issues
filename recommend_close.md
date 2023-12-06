@@ -918,17 +918,20 @@ Not a bug
 - https://github.com/python/mypy/issues/16587
 Not a bug
 
-- https://github.com/python/mypy/issues/16592
-No repro
-
 - https://github.com/python/mypy/issues/16595
 Not a bug
 
 - https://github.com/python/mypy/issues/16597
 Not well motivated
 
-- https://github.com/python/mypy/issues/16596
-Working as designed
-
 - https://github.com/python/mypy/issues/16605
+Not a bug
+
+- https://github.com/python/mypy/issues/16612
+Not a bug
+
+- https://github.com/python/mypy/issues/16618
+Not a bug
+
+- https://github.com/python/mypy/issues/16626
 Not a bug
