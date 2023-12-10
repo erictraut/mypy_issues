@@ -1171,11 +1171,15 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16591
 - https://github.com/python/mypy/issues/16590
 - https://github.com/python/mypy/issues/16603
-- https://github.com/python/mypy/issues/16607
 - https://github.com/python/mypy/issues/16609
 - https://github.com/python/mypy/issues/16613
 - https://github.com/python/mypy/issues/16616
 - https://github.com/python/mypy/issues/16617
 - https://github.com/python/mypy/issues/16620
 - https://github.com/python/mypy/issues/16621
+- https://github.com/python/mypy/issues/16629
+- https://github.com/python/mypy/issues/16639
+- https://github.com/python/mypy/issues/16638
+- https://github.com/python/mypy/issues/16640
+- https://github.com/python/mypy/issues/16646
 

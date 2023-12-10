@@ -935,3 +935,6 @@ Not a bug
 
 - https://github.com/python/mypy/issues/16626
 Not a bug
+
+- https://github.com/python/mypy/issues/16645
+Not a bug

@@ -93,3 +93,5 @@ https://github.com/python/mypy/issues/11030
 # What are the type evaluation rules for `super`?
 https://github.com/microsoft/pyright/issues/6660
 
+# What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
+
