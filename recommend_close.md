@@ -405,9 +405,6 @@ Appears to have been fixed
 - https://github.com/python/mypy/issues/11023
 Runtime state can't be tracked statically, so this check isn't feasible for a static type checker
 
-- https://github.com/python/mypy/issues/11030
-Working correctly; `TypedDict` is a special form, not a class that participates in subtyping
-
 - https://github.com/python/mypy/issues/11051
 Working correctly (not a bug); cross-function mutations not supported
 
@@ -938,3 +935,16 @@ Not a bug
 
 - https://github.com/python/mypy/issues/16645
 Not a bug
+
+- https://github.com/python/mypy/issues/16647
+Not a bug
+
+- https://github.com/python/mypy/issues/16650
+Duplicate
+
+- https://github.com/python/mypy/issues/16667
+Not a bug
+
+- https://github.com/python/mypy/issues/16671
+- Not enough information
+
