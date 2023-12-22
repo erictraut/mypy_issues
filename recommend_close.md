@@ -946,5 +946,7 @@ Duplicate
 Not a bug
 
 - https://github.com/python/mypy/issues/16671
-- Not enough information
+Not enough information
 
+- https://github.com/python/mypy/issues/16677
+Duplicate

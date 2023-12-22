@@ -57,6 +57,10 @@ x: Foo[float] # Is this allowed? What is its type?
 
 # If a constraint within a constrained TypeVar is a subtype of another constraint, should that be allowed?
 
+# Should `Never` be a valid type argument for a constrained TypeVar if Never isn't a constraint?
+
+# When explicitly providing a type argument for a constrained TypeVar, is it OK to use a subtype of one of the constraints, or does it need to match exactly?
+
 # Are unions always order-independent? Under what circumstances does ordering matter? What order should be used?
 
 # How should unpacked arguments be treated?
