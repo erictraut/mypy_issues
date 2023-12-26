@@ -39,7 +39,7 @@ How should identifiers within an annotation be resolved?
 # Binding and partial specialization
 https://github.com/python/mypy/issues/16554
 
-# Type of self and cls parameters
+# Type of self and cls parameters? What about within a metaclass?
 
 # Are self and cls always positional-only?
 
@@ -100,4 +100,14 @@ https://github.com/microsoft/pyright/issues/6660
 # What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
 
 # How should `Any | T` be treated? Should it be reduced to `Any`? Treated as irreducible?
+
+# Are byte or raw strings allowed for type annotations? How about f-strings?
+
+# Is `type[Self]` allowed in a metaclass?
+
+# What expression forms are allowed ane disallowed in type annotations? What about string concatenation?
+
+# What type should the synthesized `get` method return for a TypedDict?
+
+# More generally, how should all of the synthesized methods work in TypedDict?
 

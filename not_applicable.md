@@ -232,6 +232,7 @@
 - https://github.com/python/mypy/issues/16190
 - https://github.com/python/mypy/issues/16580
 - https://github.com/python/mypy/issues/16678
+- https://github.com/python/mypy/issues/16705
 
 ### Plugins & Plugin Interface
 
