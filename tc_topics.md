@@ -43,6 +43,8 @@ https://github.com/python/mypy/issues/16554
 
 # Are self and cls always positional-only?
 
+# Does double-underscore parameter name imply positional-only? What are the rules?
+
 # Should (*Any, **Any) imply ...?
 https://github.com/python/mypy/issues/5876
 
@@ -111,3 +113,11 @@ https://github.com/microsoft/pyright/issues/6660
 
 # More generally, how should all of the synthesized methods work in TypedDict?
 
+# Bugs in TypedDict for **kwargs PEP:
+https://typing.readthedocs.io/en/latest/spec/callables.html#source-and-destination-contain-kwargs
+accept_dog sample is incorrect: both examples should be type errors
+
+https://typing.readthedocs.io/en/latest/spec/callables.html#passing-kwargs-inside-a-function-to-another-function
+This entire section is incorrect from a type standpoint
+
+# Should NewType work with Any?

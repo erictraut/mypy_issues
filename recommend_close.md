@@ -795,9 +795,6 @@ Working correctly (not a bug); base is not staticmethod
 - https://github.com/python/mypy/issues/15175
 Poorly-motivated feature; unlikely to ever be implemented
 
-- https://github.com/python/mypy/issues/15401
-Appears to be fixed
-
 - https://github.com/python/mypy/issues/15509
 Requires global analysis, not practical
 
@@ -953,3 +950,9 @@ Not enough information
 
 - https://github.com/python/mypy/issues/16677
 Duplicate
+
+- https://github.com/python/mypy/issues/16709
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16716
+User error, not a bug
