@@ -166,4 +166,7 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/16538
 - https://github.com/python/mypy/issues/16623
 - https://github.com/python/mypy/issues/16712
-- https://github.com/python/mypy/issues/16714
+- https://github.com/python/mypy/issues/16719
+- https://github.com/python/mypy/issues/16725
+- https://github.com/python/mypy/issues/16734
+- https://github.com/python/mypy/issues/16738

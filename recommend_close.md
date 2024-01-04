@@ -942,9 +942,6 @@ Not a bug
 - https://github.com/python/mypy/issues/16650
 Duplicate
 
-- https://github.com/python/mypy/issues/16667
-Not a bug
-
 - https://github.com/python/mypy/issues/16671
 Not enough information
 
@@ -955,4 +952,10 @@ Duplicate
 User error, not a bug
 
 - https://github.com/python/mypy/issues/16716
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16722
+Behavior is as designed
+
+- https://github.com/python/mypy/issues/16739
 User error, not a bug

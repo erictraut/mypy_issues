@@ -8,6 +8,11 @@ https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-s
 # Meaning of `type`, `Type`, `type[Any]` and `Type[Any]`
 https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
 
+# Are self and cls always positional-only?
+# What if a double-underscore parameter appears after a non-double-underscore parameter?
+https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
+
+
 ^ Already Filed
 ------------------------------------
 v Not Yet Filed
@@ -28,6 +33,10 @@ Which attributes and methods are exempt?
 
 # Overload matching behaviors
 
+# Overload overlap detection algorithm; is this required by type checkers?
+
+# Overload override algorithm; is this required by type checkers?
+
 # What does it mean for the `self` parameter of an `__init__` method to be annotated?
 https://github.com/microsoft/pyright/issues/2909
 
@@ -40,10 +49,6 @@ How should identifiers within an annotation be resolved?
 https://github.com/python/mypy/issues/16554
 
 # Type of self and cls parameters? What about within a metaclass?
-
-# Are self and cls always positional-only?
-
-# Does double-underscore parameter name imply positional-only? What are the rules?
 
 # Should (*Any, **Any) imply ...?
 https://github.com/python/mypy/issues/5876
@@ -101,6 +106,8 @@ https://github.com/microsoft/pyright/issues/6660
 
 # What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
 
+# Should a class that does not drive from ABC allow methods that are abstract? Should that class then be treated as abstract?
+
 # How should `Any | T` be treated? Should it be reduced to `Any`? Treated as irreducible?
 
 # Are byte or raw strings allowed for type annotations? How about f-strings?
@@ -121,3 +128,24 @@ https://typing.readthedocs.io/en/latest/spec/callables.html#passing-kwargs-insid
 This entire section is incorrect from a type standpoint
 
 # Should NewType work with Any?
+
+# Should ClassVar with no type arguments have implied type of Any or infer type from assignment (like Final)?
+
+# Should Self be allowed in a ClassVar type declaration?
+
+# Should we deprecate @no_type_check? What does it mean in the age of language servers?
+
+# Should `sys.version < (3, 10, 2)` form (with three numbers in version tuple) be understood? Should `os.name === 'xxx'` be understood?
+
+# Spec says that NoReturn cannot appear anywhere other than return annotation; should be amended
+https://typing.readthedocs.io/en/latest/spec/special-types.html#noreturn
+
+# If a class that explicitly derives from a protocol doesn't implement attributes required by the protocol, should a type checker immediately report the error, or should it defer until the class is instantiated? Mypy defers, but the other three type checkers immediately report. The spec is noncommittal.
+
+# Should TypeVarTuple enforce that all instances of Ts be the same?
+See https://github.com/microsoft/pyright/issues/6888
+
+# Should type checker report an error if a function-scoped or type-alias-scoped TypeVar is marked as covariant or contravariant?
+See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
+
+# Does Concatenate support `...`?
