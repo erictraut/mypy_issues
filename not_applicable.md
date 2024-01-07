@@ -137,7 +137,6 @@
 - https://github.com/python/mypy/issues/16114
 - https://github.com/python/mypy/issues/16138
 - https://github.com/python/mypy/issues/16183
-- https://github.com/python/mypy/issues/16486
 - https://github.com/python/mypy/issues/16543
 - https://github.com/python/mypy/issues/16658
 - https://github.com/python/mypy/issues/16690
@@ -195,6 +194,7 @@
 - https://github.com/python/mypy/issues/15757
 - https://github.com/python/mypy/issues/16316
 - https://github.com/python/mypy/issues/16628
+- https://github.com/python/mypy/issues/16755
 
 ### Daemon (dmypy)
 
@@ -234,6 +234,8 @@
 - https://github.com/python/mypy/issues/16678
 - https://github.com/python/mypy/issues/16705
 - https://github.com/python/mypy/issues/16708
+- https://github.com/python/mypy/issues/16745
+- https://github.com/python/mypy/issues/16754
 
 ### Plugins & Plugin Interface
 

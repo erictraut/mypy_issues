@@ -47,6 +47,7 @@ How should identifiers within an annotation be resolved?
 
 # Binding and partial specialization
 https://github.com/python/mypy/issues/16554
+Also see comments in annotations_methods.py in conformance test suite
 
 # Type of self and cls parameters? What about within a metaclass?
 
@@ -149,3 +150,13 @@ See https://github.com/microsoft/pyright/issues/6888
 See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
 
 # Does Concatenate support `...`?
+
+# Does parameter type inference violate the spec?
+
+# Should we document type promotions for bytes, bytearray, and memoryview?
+
+# What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
+See https://discuss.python.org/t/calling-abstract-methods/42576/3
+
+# Should a type checker enforce the return type for a function that is implemented with a `pass` statement? Or a `...` statement?
+

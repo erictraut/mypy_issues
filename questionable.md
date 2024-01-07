@@ -170,3 +170,4 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/16725
 - https://github.com/python/mypy/issues/16734
 - https://github.com/python/mypy/issues/16738
+- https://github.com/python/mypy/issues/16751
