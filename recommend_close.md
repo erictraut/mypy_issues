@@ -959,3 +959,12 @@ Behavior is as designed
 
 - https://github.com/python/mypy/issues/16739
 User error, not a bug
+
+- https://github.com/python/mypy/issues/16771
+Not a bug
+
+- https://github.com/python/mypy/issues/16773
+Not a bug
+
+- https://github.com/python/mypy/issues/16777
+Union expansion does not include bool in overloads

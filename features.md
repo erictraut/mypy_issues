@@ -123,7 +123,6 @@
 - https://github.com/python/mypy/issues/12478
 - https://github.com/python/mypy/issues/12535
 - https://github.com/python/mypy/issues/12554
-- https://github.com/python/mypy/issues/12920
 - https://github.com/python/mypy/issues/13002
 - https://github.com/python/mypy/issues/13033
 - https://github.com/python/mypy/issues/13177
@@ -168,3 +167,5 @@
 - https://github.com/python/mypy/issues/16696
 - https://github.com/python/mypy/issues/16720
 - https://github.com/python/mypy/issues/16752
+- https://github.com/python/mypy/issues/16774
+- https://github.com/python/mypy/issues/16778

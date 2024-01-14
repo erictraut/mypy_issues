@@ -153,7 +153,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/6185
 - https://github.com/python/mypy/issues/6200
 - https://github.com/python/mypy/issues/6212
-- https://github.com/python/mypy/issues/6220
 - https://github.com/python/mypy/issues/6224
 - https://github.com/python/mypy/issues/6225
 - https://github.com/python/mypy/issues/6227
@@ -1100,7 +1099,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16272
 - https://github.com/python/mypy/issues/16274
 - https://github.com/python/mypy/issues/16277
-- https://github.com/python/mypy/issues/16279
 - https://github.com/python/mypy/issues/16281
 - https://github.com/python/mypy/issues/16293
 - https://github.com/python/mypy/issues/16306
@@ -1175,7 +1173,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16640
 - https://github.com/python/mypy/issues/16646
 - https://github.com/python/mypy/issues/16649
-- https://github.com/python/mypy/issues/16654
 - https://github.com/python/mypy/issues/16657
 - https://github.com/python/mypy/issues/16659
 - https://github.com/python/mypy/issues/16660
@@ -1185,7 +1182,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16683
 - https://github.com/python/mypy/issues/16694
 - https://github.com/python/mypy/issues/16695
-- https://github.com/python/mypy/issues/16701
 - https://github.com/python/mypy/issues/16702
 - https://github.com/python/mypy/issues/16707
 - https://github.com/python/mypy/issues/16711
@@ -1201,5 +1197,7 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16748
 - https://github.com/python/mypy/issues/16749
 - https://github.com/python/mypy/issues/16757
+- https://github.com/python/mypy/issues/16763
+- https://github.com/python/mypy/issues/16783
 
 

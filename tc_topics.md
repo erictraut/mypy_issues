@@ -12,6 +12,16 @@ https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
 # What if a double-underscore parameter appears after a non-double-underscore parameter?
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 
+# Should type checker report an error if a function-scoped or type-alias-scoped TypeVar is marked as covariant or contravariant?
+See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
+https://discuss.python.org/t/rejecting-the-use-of-a-covariant-contravariant-typevar-in-a-function-or-type-alias/42769
+
+# In a triple-quoted type expression, should it be treated as implicitly parenthesized?
+https://discuss.python.org/t/newlines-within-triple-quoted-type-expressions/42833
+
+# Should we deprecate @no_type_check? What does it mean in the age of language servers?
+https://discuss.python.org/t/no-type-check-decorator/43119
+
 
 ^ Already Filed
 ------------------------------------
@@ -134,8 +144,6 @@ This entire section is incorrect from a type standpoint
 
 # Should Self be allowed in a ClassVar type declaration?
 
-# Should we deprecate @no_type_check? What does it mean in the age of language servers?
-
 # Should `sys.version < (3, 10, 2)` form (with three numbers in version tuple) be understood? Should `os.name === 'xxx'` be understood?
 
 # Spec says that NoReturn cannot appear anywhere other than return annotation; should be amended
@@ -146,9 +154,6 @@ https://typing.readthedocs.io/en/latest/spec/special-types.html#noreturn
 # Should TypeVarTuple enforce that all instances of Ts be the same?
 See https://github.com/microsoft/pyright/issues/6888
 
-# Should type checker report an error if a function-scoped or type-alias-scoped TypeVar is marked as covariant or contravariant?
-See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
-
 # Does Concatenate support `...`?
 
 # Does parameter type inference violate the spec?
@@ -158,5 +163,9 @@ See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
 # What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
 See https://discuss.python.org/t/calling-abstract-methods/42576/3
 
+# For a protocol that is implemented in a stub file, how is a default method implementation distinguished from a non-implemented one? What about implemented versus not-implemented variables?
+
 # Should a type checker enforce the return type for a function that is implemented with a `pass` statement? Or a `...` statement?
+
+# What type forms are compatible with `type[object]`? What are the principles that should be used?
 

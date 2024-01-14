@@ -50,6 +50,7 @@
 - https://github.com/python/mypy/issues/16214
 - https://github.com/python/mypy/issues/16363
 - https://github.com/python/mypy/issues/16652
+- https://github.com/python/mypy/issues/16766
 
 ### Documentation
 
@@ -122,7 +123,6 @@
 - https://github.com/python/mypy/issues/12160
 - https://github.com/python/mypy/issues/12178
 - https://github.com/python/mypy/issues/12992
-- https://github.com/python/mypy/issues/13574
 - https://github.com/python/mypy/issues/13904
 - https://github.com/python/mypy/issues/13996
 - https://github.com/python/mypy/issues/14116
@@ -139,8 +139,8 @@
 - https://github.com/python/mypy/issues/16183
 - https://github.com/python/mypy/issues/16543
 - https://github.com/python/mypy/issues/16658
-- https://github.com/python/mypy/issues/16690
 - https://github.com/python/mypy/issues/16737
+- https://github.com/python/mypy/issues/16762
 
 ### Stubtest
 
@@ -236,6 +236,7 @@
 - https://github.com/python/mypy/issues/16708
 - https://github.com/python/mypy/issues/16745
 - https://github.com/python/mypy/issues/16754
+- https://github.com/python/mypy/issues/16768
 
 ### Plugins & Plugin Interface
 
@@ -539,3 +540,7 @@
 - https://github.com/python/mypy/issues/16653
 - https://github.com/python/mypy/issues/16684
 - https://github.com/python/mypy/issues/16688
+- https://github.com/python/mypy/issues/16764
+- https://github.com/python/mypy/issues/16767
+- https://github.com/python/mypy/issues/16769
+- https://github.com/python/mypy/issues/16775
