@@ -968,3 +968,10 @@ Not a bug
 
 - https://github.com/python/mypy/issues/16777
 Union expansion does not include bool in overloads
+
+- https://github.com/python/mypy/issues/16785
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16790
+User error, not a bug
+

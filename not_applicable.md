@@ -51,6 +51,7 @@
 - https://github.com/python/mypy/issues/16363
 - https://github.com/python/mypy/issues/16652
 - https://github.com/python/mypy/issues/16766
+- https://github.com/python/mypy/issues/16784
 
 ### Documentation
 

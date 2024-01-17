@@ -5,14 +5,7 @@ Generics
  - Scoping rules for type variables
  - Instantiating generic classes
  - Arbitrary generic types as base classes
- - Abstract generic types
  - Type variables with an upper bound
- - Value-constrained TypeVars
- - Variance
- - ParamSpec
- - TypeVarTuple
- - Variance Inference
- - PEP 695 Type Parameter syntax
 Distributing type information
  - Stub files
 Historical and deprecated features

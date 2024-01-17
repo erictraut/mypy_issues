@@ -16,9 +16,6 @@ https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
 https://discuss.python.org/t/rejecting-the-use-of-a-covariant-contravariant-typevar-in-a-function-or-type-alias/42769
 
-# In a triple-quoted type expression, should it be treated as implicitly parenthesized?
-https://discuss.python.org/t/newlines-within-triple-quoted-type-expressions/42833
-
 # Should we deprecate @no_type_check? What does it mean in the age of language servers?
 https://discuss.python.org/t/no-type-check-decorator/43119
 
