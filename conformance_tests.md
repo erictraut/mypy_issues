@@ -1,9 +1,6 @@
 
 
 Generics
- - User-defined generic types
- - Scoping rules for type variables
- - Instantiating generic classes
  - Arbitrary generic types as base classes
  - Type variables with an upper bound
 Distributing type information
@@ -43,16 +40,3 @@ Abstract classes
 Class & function decorators
 
 
-Type annotations
-Type aliases
-Literals
-Callables
-Dataclasses
-Typed dictionaries
-Type narrowing
-Type qualifiers
-Class type compatibility
-Type checker directives
-@overload
-Special types in annotations
-Protocols

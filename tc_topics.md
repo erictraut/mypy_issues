@@ -15,6 +15,7 @@ https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 # Should type checker report an error if a function-scoped or type-alias-scoped TypeVar is marked as covariant or contravariant?
 See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
 https://discuss.python.org/t/rejecting-the-use-of-a-covariant-contravariant-typevar-in-a-function-or-type-alias/42769
+https://github.com/python/typing-council/issues/8
 
 # Should we deprecate @no_type_check? What does it mean in the age of language servers?
 https://discuss.python.org/t/no-type-check-decorator/43119

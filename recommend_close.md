@@ -975,3 +975,9 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16790
 User error, not a bug
 
+- https://github.com/python/mypy/issues/16795
+Duplicate
+
+- https://github.com/python/mypy/issues/16796
+User misunderstanding
+
