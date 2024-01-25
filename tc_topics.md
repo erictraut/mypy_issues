@@ -20,6 +20,12 @@ https://github.com/python/typing-council/issues/8
 # Should we deprecate @no_type_check? What does it mean in the age of language servers?
 https://discuss.python.org/t/no-type-check-decorator/43119
 
+# Should special forms like Annotated be compatible with `type[T]`?
+https://discuss.python.org/t/is-annotated-compatible-with-type-t/43898/8
+
+# Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
+https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
+
 
 ^ Already Filed
 ------------------------------------

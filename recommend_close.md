@@ -975,9 +975,15 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16790
 User error, not a bug
 
-- https://github.com/python/mypy/issues/16795
-Duplicate
-
 - https://github.com/python/mypy/issues/16796
 User misunderstanding
+
+- https://github.com/python/mypy/issues/16802
+Bug in pandas stubs, not a bug in mypy
+
+- https://github.com/python/mypy/issues/16810
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16815
+Error message seems fine
 
