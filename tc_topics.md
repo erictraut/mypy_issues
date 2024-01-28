@@ -1,7 +1,3 @@
-# What are the subtyping rules for `tuple[T, ...]`?
-Is it a gradual type, or is it shorthand for a union?
-https://discuss.python.org/t/what-are-the-subtyping-rules-for-tuple-t/39837
-
 # Should "type" statements in class be allowed to reference class-scoped TypeVars?
 https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-scoped-typevar/40026
 
@@ -11,11 +7,6 @@ https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
 # Are self and cls always positional-only?
 # What if a double-underscore parameter appears after a non-double-underscore parameter?
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
-
-# Should type checker report an error if a function-scoped or type-alias-scoped TypeVar is marked as covariant or contravariant?
-See https://typing.readthedocs.io/en/latest/spec/generics.html#variance
-https://discuss.python.org/t/rejecting-the-use-of-a-covariant-contravariant-typevar-in-a-function-or-type-alias/42769
-https://github.com/python/typing-council/issues/8
 
 # Should we deprecate @no_type_check? What does it mean in the age of language servers?
 https://discuss.python.org/t/no-type-check-decorator/43119

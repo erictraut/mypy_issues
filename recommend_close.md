@@ -987,3 +987,5 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16815
 Error message seems fine
 
+- https://github.com/python/mypy/issues/16828
+User error, not a bug
