@@ -912,9 +912,6 @@ Not a bug
 - https://github.com/python/mypy/issues/16565
 Not a bug
 
-- https://github.com/python/mypy/issues/16587
-Not a bug
-
 - https://github.com/python/mypy/issues/16595
 Not a bug
 
@@ -957,9 +954,6 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16722
 Behavior is as designed
 
-- https://github.com/python/mypy/issues/16739
-User error, not a bug
-
 - https://github.com/python/mypy/issues/16771
 Not a bug
 
@@ -989,3 +983,15 @@ Error message seems fine
 
 - https://github.com/python/mypy/issues/16828
 User error, not a bug
+
+- https://github.com/python/mypy/issues/16833
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16840
+Incorrect use of @overload
+
+- https://github.com/python/mypy/issues/16854
+User error, not a bug
+
+- https://github.com/python/mypy/issues/16862
+User misunderstanding, not a bug
