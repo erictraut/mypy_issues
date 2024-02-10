@@ -984,9 +984,6 @@ Error message seems fine
 - https://github.com/python/mypy/issues/16828
 User error, not a bug
 
-- https://github.com/python/mypy/issues/16833
-User error, not a bug
-
 - https://github.com/python/mypy/issues/16840
 Incorrect use of @overload
 
@@ -995,3 +992,9 @@ User error, not a bug
 
 - https://github.com/python/mypy/issues/16862
 User misunderstanding, not a bug
+
+- https://github.com/python/mypy/issues/16890
+Mypy is conforming with the spec here, user error
+
+- https://github.com/python/mypy/issues/16893
+User error, not a bug

@@ -7,12 +7,15 @@ https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
 # Are self and cls always positional-only?
 # What if a double-underscore parameter appears after a non-double-underscore parameter?
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
+https://github.com/python/typing/pull/1619
 
 # Should we deprecate @no_type_check? What does it mean in the age of language servers?
 https://discuss.python.org/t/no-type-check-decorator/43119
 
 # Should special forms like Annotated be compatible with `type[T]`?
+# Should it be callable?
 https://discuss.python.org/t/is-annotated-compatible-with-type-t/43898/8
+https://github.com/python/typing/pull/1618
 
 # Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
 https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
