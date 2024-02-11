@@ -1,21 +1,16 @@
 # Should "type" statements in class be allowed to reference class-scoped TypeVars?
 https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-scoped-typevar/40026
 
-# Meaning of `type`, `Type`, `type[Any]` and `Type[Any]`
-https://discuss.python.org/t/inconsistencies-between-type-and-type/37404/12
-
 # Are self and cls always positional-only?
 # What if a double-underscore parameter appears after a non-double-underscore parameter?
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 https://github.com/python/typing/pull/1619
 
-# Should we deprecate @no_type_check? What does it mean in the age of language servers?
-https://discuss.python.org/t/no-type-check-decorator/43119
-
 # Should special forms like Annotated be compatible with `type[T]`?
 # Should it be callable?
 https://discuss.python.org/t/is-annotated-compatible-with-type-t/43898/8
 https://github.com/python/typing/pull/1618
+https://github.com/python/typing-council/issues/18
 
 # Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
 https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
@@ -104,9 +99,6 @@ https://github.com/microsoft/pyright/issues/6613
 # Can `Final` be used to define a variable in a protocol?
 https://discuss.python.org/t/pep-705-read-only-typeddict-items/37867/7?u=erictraut
 
-# How should type checkers differentiate between protocol methods and "default implementations" in stubs?
-https://github.com/microsoft/pyright/issues/6624
-
 # Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
 https://github.com/python/mypy/issues/11030
 
@@ -115,7 +107,7 @@ https://github.com/microsoft/pyright/issues/6660
 
 # What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
 
-# Should a class that does not drive from ABC allow methods that are abstract? Should that class then be treated as abstract?
+# Should a class that does not derive from ABC allow methods that are abstract? Should that class then be treated as abstract?
 
 # How should `Any | T` be treated? Should it be reduced to `Any`? Treated as irreducible?
 
@@ -158,10 +150,11 @@ See https://github.com/microsoft/pyright/issues/6888
 
 # Should we document type promotions for bytes, bytearray, and memoryview?
 
+# For a protocol that is implemented in a stub file, how is a default method implementation distinguished from a non-implemented one? What about implemented versus not-implemented variables?
+https://github.com/microsoft/pyright/issues/6624
+
 # What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
 See https://discuss.python.org/t/calling-abstract-methods/42576/3
-
-# For a protocol that is implemented in a stub file, how is a default method implementation distinguished from a non-implemented one? What about implemented versus not-implemented variables?
 
 # Should a type checker enforce the return type for a function that is implemented with a `pass` statement? Or a `...` statement?
 
