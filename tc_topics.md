@@ -29,6 +29,9 @@ Which attributes and methods are exempt?
 # Protocol matching
 Which attributes and methods are exempt?
 
+# __init__ methods in protocols
+https://github.com/microsoft/pyright/issues/7249
+
 # Argument defaults for parameter annotated with TypeVar
 ```def func[T](x: T = None)```
 
@@ -160,3 +163,5 @@ See https://discuss.python.org/t/calling-abstract-methods/42576/3
 
 # What type forms are compatible with `type[object]`? What are the principles that should be used?
 
+# Should type(X) be allowed if X is a protocol?
+https://github.com/python/mypy/issues/16919

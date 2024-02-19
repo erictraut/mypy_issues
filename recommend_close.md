@@ -993,8 +993,12 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16862
 User misunderstanding, not a bug
 
-- https://github.com/python/mypy/issues/16890
-Mypy is conforming with the spec here, user error
-
 - https://github.com/python/mypy/issues/16893
 User error, not a bug
+
+- https://github.com/python/typeshed/issues/11431
+Not a bug, potential issue in typeshed
+
+- https://github.com/python/mypy/issues/16923
+Unrealistic expectations
+
