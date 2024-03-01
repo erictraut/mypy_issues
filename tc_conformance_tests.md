@@ -7,9 +7,6 @@ Generics
 Distributing type information
  - Stub files (https://github.com/python/typing/issues/1605)
 
-Historical and deprecated features
- - Position-only arguments
-
 Module-level `__getattr__`
 Module-level Final constants for module protocols
 
