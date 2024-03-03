@@ -27,6 +27,9 @@ Methods
 * self and cls parameters
 * Binding a class or type to a method
 
+Class and Instance Variables
+* Including metaclass instance variables
+
 Constructors
 * Including: https://github.com/python/typing/issues/1563#issuecomment-1918734439
 

@@ -187,3 +187,4 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/16954
 - https://github.com/python/mypy/issues/16960
 - https://github.com/python/mypy/issues/16964
+- https://github.com/python/mypy/issues/16972
