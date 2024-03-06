@@ -1236,3 +1236,9 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16953
 - https://github.com/python/mypy/issues/16961
 - https://github.com/python/mypy/issues/16975
+- https://github.com/python/mypy/issues/16980
+- https://github.com/python/mypy/issues/16981
+- https://github.com/python/mypy/issues/16986
+- https://github.com/python/mypy/issues/16987
+- https://github.com/python/mypy/issues/16991
+- https://github.com/python/mypy/issues/16992

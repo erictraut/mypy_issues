@@ -1002,3 +1002,11 @@ Not a bug, potential issue in typeshed
 - https://github.com/python/mypy/issues/16923
 Unrealistic expectations
 
+- https://github.com/python/mypy/issues/16982
+User misunderstanding, not a bug
+
+- https://github.com/python/mypy/issues/16985
+User unable to provide minimal repro
+
+- https://github.com/python/mypy/issues/16993
+Unrealistic expectations
