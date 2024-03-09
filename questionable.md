@@ -149,7 +149,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/15900
 - https://github.com/python/mypy/issues/15964
 - https://github.com/python/mypy/issues/16097
-- https://github.com/python/mypy/issues/16095
 - https://github.com/python/mypy/issues/16160
 - https://github.com/python/mypy/issues/16161
 - https://github.com/python/mypy/issues/16164

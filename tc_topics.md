@@ -6,12 +6,6 @@ https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-s
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 https://github.com/python/typing/pull/1619
 
-# Should special forms like Annotated be compatible with `type[T]`?
-# Should it be callable?
-https://discuss.python.org/t/is-annotated-compatible-with-type-t/43898/8
-https://github.com/python/typing/pull/1618
-https://github.com/python/typing-council/issues/18
-
 # Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
 https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
 

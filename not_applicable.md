@@ -305,6 +305,7 @@
 - https://github.com/python/mypy/issues/16087
 - https://github.com/python/mypy/issues/16866
 - https://github.com/python/mypy/issues/16988
+- https://github.com/python/mypy/issues/17000
 
 ### Mypyc
 
@@ -562,3 +563,4 @@
 - https://github.com/python/mypy/issues/16921
 - https://github.com/python/mypy/issues/16959
 - https://github.com/python/mypy/issues/16973
+- https://github.com/python/mypy/issues/16996

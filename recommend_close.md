@@ -1010,3 +1010,6 @@ User unable to provide minimal repro
 
 - https://github.com/python/mypy/issues/16993
 Unrealistic expectations
+
+- https://github.com/python/mypy/issues/16999
+Behavior is correct, not a bug
