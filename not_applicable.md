@@ -564,3 +564,6 @@
 - https://github.com/python/mypy/issues/16959
 - https://github.com/python/mypy/issues/16973
 - https://github.com/python/mypy/issues/16996
+- https://github.com/python/mypy/issues/17005
+- https://github.com/python/mypy/issues/17008
+- https://github.com/python/mypy/issues/17013

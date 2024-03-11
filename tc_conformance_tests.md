@@ -1,4 +1,4 @@
-
+# MISSING CONFORMANCE TESTS
 
 Generics
  - Arbitrary generic types as base classes
@@ -6,6 +6,9 @@ Generics
 
 Distributing type information
  - Stub files (https://github.com/python/typing/issues/1605)
+
+
+# MISSING CHAPTERS IN TYPING SPEC
 
 Module-level `__getattr__`
 Module-level Final constants for module protocols
