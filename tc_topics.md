@@ -9,6 +9,8 @@ https://github.com/python/typing/pull/1619
 ### Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
 https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
 
+### Is a protocol class or an ABC compatible with `type[T]`, `type[Any]` or `type[object]`? 
+https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442/7
 
 # ^ Already Filed
 ------------------------------------
@@ -159,3 +161,4 @@ See https://discuss.python.org/t/calling-abstract-methods/42576/3
 
 ### Should type(X) be allowed if X is a protocol?
 https://github.com/python/mypy/issues/16919
+

@@ -1013,3 +1013,12 @@ Unrealistic expectations
 
 - https://github.com/python/mypy/issues/16999
 Behavior is correct, not a bug
+
+- https://github.com/python/mypy/issues/17026
+User misunderstanding, not a bug
+
+- https://github.com/python/mypy/issues/17030
+Behavior is correct, not a bug
+
+- https://github.com/python/mypy/issues/17034
+Not a bug

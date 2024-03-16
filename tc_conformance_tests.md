@@ -1,9 +1,5 @@
 # MISSING CONFORMANCE TESTS
 
-Generics
- - Arbitrary generic types as base classes
- - Type variables with an upper bound
-
 Distributing type information
  - Stub files (https://github.com/python/typing/issues/1605)
 
