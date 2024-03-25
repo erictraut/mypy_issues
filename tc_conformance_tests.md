@@ -14,6 +14,18 @@ Metaclasses
 * Metaclass hierarchy and type
 * `__init_subclass__`
 
+Class Overrides
+* The LSP
+* LSP exemptions
+* MRO
+* Allowed and disallowed overrides
+  - types (invariance, read-only, properties vs. attributes, etc.)
+  - type qualifiers (class variables, final variables, etc.)
+* Overrides within a class hierarchy
+* Overrides within multiple inheritance
+* super()
+* Inheriting from Any
+
 Callables
 * Positional-only parameters
 * Keyword-only parameters

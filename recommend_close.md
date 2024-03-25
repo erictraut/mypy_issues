@@ -1022,3 +1022,12 @@ Behavior is correct, not a bug
 
 - https://github.com/python/mypy/issues/17034
 Not a bug
+
+- https://github.com/python/mypy/issues/17045
+Works as designed, not a bug
+
+- https://github.com/python/mypy/issues/17055
+Behavior is correct, not a bug
+
+- https://github.com/python/mypy/issues/17061
+Typeshed bug, not a mypy issue

@@ -56,6 +56,7 @@
 - https://github.com/python/mypy/issues/16951
 - https://github.com/python/mypy/issues/16979
 - https://github.com/python/mypy/issues/17032
+- https://github.com/python/mypy/issues/17049
 
 ### Documentation
 
@@ -150,6 +151,7 @@
 - https://github.com/python/mypy/issues/16762
 - https://github.com/python/mypy/issues/16808
 - https://github.com/python/mypy/issues/16968
+- https://github.com/python/mypy/issues/17037
 
 ### Stubtest
 
@@ -342,7 +344,7 @@
 
 - https://github.com/python/mypy/issues/15277
 - https://github.com/python/mypy/issues/16472
-- https://github.com/python/mypy/issues/16843
+- https://github.com/python/mypy/issues/17064
 
 ### Mypy Internals and Build System
 
@@ -569,3 +571,4 @@
 - https://github.com/python/mypy/issues/17005
 - https://github.com/python/mypy/issues/17008
 - https://github.com/python/mypy/issues/17013
+- https://github.com/python/mypy/issues/17057
