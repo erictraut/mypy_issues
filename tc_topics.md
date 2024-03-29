@@ -98,6 +98,8 @@ https://github.com/microsoft/pyright/issues/6613
 ### Can `Final` be used to define a variable in a protocol?
 https://discuss.python.org/t/pep-705-read-only-typeddict-items/37867/7?u=erictraut
 
+### Can `Final` be used for a module-level constant to satisfy a protocol?
+
 ### Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
 https://github.com/python/mypy/issues/11030
 
