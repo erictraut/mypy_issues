@@ -25,13 +25,30 @@ Class Overrides
 
 Callables
 * Positional-only parameters
+  - `self` and `cls`
 * Keyword-only parameters
 * Argument defaults
-* Annotating *args and **kwargs
-* Subtyping rules for callables
+* Annotating `*args` and `**kwargs`
+* Subtyping and equivalence rules for callables
+  - parameter types
+  - return types
+  - positional-only
+  - positional + keyword
+  - keyword-only
+  - with ParamSpec
+  - *args with tuple
+  - *args with TypeVarTuple
+  - *kwargs with dict
+  - *kwargs with unpacked TypedDict
+  - Argument defaults
+  - Overloads
+* The `...` parameter signature
+
 
 Methods
 * Instance, class, and static methods
+* Using the staticmethod and classmethod calls outside of decorators
+https://github.com/python/mypy/issues/15015
 * self and cls parameters
 * Binding a class or type to a method
 
@@ -40,6 +57,7 @@ Class and Instance Variables
 
 Constructors
 * Including: https://github.com/python/typing/issues/1563#issuecomment-1918734439
+** Submitted: https://github.com/python/typing/pull/1667 **
 
 Decorators
 * Function decorators
@@ -50,8 +68,13 @@ Descriptors
 * Properties
 * Asymmetric descriptors
 
+Exceptions
+* Try/Except/Final statements
+* Context Managers ``__exit__`` return type
+
 Enum
 * Enum and type checking
+** Submitted: https://github.com/python/typing/pull/1591 **
 
 Type Narrowing
 * Narrowing on assignment
@@ -61,6 +84,7 @@ Type Narrowing
 Abstract classes
 
 Overloads
+* Overloads with decorators (staticmethod, classmethod, etc.) - consistency required
 * Overload resolution for calls
 * Overload subtyping rules
 * Overload implementation consistency

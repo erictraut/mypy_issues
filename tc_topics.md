@@ -78,6 +78,8 @@ def func1(a: int, b: int, c: str): ...
 def func2(*args: int):
     func1(*args, "")
 
+### Should `(*args: Any, **kwargs: Any)` imply `...`?
+
 ### How should constructor calls be evaluated?
 
 ### How should a constructor be converted into a callable?
@@ -164,3 +166,8 @@ See https://discuss.python.org/t/calling-abstract-methods/42576/3
 ### Should type(X) be allowed if X is a protocol?
 https://github.com/python/mypy/issues/16919
 
+### How does ParamSpec work with overloaded methods? How does this work with classes that are parameterized by ParamSpecs?
+
+### Should a non-instantiable protocol be compatible with `type[T]`?
+https://github.com/microsoft/pyright/issues/7475
+https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442

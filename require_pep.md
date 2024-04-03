@@ -1,7 +1,6 @@
 ## Features that require standardization
 These probably require a PEP or discussion on python/typing. They could be closed and redirected to python/typing.
 
-- https://github.com/python/mypy/issues/941
 - https://github.com/python/mypy/issues/1773
 - https://github.com/python/mypy/issues/2464
 - https://github.com/python/mypy/issues/3331

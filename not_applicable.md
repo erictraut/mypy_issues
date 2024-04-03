@@ -112,6 +112,7 @@
 - https://github.com/python/mypy/issues/16693
 - https://github.com/python/mypy/issues/16944
 - https://github.com/python/mypy/issues/16971
+- https://github.com/python/mypy/issues/17083
 
 ### Stub Generation
 

@@ -1031,3 +1031,15 @@ Behavior is correct, not a bug
 
 - https://github.com/python/mypy/issues/17061
 Typeshed bug, not a mypy issue
+
+- https://github.com/python/mypy/issues/17076
+Not a bug
+
+- https://github.com/python/mypy/issues/17082
+User error, not a bug
+
+- https://github.com/python/mypy/issues/17087
+Not a bug
+
+- https://github.com/python/mypy/issues/17089
+Not a bug in mypy; limitation of type system
