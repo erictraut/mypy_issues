@@ -24,6 +24,7 @@ Class Overrides
 * Inheriting from Any
 
 Callables
+* The meaning of `...`
 * Positional-only parameters
   - `self` and `cls`
 * Keyword-only parameters
@@ -42,8 +43,6 @@ Callables
   - *kwargs with unpacked TypedDict
   - Argument defaults
   - Overloads
-* The `...` parameter signature
-
 
 Methods
 * Instance, class, and static methods
