@@ -426,9 +426,6 @@ Invalid type annotation syntax; can't improve because of mypy's dependence on Py
 - https://github.com/python/mypy/issues/11129
 This would promote further use of TYPE_CHECKING in cases where it would be inadvisable to do so
 
-- https://github.com/python/mypy/issues/11230
-This isn't how TypeGuard is spec'ed to work
-
 - https://github.com/python/mypy/issues/11291
 Poorly-motivated feature request
 
@@ -1043,3 +1040,13 @@ Not a bug
 
 - https://github.com/python/mypy/issues/17089
 Not a bug in mypy; limitation of type system
+
+- https://github.com/python/mypy/issues/17101
+Proposed feature would not be sound
+
+- https://github.com/python/mypy/issues/17106
+Working as designed
+
+- https://github.com/python/mypy/issues/17107
+User misunderstanding, not a bug
+

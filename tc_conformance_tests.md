@@ -6,6 +6,10 @@ Distributing type information
 
 # MISSING CHAPTERS IN TYPING SPEC
 
+Enum
+* Enum and type checking
+** Submitted: https://github.com/python/typing/pull/1591 **
+
 Metaclasses
 * Class objects vs. class instances
 * Metaclass hierarchy and type
@@ -50,13 +54,7 @@ Methods
 https://github.com/python/mypy/issues/15015
 * self and cls parameters
 * Binding a class or type to a method
-
-Class and Instance Variables
-* Including metaclass instance variables
-
-Constructors
-* Including: https://github.com/python/typing/issues/1563#issuecomment-1918734439
-** Submitted: https://github.com/python/typing/pull/1667 **
+* Unimplemented methods (in protocols and ABCs)
 
 Decorators
 * Function decorators
@@ -71,16 +69,10 @@ Exceptions
 * Try/Except/Final statements
 * Context Managers ``__exit__`` return type
 
-Enum
-* Enum and type checking
-** Submitted: https://github.com/python/typing/pull/1591 **
-
 Type Narrowing
 * Narrowing on assignment
 * Narrowing rules for Any
 * Built-in type guards
-
-Abstract classes
 
 Overloads
 * Overloads with decorators (staticmethod, classmethod, etc.) - consistency required
@@ -88,8 +80,6 @@ Overloads
 * Overload subtyping rules
 * Overload implementation consistency
 * Overlapping overload detection
-
-Class & function decorators
 
 
 
