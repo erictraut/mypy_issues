@@ -171,3 +171,6 @@ https://github.com/python/mypy/issues/16919
 ### Should a non-instantiable protocol be compatible with `type[T]`?
 https://github.com/microsoft/pyright/issues/7475
 https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442
+
+### Should it be an error if a dataclass overrides a field in its parent and does not provide a default value, where its parent does?
+https://github.com/microsoft/pyright/issues/7702

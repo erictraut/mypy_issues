@@ -28,10 +28,13 @@ Class Overrides
 * Inheriting from Any
 
 Callables
-* The meaning of `...`
+* Terminology
+  - parameters and arguments
+  - positional-only, keyword-only, positional + keyword, *args, **kwargs
 * Positional-only parameters
   - `self` and `cls`
 * Keyword-only parameters
+* The meaning of `...`
 * Argument defaults
 * Annotating `*args` and `**kwargs`
 * Subtyping and equivalence rules for callables
@@ -68,6 +71,8 @@ Descriptors
 Exceptions
 * Try/Except/Final statements
 * Context Managers ``__exit__`` return type
+https://discuss.python.org/t/draft-of-typing-spec-chapter-for-exceptions/51002
+** Submitted: https://github.com/python/typing/pull/1718
 
 Type Narrowing
 * Narrowing on assignment
@@ -79,7 +84,7 @@ Overloads
 * Overload resolution for calls
 * Overload subtyping rules
 * Overload implementation consistency
-* Overlapping overload detection
+* Overlapping overload detection (partial and full)
 
 
 
