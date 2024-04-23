@@ -1049,4 +1049,3 @@ Working as designed
 
 - https://github.com/python/mypy/issues/17107
 User misunderstanding, not a bug
-

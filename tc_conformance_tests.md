@@ -10,6 +10,9 @@ Enum
 * Enum and type checking
 ** Submitted: https://github.com/python/typing/pull/1591 **
 
+Callables
+** Submitted: https://github.com/python/typing/pull/1723 **
+
 Metaclasses
 * Class objects vs. class instances
 * Metaclass hierarchy and type
@@ -27,35 +30,12 @@ Class Overrides
 * super()
 * Inheriting from Any
 
-Callables
-* Terminology
-  - parameters and arguments
-  - positional-only, keyword-only, positional + keyword, *args, **kwargs
-* Positional-only parameters
-  - `self` and `cls`
-* Keyword-only parameters
-* The meaning of `...`
-* Argument defaults
-* Annotating `*args` and `**kwargs`
-* Subtyping and equivalence rules for callables
-  - parameter types
-  - return types
-  - positional-only
-  - positional + keyword
-  - keyword-only
-  - with ParamSpec
-  - *args with tuple
-  - *args with TypeVarTuple
-  - *kwargs with dict
-  - *kwargs with unpacked TypedDict
-  - Argument defaults
-  - Overloads
-
 Methods
 * Instance, class, and static methods
 * Using the staticmethod and classmethod calls outside of decorators
 https://github.com/python/mypy/issues/15015
-* self and cls parameters
+* Positional-only parameters
+  - `self` and `cls`
 * Binding a class or type to a method
 * Unimplemented methods (in protocols and ABCs)
 
@@ -68,12 +48,6 @@ Descriptors
 * Properties
 * Asymmetric descriptors
 
-Exceptions
-* Try/Except/Final statements
-* Context Managers ``__exit__`` return type
-https://discuss.python.org/t/draft-of-typing-spec-chapter-for-exceptions/51002
-** Submitted: https://github.com/python/typing/pull/1718
-
 Type Narrowing
 * Narrowing on assignment
 * Narrowing rules for Any
@@ -85,9 +59,6 @@ Overloads
 * Overload subtyping rules
 * Overload implementation consistency
 * Overlapping overload detection (partial and full)
-
-
-
 
 
 
@@ -124,4 +95,22 @@ preserves type compatibility with ``type``.
     class B: ...
 
     reveal_type(B())  # ``int``
+
+
+
+Self and cls parameters
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Instance methods and class methods have a first parameter that is, by convention,
+named ``self`` and ``cls``, respectively. Type checkers should always treat
+these parameters as implicitly positional-only even if they are not explicitly
+designated as such. This distinction affects type compatibility checks and
+validation of function calls. For example::
+
+    class A:
+        def instance_method(self) -> None: ...
+
+    A.instance_method(A())  # OK
+    A.instance_method(self=A())  # Error: self is positional-only
+
 
