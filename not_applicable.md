@@ -113,6 +113,8 @@
 - https://github.com/python/mypy/issues/16944
 - https://github.com/python/mypy/issues/16971
 - https://github.com/python/mypy/issues/17083
+- https://github.com/python/mypy/issues/17156
+- https://github.com/python/mypy/issues/17157
 
 ### Stub Generation
 

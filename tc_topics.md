@@ -12,6 +12,8 @@ https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
 ### Is a protocol class or an ABC compatible with `type[T]`, `type[Any]` or `type[object]`? 
 https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442/7
 
+### Should `(*args: Any, **kwargs: Any)` imply `...`?
+
 # ^ Already Filed
 ------------------------------------
 # v Not Yet Filed
@@ -77,12 +79,6 @@ x: Foo[float] # Is this allowed? What is its type?
 def func1(a: int, b: int, c: str): ...
 def func2(*args: int):
     func1(*args, "")
-
-### Should `(*args: Any, **kwargs: Any)` imply `...`?
-
-### How should constructor calls be evaluated?
-
-### How should a constructor be converted into a callable?
 
 ### Should overloads require consistent @staticmethod and @classmethod decorators?
 

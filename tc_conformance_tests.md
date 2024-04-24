@@ -13,15 +13,9 @@ Enum
 Callables
 ** Submitted: https://github.com/python/typing/pull/1723 **
 
-Metaclasses
-* Class objects vs. class instances
-* Metaclass hierarchy and type
-* `__init_subclass__`
-
-Class Overrides
-* The LSP
-* LSP exemptions
+Classes
 * MRO
+* LSP (with exemptions)
 * Allowed and disallowed overrides
   - types (invariance, read-only, properties vs. attributes, etc.)
   - type qualifiers (class variables, final variables, etc.)
@@ -29,6 +23,8 @@ Class Overrides
 * Overrides within multiple inheritance
 * super()
 * Inheriting from Any
+* Metaclasses
+* `__init_subclass__`
 
 Methods
 * Instance, class, and static methods
@@ -38,28 +34,14 @@ https://github.com/python/mypy/issues/15015
   - `self` and `cls`
 * Binding a class or type to a method
 * Unimplemented methods (in protocols and ABCs)
-
-Decorators
-* Function decorators
-* Class decorators
-
-Descriptors
-* Descriptors
-* Properties
 * Asymmetric descriptors
-
-Type Narrowing
-* Narrowing on assignment
-* Narrowing rules for Any
-* Built-in type guards
 
 Overloads
 * Overloads with decorators (staticmethod, classmethod, etc.) - consistency required
 * Overload resolution for calls
-* Overload subtyping rules
 * Overload implementation consistency
 * Overlapping overload detection (partial and full)
-
+* Overloads and ParamSpec
 
 
 
