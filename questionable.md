@@ -192,3 +192,5 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17078
 - https://github.com/python/mypy/issues/17149
 - https://github.com/python/mypy/issues/17151
+- https://github.com/python/mypy/issues/17162
+- https://github.com/python/mypy/issues/17179

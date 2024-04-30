@@ -1049,3 +1049,27 @@ Working as designed
 
 - https://github.com/python/mypy/issues/17107
 User misunderstanding, not a bug
+
+- https://github.com/python/mypy/issues/17166
+Working as intended, not a bug
+
+- https://github.com/python/mypy/issues/17172
+Not a bug in mypy, user question
+
+- https://github.com/python/mypy/issues/17175
+User misunderstanding, not a bug
+
+- https://github.com/python/mypy/issues/17177
+Appears to be a bug in a plugin
+
+- https://github.com/python/mypy/issues/17187
+Not realistic to expect type checker to work this way
+
+- https://github.com/python/mypy/issues/17189
+No repro, probably a corrupt file
+
+- https://github.com/python/mypy/issues/17193
+Not a bug
+
+- https://github.com/python/mypy/issues/17194
+Not a bug, user misunderstanding
