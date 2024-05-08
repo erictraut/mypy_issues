@@ -1065,11 +1065,18 @@ Appears to be a bug in a plugin
 - https://github.com/python/mypy/issues/17187
 Not realistic to expect type checker to work this way
 
-- https://github.com/python/mypy/issues/17189
-No repro, probably a corrupt file
-
 - https://github.com/python/mypy/issues/17193
 Not a bug
 
 - https://github.com/python/mypy/issues/17194
 Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17209
+Not a mypy bug, may be a typeshed issue
+
+- https://github.com/python/mypy/issues/17213
+Creates a cyclical dependency between metaclass and class
+
+- https://github.com/python/mypy/issues/17218
+Not a bug, a feature request, and probably not a feasible one
+

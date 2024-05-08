@@ -10,9 +10,6 @@ Enum
 * Enum and type checking
 ** Submitted: https://github.com/python/typing/pull/1591 **
 
-Callables
-** Submitted: https://github.com/python/typing/pull/1723 **
-
 Classes
 * MRO
 * LSP (with exemptions)
@@ -29,10 +26,10 @@ Classes
 Methods
 * Instance, class, and static methods
 * Using the staticmethod and classmethod calls outside of decorators
-https://github.com/python/mypy/issues/15015
-* Positional-only parameters
-  - `self` and `cls`
-* Binding a class or type to a method
+* `self` and `cls` parameters
+  - inferred types (including metaclasses)
+  - Positional-only parameters (https://github.com/python/mypy/issues/15015)
+* Binding a class or object to a method
 * Unimplemented methods (in protocols and ABCs)
 * Asymmetric descriptors
 
