@@ -1080,3 +1080,5 @@ Creates a cyclical dependency between metaclass and class
 - https://github.com/python/mypy/issues/17218
 Not a bug, a feature request, and probably not a feasible one
 
+- https://github.com/python/mypy/issues/17238
+Not a bug

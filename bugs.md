@@ -9,6 +9,7 @@
 - https://github.com/python/mypy/issues/16967
 - https://github.com/python/mypy/issues/17074
 - https://github.com/python/mypy/issues/17220
+- https://github.com/python/mypy/issues/17227
 
 ## Bugs in mypy but not in pyright
 Some of these involve judgement calls, and it's possible that I've made some mistakes in interpreting the intent behind some of these bugs
@@ -1102,7 +1103,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16335
 - https://github.com/python/mypy/issues/16347
 - https://github.com/python/mypy/issues/16349
-- https://github.com/python/mypy/issues/16358
 - https://github.com/python/mypy/issues/16377
 - https://github.com/python/mypy/issues/16379
 - https://github.com/python/mypy/issues/16397
@@ -1300,3 +1300,10 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17222
 - https://github.com/python/mypy/issues/17223
 - https://github.com/python/mypy/issues/17224
+- https://github.com/python/mypy/issues/17225
+- https://github.com/python/mypy/issues/17228
+- https://github.com/python/mypy/issues/17229
+- https://github.com/python/mypy/issues/17230
+- https://github.com/python/mypy/issues/17181
+- https://github.com/python/mypy/issues/17231
+- https://github.com/python/mypy/issues/17236

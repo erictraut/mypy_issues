@@ -73,6 +73,8 @@ x: Foo[float] # Is this allowed? What is its type?
 
 ### When explicitly providing a type argument for a constrained TypeVar, is it OK to use a subtype of one of the constraints, or does it need to match exactly?
 
+### When specifying a constrained TypeVar, is it OK for one constraint to be a subtype of another (like int and float)? What does that mean?
+
 ### Are unions always order-independent? Under what circumstances does ordering matter? What order should be used?
 
 ### How should unpacked arguments be treated?
