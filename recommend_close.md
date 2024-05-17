@@ -1082,3 +1082,9 @@ Not a bug, a feature request, and probably not a feasible one
 
 - https://github.com/python/mypy/issues/17238
 Not a bug
+
+- https://github.com/python/mypy/issues/17242
+Not a bug, incorrect use of dataclass
+
+- https://github.com/python/mypy/issues/17244
+Pydantic is violating type spec here

@@ -94,7 +94,6 @@
 - https://github.com/python/mypy/issues/10463
 - https://github.com/python/mypy/issues/10485
 - https://github.com/python/mypy/issues/10510
-- https://github.com/python/mypy/issues/10514
 - https://github.com/python/mypy/issues/10552
 - https://github.com/python/mypy/issues/10613
 - https://github.com/python/mypy/issues/10971

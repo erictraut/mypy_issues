@@ -58,6 +58,7 @@
 - https://github.com/python/mypy/issues/17049
 - https://github.com/python/mypy/issues/17202
 - https://github.com/python/mypy/issues/17202
+- https://github.com/python/mypy/issues/17250
 
 ### Documentation
 
@@ -214,6 +215,7 @@
 - https://github.com/python/mypy/issues/16628
 - https://github.com/python/mypy/issues/16755
 - https://github.com/python/mypy/issues/16990
+- https://github.com/python/mypy/issues/17257
 
 ### Daemon (dmypy)
 

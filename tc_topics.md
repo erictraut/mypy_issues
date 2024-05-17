@@ -5,6 +5,7 @@ https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-s
 ### What if a double-underscore parameter appears after a non-double-underscore parameter?
 https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
 https://github.com/python/typing/pull/1619
+https://github.com/python/typing/issues/1355
 
 ### Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
 https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15

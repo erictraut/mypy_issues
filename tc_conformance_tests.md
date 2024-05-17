@@ -40,6 +40,9 @@ Overloads
 * Overlapping overload detection (partial and full)
 * Overloads and ParamSpec
 
+Types for Libraries
+* Contents of https://github.com/python/typing/blob/main/docs/source/libraries.rst
+
 
 
 # PARTIALLY-WRITTEN SECTIONS OF CHAPTERS
