@@ -48,7 +48,6 @@
 - https://github.com/python/mypy/issues/3927
 - https://github.com/python/mypy/issues/3929
 - https://github.com/python/mypy/issues/4154
-- https://github.com/python/mypy/issues/4145
 - https://github.com/python/mypy/issues/4177
 - https://github.com/python/mypy/issues/4182
 - https://github.com/python/mypy/issues/4409

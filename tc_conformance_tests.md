@@ -1,7 +1,7 @@
 # MISSING CONFORMANCE TESTS
 
 Distributing type information
- - Stub files (https://github.com/python/typing/issues/1605)
+ - Stub Files (https://typing.readthedocs.io/en/latest/spec/distributing.html)
 
 
 # MISSING CHAPTERS IN TYPING SPEC

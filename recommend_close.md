@@ -1056,9 +1056,6 @@ Working as intended, not a bug
 - https://github.com/python/mypy/issues/17172
 Not a bug in mypy, user question
 
-- https://github.com/python/mypy/issues/17175
-User misunderstanding, not a bug
-
 - https://github.com/python/mypy/issues/17177
 Appears to be a bug in a plugin
 
@@ -1086,5 +1083,5 @@ Not a bug
 - https://github.com/python/mypy/issues/17242
 Not a bug, incorrect use of dataclass
 
-- https://github.com/python/mypy/issues/17244
-Pydantic is violating type spec here
+- https://github.com/python/mypy/issues/17273
+Cannot repro, probably user error
