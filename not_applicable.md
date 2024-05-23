@@ -181,6 +181,7 @@
 - https://github.com/python/mypy/issues/16806
 - https://github.com/python/mypy/issues/16956
 - https://github.com/python/mypy/issues/17023
+- https://github.com/python/mypy/issues/17277
 
 ### Configuration
 

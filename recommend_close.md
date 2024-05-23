@@ -984,20 +984,11 @@ User error, not a bug
 - https://github.com/python/mypy/issues/16840
 Incorrect use of @overload
 
-- https://github.com/python/mypy/issues/16854
-User error, not a bug
-
 - https://github.com/python/mypy/issues/16862
 User misunderstanding, not a bug
 
-- https://github.com/python/mypy/issues/16893
-User error, not a bug
-
 - https://github.com/python/typeshed/issues/11431
 Not a bug, potential issue in typeshed
-
-- https://github.com/python/mypy/issues/16923
-Unrealistic expectations
 
 - https://github.com/python/mypy/issues/16982
 User misunderstanding, not a bug
@@ -1082,6 +1073,3 @@ Not a bug
 
 - https://github.com/python/mypy/issues/17242
 Not a bug, incorrect use of dataclass
-
-- https://github.com/python/mypy/issues/17273
-Cannot repro, probably user error

@@ -31,7 +31,6 @@
 - https://github.com/python/mypy/issues/1019
 - https://github.com/python/mypy/issues/1106
 - https://github.com/python/mypy/issues/1324
-- https://github.com/python/mypy/issues/1484
 - https://github.com/python/mypy/issues/2073
 - https://github.com/python/mypy/issues/2144
 - https://github.com/python/mypy/issues/2455
