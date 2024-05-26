@@ -1073,3 +1073,6 @@ Not a bug
 
 - https://github.com/python/mypy/issues/17242
 Not a bug, incorrect use of dataclass
+
+- https://github.com/python/mypy/issues/17296
+Not a bug, user misunderstanding

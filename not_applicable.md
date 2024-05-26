@@ -181,7 +181,6 @@
 - https://github.com/python/mypy/issues/16806
 - https://github.com/python/mypy/issues/16956
 - https://github.com/python/mypy/issues/17023
-- https://github.com/python/mypy/issues/17277
 
 ### Configuration
 
@@ -354,6 +353,7 @@
 - https://github.com/python/mypy/issues/15277
 - https://github.com/python/mypy/issues/16472
 - https://github.com/python/mypy/issues/17064
+- https://github.com/python/mypy/issues/17285
 
 ### Mypy Internals and Build System
 
