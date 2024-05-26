@@ -58,8 +58,8 @@ Distributing Type Information
 
 Type Narrowing
 * Narrowing on assignment
-* Narrowing rules ofr `Any`
-* Built-in type guards
+* Narrowing rules for `Any`
+* Standard type guards
 
 
 

@@ -1,5 +1,5 @@
 # Mypy Issue Tracker Analysis
-Updated 20 Sep 2023
+Last updated 26 May 2024
 
 This project is an attempt to analyze and summarize the issues tracked in the mypy issue tracker.
 
@@ -12,12 +12,10 @@ My motivations for doing this analysis:
 ## Why is Mypy Important?
 Why do I care about mypy when I'm primarily focused on improving pyright? Because mypy matters. It's used by a large number of Python developers, and it affects the Python ecosystem. New typing features are often gated on mypy, and bugs in mypy affect efforts of library authors and stub maintainers to make improvements. I don't think of mypy as a competitor to pyright. Both type checkers are useful, and both projects push each other to become better for our collective users.
 
-It's difficult to say how the DAU (daily active user) count compares between mypy and pyright, but I think they are comparable. My best guess is that mypy's DAU is still somewhat higher than pyright's, even if we include Pylance users who enable type checking. Pypi [download stats](https://pypistats.org/packages/mypy) indicate that mypy peaks at ~750K downloads per day. By comparison, pyright peaks at ~40K downloads per day. In addition, some non-negligible fraction of Pylance's 4M active users enable type checking via pyright.
-
 ## Summary of Analysis
-Over the past couple weeks, I've invested many hours looking at every issue in the mypy issue tracker — about 2550 in total. I identified about 250 issues that were no longer applicable (most of them already fixed in the latest version of mypy), and these have been closed with the help of mypy project maintainers (thanks!).
+Over the course of several weeks in Aug 2023, I read every issue in the mypy issue tracker — about 2550 at the time. I identified about 250 issues that were no longer applicable (most of them already fixed in the latest version of mypy), and these have been closed with the help of mypy project maintainers (thanks!).
 
-I've categorized the remaining issues into the following buckets:
+I categorized the remaining issues into the following buckets:
 * [Recommend close](https://github.com/erictraut/mypy_issues/blob/main/recommend_close.md#features-and-bugs-that-i-recommend-closing): issues that I recommend closing for a variety of reasons
 * [Questionable](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable): issues that I didn't have time to think deeply about but I consider them questionable for one reason or another; I would likely recommend closing the majority of these
 * [Features requiring standardization](https://github.com/erictraut/mypy_issues/blob/main/questionable.md#features-and-bugs-that-are-questionable): features that require new PEPs or at least a discussion in the python/typing forums; these could all be closed and redirected to python/typing
@@ -27,19 +25,22 @@ I've categorized the remaining issues into the following buckets:
 * [Bugs in both mypy and pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-both-mypy-and-pyright): bugs that repro in both mypy and pyright; these will be fixed shortly
 * [Bugs in mypy but not in pyright](https://github.com/erictraut/mypy_issues/blob/main/bugs.md#bugs-in-mypy-but-not-in-pyright): bugs that repro in mypy but do not in pyright; a significant number of these are minor issues (like error messages that could be marginally clearer or extreme edge cases that probably affect very few users) and could reasonably be closed as "won't fix"
 
+Since Aug 2023, I've followed updates to the mypy tracker and attempted to keep my stats up to date. Here are the stats as of the latest update.
+
 
 | Category                                          | Count |
 | ------------------------------------------------- | ----: |
-| Recommend close                                   |  289  |
-| Questionable                                      |  153  |
-| Features requiring standardization                |   51  |
-| Issues not applicable to pyright                  |  478  |
+| Recommend close                                   |  359  |
+| Questionable                                      |  198  |
+| Features requiring standardization                |   52  |
+| Issues not applicable to pyright                  |  542  |
 | Features intentionally not implemented in pyright |   13  |
-| Features in pyright but missing from mypy         |  146  |
-| Features in mypy but missing from pyright         |    1  |
+| Features in pyright but missing from mypy         |  147  |
+| Features in mypy but missing from pyright         |    3  |
 | Bugs in pyright but not in mypy                   |    1  |
-| Bugs in mypy but not in pyright                   | 1108  |
-| _Total_                                           | 2240  |
+| Bugs in both pyright and mypy                     |    6  |
+| Bugs in mypy but not in pyright                   | 1296  |
+| _Total_                                           | 2617  |
 
 
 ## Summary of Top Issues
