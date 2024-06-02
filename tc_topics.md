@@ -8,7 +8,8 @@ cases, these ideas are not fully fleshed out, and they require more work.
 When Jelle initially suggested a formal typing spec, I posted a [proposed list
 of chapters](https://discuss.python.org/t/proposed-initial-typing-spec/39389/6).
 Many of these chapters were completely missing from the spec initially, but
-we've made good headway toward filling them in.
+we've made good headway toward filling them in. Here are the chapters that
+are still missing from the spec.
 
 Core Typing Concepts & Terminology
 * Gradual typing
@@ -254,3 +255,5 @@ https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-
 
 Should it be an error if a dataclass overrides a field in its parent and does not provide a default value, where its parent does?
 https://github.com/microsoft/pyright/issues/7702
+
+`type[A] | type[B]` should be equivalent to `type[A | B]`; This isn't generally true for covariant types

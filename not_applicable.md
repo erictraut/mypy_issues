@@ -317,6 +317,7 @@
 - https://github.com/python/mypy/issues/16866
 - https://github.com/python/mypy/issues/16988
 - https://github.com/python/mypy/issues/17000
+- https://github.com/python/mypy/issues/17300
 
 ### Mypyc
 

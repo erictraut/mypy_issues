@@ -801,9 +801,6 @@ Working correctly
 - https://github.com/python/mypy/issues/15755
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/15825
-Ill-advised feature request for reasons discussed
-
 - https://github.com/python/mypy/issues/15835
 Working correctly (not a bug)
 
@@ -1076,3 +1073,6 @@ Not a bug, incorrect use of dataclass
 
 - https://github.com/python/mypy/issues/17296
 Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17299
+User misunderstanding
