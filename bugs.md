@@ -1,11 +1,11 @@
 ## Bugs in pyright but not in mypy
 
 - https://github.com/python/mypy/issues/12278
+- https://github.com/python/mypy/issues/16582
 
 ## Bugs in both pyright and mypy
 
 - https://github.com/python/mypy/issues/16376
-- https://github.com/python/mypy/issues/16582
 - https://github.com/python/mypy/issues/16967
 - https://github.com/python/mypy/issues/17074
 - https://github.com/python/mypy/issues/17220
@@ -1212,7 +1212,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16924
 - https://github.com/python/mypy/issues/16932
 - https://github.com/python/mypy/issues/16933
-- https://github.com/python/mypy/issues/16935
 - https://github.com/python/mypy/issues/16936
 - https://github.com/python/mypy/issues/16940
 - https://github.com/python/mypy/issues/16952
@@ -1293,7 +1292,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17221
 - https://github.com/python/mypy/issues/17222
 - https://github.com/python/mypy/issues/17224
-- https://github.com/python/mypy/issues/17225
 - https://github.com/python/mypy/issues/17228
 - https://github.com/python/mypy/issues/17229
 - https://github.com/python/mypy/issues/17230
@@ -1306,8 +1304,12 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17260
 - https://github.com/python/mypy/issues/17267
 - https://github.com/python/mypy/issues/17278
-- https://github.com/python/mypy/issues/17281
 - https://github.com/python/mypy/issues/17282
 - https://github.com/python/mypy/issues/17291
 - https://github.com/python/mypy/issues/17302
-- https://github.com/python/mypy/issues/17314
+- https://github.com/python/mypy/issues/17317
+- https://github.com/python/mypy/issues/17319
+- https://github.com/python/mypy/issues/17328
+- https://github.com/python/mypy/issues/17326
+- https://github.com/python/mypy/issues/17331
+- https://github.com/python/mypy/issues/17333

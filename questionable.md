@@ -201,3 +201,4 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17253
 - https://github.com/python/mypy/issues/17288
 - https://github.com/python/mypy/issues/17301
+- https://github.com/python/mypy/issues/17332

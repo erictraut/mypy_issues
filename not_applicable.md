@@ -158,6 +158,7 @@
 - https://github.com/python/mypy/issues/16968
 - https://github.com/python/mypy/issues/17037
 - https://github.com/python/mypy/issues/17200
+- https://github.com/python/mypy/issues/17315
 
 ### Stubtest
 
@@ -581,3 +582,4 @@
 - https://github.com/python/mypy/issues/17013
 - https://github.com/python/mypy/issues/17057
 - https://github.com/python/mypy/issues/17214
+- https://github.com/python/mypy/issues/17336

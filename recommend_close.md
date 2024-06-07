@@ -1076,3 +1076,15 @@ Not a bug, user misunderstanding
 
 - https://github.com/python/mypy/issues/17299
 User misunderstanding
+
+- https://github.com/python/mypy/issues/17316
+Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17322
+Not a mypy bug, typeshed issue
+
+- https://github.com/python/mypy/issues/17325
+User misunderstanding of how overloads work
+
+- https://github.com/python/mypy/issues/17340
+Not a bug, user misunderstanding

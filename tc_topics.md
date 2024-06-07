@@ -17,10 +17,6 @@ Core Typing Concepts & Terminology
 * etc.
 ** Work in progress by carljm: https://github.com/python/typing/pull/1743 **
 
-Enum
-* Enum and type checking
-** Submitted: https://github.com/python/typing/pull/1591 **
-
 Classes
 * MRO
 * LSP (with exemptions)
@@ -40,7 +36,7 @@ Methods & Attributes
 * `self` and `cls` parameters
   - inferred types (including metaclasses)
   - Positional-only parameters (https://github.com/python/mypy/issues/15015)
-* Binding a class or object to a method
+* Binding a class or object to a method or attribute
 * Unimplemented methods (in protocols and ABCs)
 * Properties & descriptors
 * Asymmetric descriptors
