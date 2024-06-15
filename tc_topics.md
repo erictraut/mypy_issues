@@ -43,7 +43,7 @@ Methods & Attributes
 * Instance and class variables
 
 Overloads
-* Overloads with decorators (staticmethod, classmethod, etc.) - consistency required
+* Overloads with decorators (staticmethod, classmethod, async, etc.) - consistency required
 * Overload resolution for calls
 * Overload implementation consistency
 * Overlapping overload detection (partial and full)

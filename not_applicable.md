@@ -583,3 +583,5 @@
 - https://github.com/python/mypy/issues/17057
 - https://github.com/python/mypy/issues/17214
 - https://github.com/python/mypy/issues/17336
+- https://github.com/python/mypy/issues/17362
+- https://github.com/python/mypy/issues/17368

@@ -510,9 +510,6 @@ This isn't how import resolutions work in type checkers
 - https://github.com/python/mypy/issues/12146
 Working correctly; wouldn't make sense to narrow to a TypeVar because there is no way to solve that TypeVar; it would lead to a cascade of false positive errors
 
-- https://github.com/python/mypy/issues/12155
-Working correctly (and nothing actionable)
-
 - https://github.com/python/mypy/issues/12156
 Working correctly (not a bug)
 
@@ -653,9 +650,6 @@ Not feasible to implement in static type checker
 
 - https://github.com/python/mypy/issues/13766
 There is no "redundant-expr" feature
-
-- https://github.com/python/mypy/issues/13810
-Working as expected; this is a valid type alias
 
 - https://github.com/python/mypy/issues/13816
 Conditional types not feasible to track; not supported
@@ -1087,4 +1081,16 @@ Not a mypy bug, typeshed issue
 User misunderstanding of how overloads work
 
 - https://github.com/python/mypy/issues/17340
+Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17360
+Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17361
+Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17364
+Old version of mypy, no longer repro
+
+- https://github.com/python/mypy/issues/17379
 Not a bug, user misunderstanding
