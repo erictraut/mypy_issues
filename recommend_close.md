@@ -87,9 +87,6 @@ Working correctly (not a bug); use property instead
 - https://github.com/python/mypy/issues/5483
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/5510
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/5651
 Working correctly; not actionable
 
@@ -1094,3 +1091,6 @@ Old version of mypy, no longer repro
 
 - https://github.com/python/mypy/issues/17379
 Not a bug, user misunderstanding
+
+- https://github.com/python/mypy/issues/17406
+User misunderstanding; property is special-cased

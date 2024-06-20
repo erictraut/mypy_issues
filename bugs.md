@@ -134,7 +134,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/5512
 - https://github.com/python/mypy/issues/5519
 - https://github.com/python/mypy/issues/5540
-- https://github.com/python/mypy/issues/5570
 - https://github.com/python/mypy/issues/5647
 - https://github.com/python/mypy/issues/5678
 - https://github.com/python/mypy/issues/5720
@@ -289,7 +288,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/8836
 - https://github.com/python/mypy/issues/8861
 - https://github.com/python/mypy/issues/8865
-- https://github.com/python/mypy/issues/8869
 - https://github.com/python/mypy/issues/8871
 - https://github.com/python/mypy/issues/8900
 - https://github.com/python/mypy/issues/8921
@@ -867,7 +865,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/14632
 - https://github.com/python/mypy/issues/14636
 - https://github.com/python/mypy/issues/14640
-- https://github.com/python/mypy/issues/14641
 - https://github.com/python/mypy/issues/14647
 - https://github.com/python/mypy/issues/14652
 - https://github.com/python/mypy/issues/14661
@@ -1061,7 +1058,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16054
 - https://github.com/python/mypy/issues/16055
 - https://github.com/python/mypy/issues/16062
-- https://github.com/python/mypy/issues/16075
 - https://github.com/python/mypy/issues/16085
 - https://github.com/python/mypy/issues/16090
 - https://github.com/python/mypy/issues/16094
@@ -1094,7 +1090,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16321
 - https://github.com/python/mypy/issues/16324
 - https://github.com/python/mypy/issues/16325
-- https://github.com/python/mypy/issues/16327
 - https://github.com/python/mypy/issues/16332
 - https://github.com/python/mypy/issues/16335
 - https://github.com/python/mypy/issues/16347
@@ -1103,7 +1098,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16379
 - https://github.com/python/mypy/issues/16397
 - https://github.com/python/mypy/issues/16401
-- https://github.com/python/mypy/issues/16410
 - https://github.com/python/mypy/issues/16413
 - https://github.com/python/mypy/issues/16423
 - https://github.com/python/mypy/issues/16424
@@ -1126,7 +1120,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/16539
 - https://github.com/python/mypy/issues/16544
 - https://github.com/python/mypy/issues/16546
-- https://github.com/python/mypy/issues/16547
 - https://github.com/python/mypy/issues/16552
 - https://github.com/python/mypy/issues/16554
 - https://github.com/python/mypy/issues/16557
@@ -1302,7 +1295,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17326
 - https://github.com/python/mypy/issues/17331
 - https://github.com/python/mypy/issues/17333
-- https://github.com/python/mypy/issues/17347
 - https://github.com/python/mypy/issues/17363
 - https://github.com/python/mypy/issues/17365
 - https://github.com/python/mypy/issues/17372
@@ -1311,3 +1303,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17375
 - https://github.com/python/mypy/issues/17383
 - https://github.com/python/mypy/issues/17387
+- https://github.com/python/mypy/issues/17393
+- https://github.com/python/mypy/issues/17399
+- https://github.com/python/mypy/issues/17405

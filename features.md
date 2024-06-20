@@ -162,7 +162,6 @@
 - https://github.com/python/mypy/issues/16631
 - https://github.com/python/mypy/issues/16696
 - https://github.com/python/mypy/issues/16720
-- https://github.com/python/mypy/issues/16752
 - https://github.com/python/mypy/issues/16774
 - https://github.com/python/mypy/issues/16778
 - https://github.com/python/mypy/issues/16786
