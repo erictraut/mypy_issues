@@ -213,9 +213,6 @@ Feature would require massive special-casing, not generally possible
 - https://github.com/python/mypy/issues/8526
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/8585
-Not actionable
-
 - https://github.com/python/mypy/issues/8604
 Not generally possible to implement, recommend workaround
 
@@ -284,9 +281,6 @@ Code is missing appropriate type annotation
 
 - https://github.com/python/mypy/issues/9712
 Classes that are intended to be generic should derive from `Generic`, not define their own `__class_getitem__`
-
-- https://github.com/python/mypy/issues/9749
-Monkey patching is too dynamic for (and antithetical to) static type checking
 
 - https://github.com/python/mypy/issues/9779
 Type violation is being reported correctly; workaround is to avoid name conflict
@@ -417,9 +411,6 @@ Working correctly (for reasons explained in bug)
 - https://github.com/python/mypy/issues/11116
 Probably never going to happen
 
-- https://github.com/python/mypy/issues/11118
-Invalid type annotation syntax; can't improve because of mypy's dependence on Python parser
-
 - https://github.com/python/mypy/issues/11129
 This would promote further use of TYPE_CHECKING in cases where it would be inadvisable to do so
 
@@ -453,9 +444,6 @@ Occurs only on older versions of Python; increasingly irrelevant
 - https://github.com/python/mypy/issues/11565
 This is not how constrained (restricted) TypeVars work according to the specs
 
-- https://github.com/python/mypy/issues/11592
-Not a problem with mypy
-
 - https://github.com/python/mypy/issues/11613
 Working correctly (nothing actionable)
 
@@ -467,9 +455,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/11661
 Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/11710
-Wouldn't expect this to work for static typing
 
 - https://github.com/python/mypy/issues/11853
 Working correctly (not a bug); cross-function mutations not supported
@@ -494,9 +479,6 @@ Feature request not well motivated
 
 - https://github.com/python/mypy/issues/12046
 Working correctly; incompatible type declarations are a type violation
-
-- https://github.com/python/mypy/issues/12059
-Poorly-motivated feature; doesn't make sense to special-case a cast call
 
 - https://github.com/python/mypy/issues/12082
 There is no such option as "redundant-expression"
@@ -533,9 +515,6 @@ Working correctly (not a bug); making the suggested change would be incredibly d
 
 - https://github.com/python/mypy/issues/12402
 Poorly-motivated feature request
-
-- https://github.com/python/mypy/issues/12405
-Working as designed; Poorly-motivated change request
 
 - https://github.com/python/mypy/issues/12409
 Working as designed; Poorly-motivated change request
@@ -867,9 +846,6 @@ Not a bug
 - https://github.com/python/mypy/issues/16384
 Illegal use of type parameters in a variable type declaration
 
-- https://github.com/python/mypy/issues/16403
-Not a bug
-
 - https://github.com/python/mypy/issues/16437
 Bug in stubs
 
@@ -1083,9 +1059,6 @@ Not a bug, user misunderstanding
 - https://github.com/python/mypy/issues/17360
 Not a bug, user misunderstanding
 
-- https://github.com/python/mypy/issues/17361
-Not a bug, user misunderstanding
-
 - https://github.com/python/mypy/issues/17364
 Old version of mypy, no longer repro
 
@@ -1094,3 +1067,12 @@ Not a bug, user misunderstanding
 
 - https://github.com/python/mypy/issues/17406
 User misunderstanding; property is special-cased
+
+- https://github.com/python/mypy/issues/17414
+Mypy is working as designed here
+
+- https://github.com/python/mypy/issues/17426
+Mypy is working correctly, feature not well justified
+
+- https://github.com/python/mypy/issues/17438
+Limitation of type system, not a mypy bug
