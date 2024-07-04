@@ -53,11 +53,12 @@ Distributing Type Information
 (Chapter exists, but is missing information about Type information in libraries)
 * Contents of https://github.com/python/typing/blob/main/docs/source/libraries.rst
 
-Type Narrowing
+Type Narrowing?
 * Narrowing on assignment
 * Narrowing rules for `Any`
 * Standard type guards
 
+Constraint Solving?
 
 
 # Missing Conformance Tests
@@ -209,6 +210,9 @@ https://typing.readthedocs.io/en/latest/spec/callables.html#passing-kwargs-insid
 This entire section is incorrect from a type standpoint
 
 Should NewType work with Any?
+
+Should NewType work with structural types (protocols and TypedDicts)?
+https://github.com/microsoft/pyright/discussions/8256#discussioncomment-9920744
 
 Should ClassVar with no type arguments have implied type of Any or infer type from assignment (like Final)?
 

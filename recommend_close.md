@@ -1068,11 +1068,11 @@ Not a bug, user misunderstanding
 - https://github.com/python/mypy/issues/17406
 User misunderstanding; property is special-cased
 
-- https://github.com/python/mypy/issues/17414
-Mypy is working as designed here
-
 - https://github.com/python/mypy/issues/17426
 Mypy is working correctly, feature not well justified
 
 - https://github.com/python/mypy/issues/17438
 Limitation of type system, not a mypy bug
+
+- https://github.com/python/mypy/issues/17446
+Duplicate
