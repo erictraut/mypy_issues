@@ -1076,3 +1076,6 @@ Limitation of type system, not a mypy bug
 
 - https://github.com/python/mypy/issues/17446
 Duplicate
+
+- https://github.com/python/mypy/issues/17483
+Mypy is working correctly, user misunderstanding

@@ -15,7 +15,6 @@
 - https://github.com/python/mypy/issues/11878
 - https://github.com/python/mypy/issues/14297
 - https://github.com/python/mypy/issues/16974
-- https://github.com/python/mypy/issues/17477
 
 ### Error Messages
 
@@ -225,7 +224,6 @@
 - https://github.com/python/mypy/issues/9309
 - https://github.com/python/mypy/issues/9366
 - https://github.com/python/mypy/issues/9475
-- https://github.com/python/mypy/issues/10007
 - https://github.com/python/mypy/issues/10047
 - https://github.com/python/mypy/issues/10215
 - https://github.com/python/mypy/issues/10612
@@ -297,7 +295,6 @@
 - https://github.com/python/mypy/issues/12490
 - https://github.com/python/mypy/issues/12513
 - https://github.com/python/mypy/issues/12521
-- https://github.com/python/mypy/issues/12575
 - https://github.com/python/mypy/issues/12619
 - https://github.com/python/mypy/issues/12651
 - https://github.com/python/mypy/issues/12864

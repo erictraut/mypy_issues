@@ -9,7 +9,6 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/4063
 - https://github.com/python/mypy/issues/4128
 - https://github.com/python/mypy/issues/5144
-- https://github.com/python/mypy/issues/5149
 - https://github.com/python/mypy/issues/5504
 - https://github.com/python/mypy/issues/5523
 - https://github.com/python/mypy/issues/5756
@@ -54,3 +53,4 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/16120
 - https://github.com/python/mypy/issues/17043
 - https://github.com/python/mypy/issues/17122
+- https://github.com/python/mypy/issues/17481
