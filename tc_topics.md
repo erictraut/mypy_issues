@@ -11,12 +11,6 @@ Many of these chapters were completely missing from the spec initially, but
 we've made good headway toward filling them in. Here are the chapters that
 are still missing from the spec.
 
-Core Typing Concepts & Terminology
-* Gradual typing
-* Consistent subtyping
-* etc.
-** Work in progress by carljm: https://github.com/python/typing/pull/1743 **
-
 Classes
 * MRO
 * LSP (with exemptions)
@@ -80,39 +74,7 @@ spec should arguably cover at some point. Some of these will be controversial,
 and almost all of them will require discussion and input.
 
 
-### Already Posted
-
-Should "type" statements in class be allowed to reference class-scoped TypeVars?
-https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-scoped-typevar/40026
-
-Are self and cls always positional-only?
-What if a double-underscore parameter appears after a non-double-underscore parameter?
-https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
-https://github.com/python/typing/pull/1619
-https://github.com/python/typing/issues/1355
-
-Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
-https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
-
-Is a protocol class or an ABC compatible with `type[T]`, `type[Any]` or `type[object]`? 
-https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442/7
-
-
-### Not Yet Posted
-
-Variance computation: Which attributes and methods are exempt?
-
-Override computation: Which attributes and methods are exempt?
-
-Protocol matching: Which attributes and methods are exempt?
-
-`__init__` methods in protocols
-https://github.com/microsoft/pyright/issues/7249
-
-Argument defaults for parameter annotated with TypeVar
-```def func[T](x: T = None)```
-
-TypeVar matching for unions
+#### Overloads
 
 Overload matching behaviors
 
@@ -120,21 +82,48 @@ Overload overlap detection algorithm; is this required by type checkers?
 
 Overload override algorithm; is this required by type checkers?
 
-What does it mean for the `self` parameter of an `__init__` method to be annotated?
-https://github.com/microsoft/pyright/issues/2909
+Should overloads require consistent @staticmethod and @classmethod decorators?
 
-`# type: ignore` comments and type-checker-specific forms
+How does ParamSpec work with overloaded methods? How does this work with classes that are parameterized by ParamSpecs?
 
-Scoping of annotations: How should identifiers within an annotation be resolved?
 
-Binding and partial specialization
-https://github.com/python/mypy/issues/16554
-Also see comments in annotations_methods.py in conformance test suite
+#### Classes
+
+Override computation: Which attributes and methods are exempt?
+
+What are the type evaluation rules for `super`?
+https://github.com/microsoft/pyright/issues/6660
+
+Is `type[Self]` allowed in a metaclass?
+
+
+#### Methods & Attributes
+
+Are self and cls always positional-only?
+What if a double-underscore parameter appears after a non-double-underscore parameter?
+https://discuss.python.org/t/ambiguities-about-positional-only-parameters/42328
+https://github.com/python/typing/pull/1619
+https://github.com/python/typing/issues/1355
 
 Type of self and cls parameters? What about within a metaclass?
 
-Should (*Any, **Any) imply ...?
-https://github.com/python/mypy/issues/5876
+What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
+
+Should a class that does not derive from ABC allow methods that are abstract? Should that class then be treated as abstract?
+
+Should ClassVar with no type arguments have implied type of Any or infer type from assignment (like Final)?
+
+Should Self be allowed in a ClassVar type declaration?
+
+What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
+See https://discuss.python.org/t/calling-abstract-methods/42576/3
+
+
+#### Generics
+
+Constraint solving rules for unions
+
+Variance computation: Which attributes and methods are exempt?
 
 Should explicit specialization for a constrained TypeVar allow for subclasses?
 ```python
@@ -155,48 +144,107 @@ When explicitly providing a type argument for a constrained TypeVar, is it OK to
 
 When specifying a constrained TypeVar, is it OK for one constraint to be a subtype of another (like int and float)? What does that mean?
 
-Are unions always order-independent? Under what circumstances does ordering matter? What order should be used?
-
-How should unpacked arguments be treated?
-def func1(a: int, b: int, c: str): ...
-def func2(*args: int):
-    func1(*args, "")
-
-Should overloads require consistent @staticmethod and @classmethod decorators?
-
-Dataclass transform: default argument values for custom field classes
-https://github.com/microsoft/pyright/issues/6573
-
-Where are type aliases allowed?
-Global and class scopes but not function scopes
-
 Scoping rules for TypeVars in Callable return types?
 
 TypeVarTuples that capture callables with indeterminate param count
 https://github.com/microsoft/pyright/issues/6613
+
+Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
+https://github.com/python/mypy/issues/11030
+
+
+#### Protocols
+
+Protocol matching: Which attributes and methods are exempt?
+
+`__init__` methods in protocols
+https://github.com/microsoft/pyright/issues/7249
 
 Can `Final` be used to define a variable in a protocol?
 https://discuss.python.org/t/pep-705-read-only-typeddict-items/37867/7?u=erictraut
 
 Can `Final` be used for a module-level constant to satisfy a protocol?
 
-Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
-https://github.com/python/mypy/issues/11030
+If a class that explicitly derives from a protocol doesn't implement attributes required by the protocol, should a type checker immediately report the error, or should it defer until the class is instantiated? Mypy defers, but the other three type checkers immediately report. The spec is noncommittal.
 
-What are the type evaluation rules for `super`?
-https://github.com/microsoft/pyright/issues/6660
+For a protocol that is implemented in a stub file, how is a default method implementation distinguished from a non-implemented one? What about implemented versus not-implemented variables?
+https://github.com/microsoft/pyright/issues/6624
 
-What does it mean for a method in a non-Protocol, non-ABC class to be marked `abstractmethod`?
+Should type(X) be allowed if X is a protocol?
+https://github.com/python/mypy/issues/16919
 
-Should a class that does not derive from ABC allow methods that are abstract? Should that class then be treated as abstract?
+Should a non-instantiable protocol be compatible with `type[T]`?
+https://github.com/microsoft/pyright/issues/7475
+https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442
 
-How should `Any | T` be treated? Should it be reduced to `Any`? Treated as irreducible?
 
-Are byte or raw strings allowed for type annotations? How about f-strings?
+#### Callables
 
-Is `type[Self]` allowed in a metaclass?
+Argument defaults for parameter annotated with TypeVar
+```def func[T](x: T = None)```
 
-What expression forms are allowed ane disallowed in type annotations? What about string concatenation?
+How should unpacked arguments be treated?
+def func1(a: int, b: int, c: str): ...
+def func2(*args: int):
+    func1(*args, "")
+
+Does parameter type inference violate the spec? Is it allowed under certain circumstances?
+
+#### Type Checker Directives
+
+`# type: ignore` comments and type-checker-specific forms
+
+
+#### Type Annotations
+
+Scoping of annotations: How should identifiers within an annotation be resolved?
+
+Are raw strings allowed for type annotations? How about f-strings?
+
+Is string concatenation allowed in a type annotation?
+
+
+#### Methods & Attributes
+
+Binding and partial specialization
+https://github.com/python/mypy/issues/16554
+Also see comments in annotations_methods.py in conformance test suite
+
+Should a type checker enforce the return type for a function that is implemented with a `pass` statement? Or a `...` statement?
+
+
+#### Type System Concepts
+
+Are unions always order-independent? Under what circumstances does ordering matter? What order should be used?
+
+
+#### Dataclasses
+
+Dataclass transform: default argument values for custom field classes
+https://github.com/microsoft/pyright/issues/6573
+
+Should it be an error if a dataclass overrides a field in its parent and does not provide a default value, where its parent does?
+https://github.com/microsoft/pyright/issues/7702
+
+
+#### Type Aliases
+
+Where are type alias definitions allowed?
+Proposal: Global and class scopes but not function scopes
+
+Should NewType work with Any?
+
+Should NewType work with structural types (protocols and TypedDicts)?
+https://github.com/microsoft/pyright/discussions/8256#discussioncomment-9920744
+
+Should name consistency be enforced for TypeVar-like, TypeAliasType, Enum, NamedTuple, namedtuple, NewType, TypedDict?
+https://discuss.python.org/t/draft-of-typing-spec-chapter-for-enums/43496/15
+
+Should "type" statements in class be allowed to reference class-scoped TypeVars?
+https://discuss.python.org/t/class-scoped-type-statement-that-references-outer-scoped-typevar/40026
+
+
+#### TypedDicts
 
 What type should the synthesized `get` method return for a TypedDict?
 
@@ -209,51 +257,16 @@ accept_dog sample is incorrect: both examples should be type errors
 https://typing.readthedocs.io/en/latest/spec/callables.html#passing-kwargs-inside-a-function-to-another-function
 This entire section is incorrect from a type standpoint
 
-Should NewType work with Any?
 
-Should NewType work with structural types (protocols and TypedDicts)?
-https://github.com/microsoft/pyright/discussions/8256#discussioncomment-9920744
-
-Should ClassVar with no type arguments have implied type of Any or infer type from assignment (like Final)?
-
-Should Self be allowed in a ClassVar type declaration?
+#### Type Checker Directives
 
 Should `sys.version < (3, 10, 2)` form (with three numbers in version tuple) be understood? Should `os.name === 'xxx'` be understood?
 
-Spec says that NoReturn cannot appear anywhere other than return annotation; should be amended
-https://typing.readthedocs.io/en/latest/spec/special-types.html#noreturn
 
-If a class that explicitly derives from a protocol doesn't implement attributes required by the protocol, should a type checker immediately report the error, or should it defer until the class is instantiated? Mypy defers, but the other three type checkers immediately report. The spec is noncommittal.
-
-Should TypeVarTuple enforce that all instances of Ts be the same?
-See https://github.com/microsoft/pyright/issues/6888
-
-Does Concatenate support `...`?
-
-Does parameter type inference violate the spec?
-
-Should we document type promotions for bytes, bytearray, and memoryview?
-
-For a protocol that is implemented in a stub file, how is a default method implementation distinguished from a non-implemented one? What about implemented versus not-implemented variables?
-https://github.com/microsoft/pyright/issues/6624
-
-What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
-See https://discuss.python.org/t/calling-abstract-methods/42576/3
-
-Should a type checker enforce the return type for a function that is implemented with a `pass` statement? Or a `...` statement?
-
-What type forms are compatible with `type[object]`? What are the principles that should be used?
-
-Should type(X) be allowed if X is a protocol?
-https://github.com/python/mypy/issues/16919
-
-How does ParamSpec work with overloaded methods? How does this work with classes that are parameterized by ParamSpecs?
-
-Should a non-instantiable protocol be compatible with `type[T]`?
-https://github.com/microsoft/pyright/issues/7475
-https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442
-
-Should it be an error if a dataclass overrides a field in its parent and does not provide a default value, where its parent does?
-https://github.com/microsoft/pyright/issues/7702
+#### Special Types
 
 `type[A] | type[B]` should be equivalent to `type[A | B]`; This isn't generally true for covariant types
+
+Is a protocol class or an ABC compatible with `type[T]`, `type[Any]` or `type[object]`? 
+https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442/7
+
