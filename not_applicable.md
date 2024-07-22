@@ -318,6 +318,7 @@
 - https://github.com/python/mypy/issues/17410
 - https://github.com/python/mypy/issues/17442
 - https://github.com/python/mypy/issues/17514
+- https://github.com/python/mypy/issues/17548
 
 ### Mypyc
 
