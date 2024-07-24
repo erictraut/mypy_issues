@@ -1089,8 +1089,17 @@ User misunderstanding
 - https://github.com/python/mypy/issues/17545
 User misunderstanding
 
-- https://github.com/python/mypy/issues/17552
-Can't repro
+- https://github.com/python/mypy/issues/17550
+User misunderstanding
 
 - https://github.com/python/mypy/issues/17555
 Appears to be an issue in the pydantic plugin
+
+- https://github.com/python/mypy/issues/17568
+Mypy is working as intended here
+
+- https://github.com/python/mypy/issues/17577
+Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/17578
+Mypy is working as intended here

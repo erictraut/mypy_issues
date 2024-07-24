@@ -40,7 +40,6 @@
 - https://github.com/python/mypy/issues/2789
 - https://github.com/python/mypy/issues/2968
 - https://github.com/python/mypy/issues/3205
-- https://github.com/python/mypy/issues/3229
 - https://github.com/python/mypy/issues/3475
 - https://github.com/python/mypy/issues/3737
 - https://github.com/python/mypy/issues/3823
