@@ -1101,5 +1101,5 @@ Mypy is working as intended here
 - https://github.com/python/mypy/issues/17577
 Mypy is working correctly here
 
-- https://github.com/python/mypy/issues/17578
-Mypy is working as intended here
+- https://github.com/python/mypy/issues/17593
+User error; invalid type expression

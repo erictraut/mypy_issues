@@ -270,3 +270,5 @@ Should `sys.version < (3, 10, 2)` form (with three numbers in version tuple) be 
 Is a protocol class or an ABC compatible with `type[T]`, `type[Any]` or `type[object]`? 
 https://discuss.python.org/t/compatibility-of-protocol-class-object-with-type-t-and-type-any/48442/7
 
+Should `Final` variables be disallowed in a loop?
+https://github.com/microsoft/pyright/issues/8560

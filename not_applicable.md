@@ -56,7 +56,6 @@
 - https://github.com/python/mypy/issues/17032
 - https://github.com/python/mypy/issues/17202
 - https://github.com/python/mypy/issues/17202
-- https://github.com/python/mypy/issues/17250
 
 ### Documentation
 
@@ -255,7 +254,7 @@
 - https://github.com/python/mypy/issues/16941
 - https://github.com/python/mypy/issues/17105
 - https://github.com/python/mypy/issues/17272
-- https://github.com/python/mypy/issues/17574
+- https://github.com/python/mypy/issues/17603
 
 ### Plugins & Plugin Interface
 
