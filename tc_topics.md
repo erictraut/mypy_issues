@@ -138,6 +138,10 @@ Should `Any` be allowed as a constraint in a constrained TypeVar?
 
 If a constraint within a constrained TypeVar is a subtype of another constraint, should that be allowed?
 
+Is `list[T]` assignable to a type of `list[A] | list[B] | list[C]` if `T` is value constrained to ``(A, B, C)`?
+
+For a value constrained TypeVar, is a union of its constraints assignable to it? For example, is `str | bytes` assignable to `AnyStr`?
+
 Should `Never` be a valid type argument for a constrained TypeVar if Never isn't a constraint?
 
 When explicitly providing a type argument for a constrained TypeVar, is it OK to use a subtype of one of the constraints, or does it need to match exactly?

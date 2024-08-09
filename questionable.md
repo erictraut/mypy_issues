@@ -206,3 +206,7 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17553
 - https://github.com/python/mypy/issues/17562
 - https://github.com/python/mypy/issues/17570
+- https://github.com/python/mypy/issues/17614
+- https://github.com/python/mypy/issues/17621
+- https://github.com/python/mypy/issues/17642
+- https://github.com/python/mypy/issues/17647

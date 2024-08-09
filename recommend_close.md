@@ -1103,3 +1103,13 @@ Mypy is working correctly here
 
 - https://github.com/python/mypy/issues/17593
 User error; invalid type expression
+
+- https://github.com/python/mypy/issues/17613
+Mypy is correct; code violates the typing spec
+
+- https://github.com/python/mypy/issues/17622
+Atypical use of match statement; switch to typical use
+
+- https://github.com/python/mypy/issues/14833
+Not a bug; user misunderstanding
+
