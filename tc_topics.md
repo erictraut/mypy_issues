@@ -156,6 +156,8 @@ https://github.com/microsoft/pyright/issues/6613
 Can TypedDict and Protocol be used as an upper bound (or anywhere in a type annotation)?
 https://github.com/python/mypy/issues/11030
 
+How do ParamSpecs work with instance methods and class methods?
+
 
 #### Protocols
 

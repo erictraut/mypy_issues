@@ -1113,3 +1113,8 @@ Atypical use of match statement; switch to typical use
 - https://github.com/python/mypy/issues/14833
 Not a bug; user misunderstanding
 
+- https://github.com/python/mypy/issues/17666
+Not well motivated; more of a linter feature
+
+- https://github.com/python/mypy/issues/17668
+Not something that mypy should do; appropriate for a plugin

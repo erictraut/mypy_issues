@@ -159,6 +159,7 @@
 - https://github.com/python/mypy/issues/17394
 - https://github.com/python/mypy/issues/17444
 - https://github.com/python/mypy/issues/17447
+- https://github.com/python/mypy/issues/17669
 
 ### Stubtest
 
@@ -182,7 +183,7 @@
 - https://github.com/python/mypy/issues/16806
 - https://github.com/python/mypy/issues/16956
 - https://github.com/python/mypy/issues/17023
-- https://github.com/python/mypy/issues/17625
+- https://github.com/python/mypy/issues/17672
 
 ### Configuration
 
@@ -583,3 +584,4 @@
 - https://github.com/python/mypy/issues/17465
 - https://github.com/python/mypy/issues/17627
 - https://github.com/python/mypy/issues/17648
+- https://github.com/python/mypy/issues/17667
