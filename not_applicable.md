@@ -215,6 +215,7 @@
 - https://github.com/python/mypy/issues/16628
 - https://github.com/python/mypy/issues/16755
 - https://github.com/python/mypy/issues/16990
+- https://github.com/python/mypy/issues/17683
 
 ### Daemon (dmypy)
 
@@ -585,3 +586,6 @@
 - https://github.com/python/mypy/issues/17627
 - https://github.com/python/mypy/issues/17648
 - https://github.com/python/mypy/issues/17667
+- https://github.com/python/mypy/issues/17689
+- https://github.com/python/mypy/issues/17699
+- https://github.com/python/mypy/issues/17703

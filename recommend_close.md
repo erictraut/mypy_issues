@@ -1118,3 +1118,9 @@ Not well motivated; more of a linter feature
 
 - https://github.com/python/mypy/issues/17668
 Not something that mypy should do; appropriate for a plugin
+
+- https://github.com/python/mypy/issues/17688
+Mypy working as designed
+
+- https://github.com/python/mypy/issues/17693
+Mypy is working correctly here
