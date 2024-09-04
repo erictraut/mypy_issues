@@ -1124,3 +1124,12 @@ Mypy working as designed
 
 - https://github.com/python/mypy/issues/17693
 Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/17711
+Not specific to dataclasses; mypy is working as designed here
+
+- https://github.com/python/mypy/issues/17715
+Insufficient type information to correctly infer type of lambda
+
+- https://github.com/python/mypy/issues/17721
+Type narrowing not possible here; user misunderstanding

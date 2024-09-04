@@ -211,3 +211,5 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17642
 - https://github.com/python/mypy/issues/17647
 - https://github.com/python/mypy/issues/17697
+- https://github.com/python/mypy/issues/17714
+- https://github.com/python/mypy/issues/17722
