@@ -1133,3 +1133,12 @@ Insufficient type information to correctly infer type of lambda
 
 - https://github.com/python/mypy/issues/17721
 Type narrowing not possible here; user misunderstanding
+
+- https://github.com/python/mypy/issues/17735
+Probably because attrs plugin is being used
+
+- https://github.com/python/mypy/issues/17734
+Duplicate
+
+- https://github.com/python/mypy/issues/17737
+Mypy is working as designed here

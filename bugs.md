@@ -1317,3 +1317,10 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/17728
 - https://github.com/python/mypy/issues/17730
 - https://github.com/python/mypy/issues/17731
+- https://github.com/python/mypy/issues/17736
+- https://github.com/python/mypy/issues/17739
+- https://github.com/python/mypy/issues/17741
+- https://github.com/python/mypy/issues/17743
+- https://github.com/python/mypy/issues/17744
+- https://github.com/python/mypy/issues/17745
+- https://github.com/python/mypy/issues/17746
