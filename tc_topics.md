@@ -114,6 +114,7 @@ Should a class that does not derive from ABC allow methods that are abstract? Sh
 Should ClassVar with no type arguments have implied type of Any or infer type from assignment (like Final)?
 
 Should Self be allowed in a ClassVar type declaration?
+See https://github.com/microsoft/pyright/issues/9011
 
 What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
 See https://discuss.python.org/t/calling-abstract-methods/42576/3
