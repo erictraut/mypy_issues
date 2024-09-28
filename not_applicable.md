@@ -15,6 +15,7 @@
 - https://github.com/python/mypy/issues/11878
 - https://github.com/python/mypy/issues/14297
 - https://github.com/python/mypy/issues/16974
+- https://github.com/python/mypy/issues/17807
 
 ### Error Messages
 
@@ -114,8 +115,9 @@
 - https://github.com/python/mypy/issues/17083
 - https://github.com/python/mypy/issues/17156
 - https://github.com/python/mypy/issues/17157
+- https://github.com/python/mypy/issues/17810
 
-### Stub Generation
+### Stub Generation (stubgen)
 
 - https://github.com/python/mypy/issues/2190
 - https://github.com/python/mypy/issues/3983
@@ -218,6 +220,7 @@
 - https://github.com/python/mypy/issues/16755
 - https://github.com/python/mypy/issues/16990
 - https://github.com/python/mypy/issues/17683
+- https://github.com/python/mypy/issues/17778
 
 ### Daemon (dmypy)
 
@@ -263,6 +266,8 @@
 - https://github.com/python/mypy/issues/17624
 - https://github.com/python/mypy/issues/17652
 - https://github.com/python/mypy/issues/17775
+- https://github.com/python/mypy/issues/17797
+- https://github.com/python/mypy/issues/17831
 
 ### Plugins & Plugin Interface
 
@@ -356,7 +361,10 @@
 - https://github.com/python/mypy/issues/16687
 - https://github.com/python/mypy/issues/16845
 - https://github.com/python/mypy/issues/17072
-- https://github.com/python/mypy/issues/17748
+- https://github.com/python/mypy/issues/17793
+- https://github.com/python/mypy/issues/17794
+- https://github.com/python/mypy/issues/17795
+- https://github.com/python/mypy/issues/17796
 
 ### Meta Issues
 
@@ -593,3 +601,4 @@
 - https://github.com/python/mypy/issues/17699
 - https://github.com/python/mypy/issues/17703
 - https://github.com/python/mypy/issues/17705
+- https://github.com/python/mypy/issues/17840

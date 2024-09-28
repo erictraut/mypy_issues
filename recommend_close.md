@@ -1145,3 +1145,18 @@ Mypy is working correctly here
 
 - https://github.com/python/mypy/issues/17758
 User misunderstanding
+
+- https://github.com/python/mypy/issues/17791
+Error message seems fine to me
+
+- https://github.com/python/mypy/issues/17799
+Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/17837
+Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/17838
+Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/17844
+User misunderstanding
