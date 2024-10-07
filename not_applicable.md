@@ -12,7 +12,6 @@
 - https://github.com/python/mypy/issues/9931
 - https://github.com/python/mypy/issues/10102
 - https://github.com/python/mypy/issues/10325
-- https://github.com/python/mypy/issues/11878
 - https://github.com/python/mypy/issues/14297
 - https://github.com/python/mypy/issues/16974
 - https://github.com/python/mypy/issues/17807
@@ -602,3 +601,4 @@
 - https://github.com/python/mypy/issues/17703
 - https://github.com/python/mypy/issues/17705
 - https://github.com/python/mypy/issues/17840
+- https://github.com/python/mypy/issues/17853

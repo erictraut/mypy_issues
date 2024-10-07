@@ -1160,3 +1160,9 @@ Mypy is working correctly here
 
 - https://github.com/python/mypy/issues/17844
 User misunderstanding
+
+- https://github.com/python/mypy/issues/17857
+User misunderstanding
+
+- https://github.com/python/mypy/issues/17887
+User misunderstanding
