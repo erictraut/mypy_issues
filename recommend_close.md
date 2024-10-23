@@ -93,9 +93,6 @@ Working correctly; not actionable
 - https://github.com/python/mypy/issues/5666
 Based on misunderstanding of type system
 
-- https://github.com/python/mypy/issues/5710
-Working correctly; would require a change in typeshed
-
 - https://github.com/python/mypy/issues/5774
 I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
 
@@ -1164,5 +1161,32 @@ User misunderstanding
 - https://github.com/python/mypy/issues/17857
 User misunderstanding
 
-- https://github.com/python/mypy/issues/17887
+- https://github.com/python/mypy/issues/17892
+Feature is not well motivated, causes too many false positives
+
+- https://github.com/python/mypy/issues/17907
 User misunderstanding
+
+- https://github.com/python/mypy/issues/17909
+User misunderstanding
+
+- https://github.com/python/mypy/issues/17910
+User misunderstanding
+
+- https://github.com/python/mypy/issues/17935
+User misunderstanding
+
+- https://github.com/python/mypy/issues/17968
+Can't be fixed because typeshed stubs lie about Protocol
+
+- https://github.com/python/mypy/issues/17981
+Mypy is working as designed here
+
+- https://github.com/python/mypy/issues/17993
+User misunderstanding
+
+- https://github.com/python/mypy/issues/17996
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18002
+Poorly motivated request
