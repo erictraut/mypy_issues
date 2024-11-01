@@ -54,4 +54,3 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/17043
 - https://github.com/python/mypy/issues/17122
 - https://github.com/python/mypy/issues/17481
-- https://github.com/python/mypy/issues/17861

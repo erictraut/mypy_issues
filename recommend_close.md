@@ -1182,11 +1182,23 @@ Can't be fixed because typeshed stubs lie about Protocol
 - https://github.com/python/mypy/issues/17981
 Mypy is working as designed here
 
-- https://github.com/python/mypy/issues/17993
-User misunderstanding
-
 - https://github.com/python/mypy/issues/17996
 User misunderstanding
 
 - https://github.com/python/mypy/issues/18002
 Poorly motivated request
+
+- https://github.com/python/typing/issues/1872
+Poorly motivated request; requires typing spec change
+
+- https://github.com/python/mypy/issues/18060
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18073
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18075
+This isn't how overload matching works
+
+- https://github.com/python/mypy/issues/18086
+User misunderstanding
