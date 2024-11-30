@@ -822,9 +822,6 @@ Behavior is correct (not a bug)
 - https://github.com/python/mypy/issues/16243
 Behavior is correct (not a bug)
 
-- https://github.com/python/mypy/issues/16256
-Not able to repro
-
 - https://github.com/python/mypy/issues/16261
 Mypy is correct; due to the way `lru_cache` is defined
 
@@ -1089,9 +1086,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/17550
 User misunderstanding
 
-- https://github.com/python/mypy/issues/17555
-Appears to be an issue in the pydantic plugin
-
 - https://github.com/python/mypy/issues/17568
 Mypy is working as intended here
 
@@ -1202,3 +1196,19 @@ This isn't how overload matching works
 
 - https://github.com/python/mypy/issues/18086
 User misunderstanding
+
+- https://github.com/python/mypy/issues/18109
+Poorly motivated request
+
+- https://github.com/python/mypy/issues/18189
+Properties are not the same as an attribute
+
+- https://github.com/python/mypy/issues/18190
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18196
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18204
+User hasn't provided minimal repro
+
