@@ -63,9 +63,6 @@ This is an inappropriate abuse of NoReturn
 - https://github.com/python/mypy/issues/4574
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/4676
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/4690
 Poorly-motivated suggestion
 
@@ -530,9 +527,6 @@ Poorly-motivated feature request; fragile code that doesn't work with deferred a
 
 - https://github.com/python/mypy/issues/12573
 Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/12583
-Evaluating code at analysis time is a terrible idea
 
 - https://github.com/python/mypy/issues/12599
 This is legal code, shouldn't be flagged as error
@@ -1211,4 +1205,7 @@ User misunderstanding
 
 - https://github.com/python/mypy/issues/18204
 User hasn't provided minimal repro
+
+- https://github.com/python/mypy/issues/18239
+User misunderstanding
 
