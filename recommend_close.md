@@ -1200,12 +1200,14 @@ Properties are not the same as an attribute
 - https://github.com/python/mypy/issues/18190
 User misunderstanding
 
-- https://github.com/python/mypy/issues/18196
-User misunderstanding
-
 - https://github.com/python/mypy/issues/18204
 User hasn't provided minimal repro
 
 - https://github.com/python/mypy/issues/18239
 User misunderstanding
 
+- https://github.com/python/mypy/issues/18296
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18297
+Error message is fine

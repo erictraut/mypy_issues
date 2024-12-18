@@ -168,4 +168,3 @@
 - https://github.com/python/mypy/issues/17924
 - https://github.com/python/mypy/issues/18176
 - https://github.com/python/mypy/issues/18208
-- https://github.com/python/mypy/issues/18256

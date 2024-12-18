@@ -92,7 +92,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/12382
 - https://github.com/python/mypy/issues/12505
 - https://github.com/python/mypy/issues/12561
-- https://github.com/python/mypy/issues/12591
 - https://github.com/python/mypy/issues/12649
 - https://github.com/python/mypy/issues/12841
 - https://github.com/python/mypy/issues/12892

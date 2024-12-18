@@ -363,7 +363,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/10130
 - https://github.com/python/mypy/issues/10143
 - https://github.com/python/mypy/issues/10146
-- https://github.com/python/mypy/issues/10152
 - https://github.com/python/mypy/issues/10157
 - https://github.com/python/mypy/issues/10160
 - https://github.com/python/mypy/issues/10163
@@ -448,7 +447,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/11071
 - https://github.com/python/mypy/issues/11090
 - https://github.com/python/mypy/issues/11093
-- https://github.com/python/mypy/issues/11111
 - https://github.com/python/mypy/issues/11113
 - https://github.com/python/mypy/issues/11149
 - https://github.com/python/mypy/issues/11163
@@ -549,9 +547,7 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/12198
 - https://github.com/python/mypy/issues/12265
 - https://github.com/python/mypy/issues/12270
-- https://github.com/python/mypy/issues/12271
 - https://github.com/python/mypy/issues/12272
-- https://github.com/python/mypy/issues/12274
 - https://github.com/python/mypy/issues/12290
 - https://github.com/python/mypy/issues/12292
 - https://github.com/python/mypy/issues/12297
@@ -598,7 +594,6 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/12674
 - https://github.com/python/mypy/issues/12681
 - https://github.com/python/mypy/issues/12687
-- https://github.com/python/mypy/issues/12692
 - https://github.com/python/mypy/issues/12694
 - https://github.com/python/mypy/issues/12697
 - https://github.com/python/mypy/issues/12720
@@ -1346,3 +1341,5 @@ Some of these involve judgement calls, and it's possible that I've made some mis
 - https://github.com/python/mypy/issues/18265
 - https://github.com/python/mypy/issues/18267
 - https://github.com/python/mypy/issues/18268
+- https://github.com/python/mypy/issues/18279
+- https://github.com/python/mypy/issues/18304
