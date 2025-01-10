@@ -36,12 +36,6 @@ This isn't how TypeVar constraints are supposed to work
 - https://github.com/python/mypy/issues/3194
 Issue too general
 
-- https://github.com/python/mypy/issues/3325
-Document the behavior and close
-
-- https://github.com/python/mypy/issues/3912
-Insufficient interest
-
 - https://github.com/python/mypy/issues/4019
 Not feasible in general
 
@@ -50,18 +44,6 @@ Requires global analysis, not practical
 
 - https://github.com/python/mypy/issues/4266
 Not worth special-case logic, use # type: ignore
-
-- https://github.com/python/mypy/issues/4430
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/4551
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/4572
-This is an inappropriate abuse of NoReturn
-
-- https://github.com/python/mypy/issues/4574
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/4690
 Poorly-motivated suggestion
@@ -80,15 +62,6 @@ Aliases of attrs too dynamic; use PEP 681
 
 - https://github.com/python/mypy/issues/5481
 Working correctly (not a bug); use property instead
-
-- https://github.com/python/mypy/issues/5483
-Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/5651
-Working correctly; not actionable
-
-- https://github.com/python/mypy/issues/5666
-Based on misunderstanding of type system
 
 - https://github.com/python/mypy/issues/5774
 I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
@@ -984,9 +957,6 @@ Not a bug
 - https://github.com/python/mypy/issues/17089
 Not a bug in mypy; limitation of type system
 
-- https://github.com/python/mypy/issues/17101
-Proposed feature would not be sound
-
 - https://github.com/python/mypy/issues/17106
 Working as designed
 
@@ -1211,3 +1181,21 @@ User misunderstanding
 
 - https://github.com/python/mypy/issues/18297
 Error message is fine
+
+- https://github.com/python/mypy/issues/18394
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18400
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18425
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18431
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18435
+Poorly motivated feature
+
+- https://github.com/python/mypy/issues/18437
+Poorly motivated feature
