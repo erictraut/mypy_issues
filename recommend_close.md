@@ -1164,9 +1164,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/18109
 Poorly motivated request
 
-- https://github.com/python/mypy/issues/18189
-Properties are not the same as an attribute
-
 - https://github.com/python/mypy/issues/18190
 User misunderstanding
 
@@ -1199,3 +1196,6 @@ Poorly motivated feature
 
 - https://github.com/python/mypy/issues/18437
 Poorly motivated feature
+
+- https://github.com/python/mypy/issues/18440
+User misunderstanding

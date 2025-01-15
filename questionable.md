@@ -208,4 +208,4 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17977
 - https://github.com/python/mypy/issues/18147
 - https://github.com/python/mypy/issues/18185
-- https://github.com/python/mypy/issues/18216
+- https://github.com/python/mypy/issues/18456

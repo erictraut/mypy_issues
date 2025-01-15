@@ -381,7 +381,6 @@
 - https://github.com/python/mypy/issues/15277
 - https://github.com/python/mypy/issues/16472
 - https://github.com/python/mypy/issues/17912
-- https://github.com/python/mypy/issues/18169
 
 ### Mypy Internals, Build System, Tests
 
