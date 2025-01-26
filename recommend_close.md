@@ -1199,3 +1199,12 @@ Poorly motivated feature
 
 - https://github.com/python/mypy/issues/18440
 User misunderstanding
+
+- https://github.com/python/mypy/issues/18499
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18530
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18540
+User misunderstanding of type declarations
