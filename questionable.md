@@ -44,7 +44,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/7665
 - https://github.com/python/mypy/issues/7814
 - https://github.com/python/mypy/issues/8057
-- https://github.com/python/mypy/issues/8182
 - https://github.com/python/mypy/issues/8226
 - https://github.com/python/mypy/issues/8284
 - https://github.com/python/mypy/issues/8363
@@ -209,4 +208,4 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/18456
 - https://github.com/python/mypy/issues/18470
 - https://github.com/python/mypy/issues/18513
-- https://github.com/python/mypy/issues/18531
+- https://github.com/python/mypy/issues/18563

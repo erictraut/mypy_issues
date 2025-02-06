@@ -93,9 +93,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/7012
 `__name__` is writable, so it isn't safe to infer literal type
 
-- https://github.com/python/mypy/issues/7109
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/7187
 Should not be supported by rules of unions
 
@@ -1095,9 +1092,6 @@ Duplicate
 - https://github.com/python/mypy/issues/17737
 Mypy is working as designed here
 
-- https://github.com/python/mypy/issues/17756
-Mypy is working correctly here
-
 - https://github.com/python/mypy/issues/17758
 User misunderstanding
 
@@ -1208,3 +1202,10 @@ User misunderstanding
 
 - https://github.com/python/mypy/issues/18540
 User misunderstanding of type declarations
+
+- https://github.com/python/mypy/issues/18589
+Behavior not specified in spec; unrealistic expectations by user
+
+- https://github.com/python/mypy/issues/18595
+Mypy is behaving correctly; issue is with typestub
+
