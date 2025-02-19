@@ -369,14 +369,10 @@
 - https://github.com/python/mypy/issues/16043
 - https://github.com/python/mypy/issues/16209
 - https://github.com/python/mypy/issues/16687
-- https://github.com/python/mypy/issues/16845
 - https://github.com/python/mypy/issues/17072
 - https://github.com/python/mypy/issues/17795
-- https://github.com/python/mypy/issues/17796
 - https://github.com/python/mypy/issues/17928
 - https://github.com/python/mypy/issues/17973
-- https://github.com/python/mypy/issues/18610
-- https://github.com/python/mypy/issues/18614
 
 ### Meta Issues
 
@@ -474,7 +470,6 @@
 - https://github.com/python/mypy/issues/12903
 - https://github.com/python/mypy/issues/12911
 - https://github.com/python/mypy/issues/13216
-- https://github.com/python/mypy/issues/13985
 - https://github.com/python/mypy/issues/14154
 - https://github.com/python/mypy/issues/14358
 - https://github.com/python/mypy/issues/14359
@@ -607,7 +602,6 @@
 - https://github.com/python/mypy/issues/17699
 - https://github.com/python/mypy/issues/17703
 - https://github.com/python/mypy/issues/17705
-- https://github.com/python/mypy/issues/17840
 - https://github.com/python/mypy/issues/17951
 - https://github.com/python/mypy/issues/17948
 - https://github.com/python/mypy/issues/18283

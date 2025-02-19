@@ -597,9 +597,6 @@ Invalid use of `__getitem__` in attempt to implement generic semantics
 - https://github.com/python/mypy/issues/13918
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/13921
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/13946
 Working as designed; suggested change is not pragmatic and would result in massive churn with very little benefit
 
@@ -656,9 +653,6 @@ Code sample misuses type alias
 
 - https://github.com/python/mypy/issues/14346
 Poorly-motivated feature request; type annotations should be explicit
-
-- https://github.com/python/mypy/issues/14365
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/14392
 Working correctly (not a bug)
@@ -1065,9 +1059,6 @@ Atypical use of match statement; switch to typical use
 - https://github.com/python/mypy/issues/14833
 Not a bug; user misunderstanding
 
-- https://github.com/python/mypy/issues/17666
-Not well motivated; more of a linter feature
-
 - https://github.com/python/mypy/issues/17668
 Not something that mypy should do; appropriate for a plugin
 
@@ -1185,9 +1176,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/18431
 User misunderstanding
 
-- https://github.com/python/mypy/issues/18435
-Poorly motivated feature
-
 - https://github.com/python/mypy/issues/18437
 Poorly motivated feature
 
@@ -1206,6 +1194,18 @@ User misunderstanding of type declarations
 - https://github.com/python/mypy/issues/18589
 Behavior not specified in spec; unrealistic expectations by user
 
-- https://github.com/python/mypy/issues/18595
-Mypy is behaving correctly; issue is with typestub
+- https://github.com/python/mypy/issues/18667
+Mypy is working correctly; user misunderstanding
+
+- https://github.com/python/mypy/issues/18681
+Mypy is working correctly; user misunderstanding
+
+- https://github.com/python/mypy/issues/18695
+Mypy is working correctly; user misunderstanding
+
+- https://github.com/python/mypy/issues/18700
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18708
+User misunderstanding
 
