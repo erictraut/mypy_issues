@@ -1209,3 +1209,11 @@ User misunderstanding
 - https://github.com/python/mypy/issues/18708
 User misunderstanding
 
+- https://github.com/python/mypy/issues/18724
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18743
+Typeshed issue, not mypy
+
+- https://github.com/python/mypy/issues/18759
+User misunderstanding
