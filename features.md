@@ -149,7 +149,6 @@
 - https://github.com/python/mypy/issues/16093
 - https://github.com/python/mypy/issues/16113
 - https://github.com/python/mypy/issues/16224
-- https://github.com/python/mypy/issues/16286
 - https://github.com/python/mypy/issues/16594
 - https://github.com/python/mypy/issues/16599
 - https://github.com/python/mypy/issues/16631

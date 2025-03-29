@@ -348,9 +348,6 @@ Mypy is working correctly (not a bug)
 - https://github.com/python/mypy/issues/10978
 Too complex to support type narrowing
 
-- https://github.com/python/mypy/issues/11004
-Working correctly; simple workaround provided
-
 - https://github.com/python/mypy/issues/11008
 `@property` requires lots of special-casing
 
@@ -359,9 +356,6 @@ Appears to have been fixed
 
 - https://github.com/python/mypy/issues/11023
 Runtime state can't be tracked statically, so this check isn't feasible for a static type checker
-
-- https://github.com/python/mypy/issues/11051
-Working correctly (not a bug); cross-function mutations not supported
 
 - https://github.com/python/mypy/issues/11056
 Dynamic use of `dataclass` (outside of decorator) cannot be supported statically
@@ -509,9 +503,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/12754
 Working correctly (not a bug)
-
-- https://github.com/python/mypy/issues/12779
-Not able to repro; appears to have been fixed
 
 - https://github.com/python/mypy/issues/12785
 Working correctly (not a bug); `# type: ignore` simply suppressed the errors on that line; it doesn't affect any other behaviors
@@ -1217,3 +1208,15 @@ Typeshed issue, not mypy
 
 - https://github.com/python/mypy/issues/18759
 User misunderstanding
+
+- https://github.com/python/mypy/issues/18798
+Not a mypy issue; requires change to to typeshed
+
+- https://github.com/python/mypy/issues/18805
+Can't repro
+
+- https://github.com/python/mypy/issues/18826
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18833
+Unrealistic expectations

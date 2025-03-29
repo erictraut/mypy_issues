@@ -85,7 +85,6 @@
 - https://github.com/python/mypy/issues/9450
 - https://github.com/python/mypy/issues/10101
 - https://github.com/python/mypy/issues/10699
-- https://github.com/python/mypy/issues/10897
 - https://github.com/python/mypy/issues/11359
 - https://github.com/python/mypy/issues/11519
 - https://github.com/python/mypy/issues/11736
@@ -189,6 +188,7 @@
 - https://github.com/python/mypy/issues/16956
 - https://github.com/python/mypy/issues/17023
 - https://github.com/python/mypy/issues/17672
+- https://github.com/python/mypy/issues/18811
 
 ### Configuration
 
@@ -213,7 +213,6 @@
 - https://github.com/python/mypy/issues/12342
 - https://github.com/python/mypy/issues/12347
 - https://github.com/python/mypy/issues/12485
-- https://github.com/python/mypy/issues/14239
 - https://github.com/python/mypy/issues/14829
 - https://github.com/python/mypy/issues/15757
 - https://github.com/python/mypy/issues/16316
@@ -529,7 +528,6 @@
 - https://github.com/python/mypy/issues/9689
 - https://github.com/python/mypy/issues/10009
 - https://github.com/python/mypy/issues/10083
-- https://github.com/python/mypy/issues/10462
 - https://github.com/python/mypy/issues/10487
 - https://github.com/python/mypy/issues/10600
 - https://github.com/python/mypy/issues/10619

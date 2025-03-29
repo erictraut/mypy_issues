@@ -37,7 +37,6 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/9947
 - https://github.com/python/mypy/issues/10026
 - https://github.com/python/mypy/issues/10067
-- https://github.com/python/mypy/issues/11030
 - https://github.com/python/mypy/issues/11076
 - https://github.com/python/mypy/issues/11384
 - https://github.com/python/mypy/issues/11553
