@@ -99,7 +99,6 @@
 - https://github.com/python/mypy/issues/11226
 - https://github.com/python/mypy/issues/11313
 - https://github.com/python/mypy/issues/11465
-- https://github.com/python/mypy/issues/11488
 - https://github.com/python/mypy/issues/11514
 - https://github.com/python/mypy/issues/11516
 - https://github.com/python/mypy/issues/11755

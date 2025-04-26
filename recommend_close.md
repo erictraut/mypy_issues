@@ -66,9 +66,6 @@ Working correctly (not a bug); use property instead
 - https://github.com/python/mypy/issues/5774
 I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
 
-- https://github.com/python/mypy/issues/5803
-Properties are not the same as descriptors or attributes, so this shouldn't be allowed
-
 - https://github.com/python/mypy/issues/5843
 Working correctly; insufficient context to infer type of lambda
 
@@ -375,9 +372,6 @@ This would promote further use of TYPE_CHECKING in cases where it would be inadv
 - https://github.com/python/mypy/issues/11291
 Poorly-motivated feature request
 
-- https://github.com/python/mypy/issues/11301
-Working correctly (not a bug); represents misunderstanding of constrained TypeVars
-
 - https://github.com/python/mypy/issues/11302
 `new_class` is too dynamic to support statically
 
@@ -546,9 +540,6 @@ This is how dataclass are intended to work in static type checking; not a bug
 - https://github.com/python/mypy/issues/13185
 Variance checks for type variables in nominal classes would be too noisy; problem will go away with PEP 695
 
-- https://github.com/python/mypy/issues/13194
-These are not equivalent; mypy is correct in flagging these as errors
-
 - https://github.com/python/mypy/issues/13224
 Working correctly (not a bug); second example doesn't involve a delete
 
@@ -681,9 +672,6 @@ This isn't a reasonable type narrowing pattern, too complex; use walrus operator
 - https://github.com/python/mypy/issues/14776
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/14777
-Represents misunderstanding of PEP 612
-
 - https://github.com/python/mypy/issues/14813
 Working correctly (not a bug)
 
@@ -782,9 +770,6 @@ Error message seems fine
 
 - https://github.com/python/mypy/issues/16313
 Not a well-motivated feature request
-
-- https://github.com/python/mypy/issues/16333
-Not a bug
 
 - https://github.com/python/mypy/issues/16384
 Illegal use of type parameters in a variable type declaration
@@ -1113,9 +1098,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/17968
 Can't be fixed because typeshed stubs lie about Protocol
 
-- https://github.com/python/mypy/issues/17981
-Mypy is working as designed here
-
 - https://github.com/python/mypy/issues/17996
 User misunderstanding
 
@@ -1191,9 +1173,6 @@ Mypy is working correctly; user misunderstanding
 - https://github.com/python/mypy/issues/18681
 Mypy is working correctly; user misunderstanding
 
-- https://github.com/python/mypy/issues/18695
-Mypy is working correctly; user misunderstanding
-
 - https://github.com/python/mypy/issues/18700
 User misunderstanding
 
@@ -1206,9 +1185,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/18743
 Typeshed issue, not mypy
 
-- https://github.com/python/mypy/issues/18759
-User misunderstanding
-
 - https://github.com/python/mypy/issues/18798
 Not a mypy issue; requires change to to typeshed
 
@@ -1220,3 +1196,36 @@ User misunderstanding
 
 - https://github.com/python/mypy/issues/18833
 Unrealistic expectations
+
+- https://github.com/python/mypy/issues/18855
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18869
+Mypy is working correctly based on the constructors for `list` and `set`
+
+- https://github.com/python/mypy/issues/18894
+Not a mypy bug
+
+- https://github.com/python/mypy/issues/18901
+Type checkers are not required to support complex version checks like this
+
+- https://github.com/python/mypy/issues/18911
+Poorly motivated feature
+
+- https://github.com/python/mypy/issues/18927
+Not enough information supplied by user
+
+- https://github.com/python/mypy/issues/18926
+Not enough information supplied by user
+
+- https://github.com/python/mypy/issues/18932
+Duplicate
+
+- https://github.com/python/mypy/issues/18945
+Poorly motivated feature request
+
+- https://github.com/python/mypy/issues/18947
+User misunderstanding
+
+- https://github.com/python/mypy/issues/18968
+User misunderstanding
