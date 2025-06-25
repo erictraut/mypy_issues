@@ -8,8 +8,6 @@ These probably require a PEP or discussion on python/typing. They could be close
 - https://github.com/python/mypy/issues/3904
 - https://github.com/python/mypy/issues/4063
 - https://github.com/python/mypy/issues/4128
-- https://github.com/python/mypy/issues/5144
-- https://github.com/python/mypy/issues/5504
 - https://github.com/python/mypy/issues/5523
 - https://github.com/python/mypy/issues/5756
 - https://github.com/python/mypy/issues/6002

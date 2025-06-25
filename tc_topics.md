@@ -119,6 +119,8 @@ See https://github.com/microsoft/pyright/issues/9011
 What constitutes a "trivial implementation" for purposes of determining whether a protocol method or abstract method is implemented?
 See https://discuss.python.org/t/calling-abstract-methods/42576/3
 
+If @final is used to decorate a method that has a subsequent decorator applied, and that decorator transforms the type (e.g. @functools.cache or @property), is the resulting type final? What about a property setter with a @final def statement?
+
 
 #### Generics
 

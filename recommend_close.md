@@ -60,9 +60,6 @@ Working correctly (not a bug)
 - https://github.com/python/mypy/issues/5406
 Aliases of attrs too dynamic; use PEP 681
 
-- https://github.com/python/mypy/issues/5481
-Working correctly (not a bug); use property instead
-
 - https://github.com/python/mypy/issues/5774
 I don't think this should be allowed; instance variables should be assigned in `__init__`, not in `__new__`
 
@@ -246,9 +243,6 @@ Classes that are intended to be generic should derive from `Generic`, not define
 - https://github.com/python/mypy/issues/9779
 Type violation is being reported correctly; workaround is to avoid name conflict
 
-- https://github.com/python/mypy/issues/9815
-Error is correct; this is why generics are not allowed in ClassVar
-
 - https://github.com/python/mypy/issues/9823
 Monkey patching is too dynamic for (and antithetical to) static type checking
 
@@ -348,9 +342,6 @@ Too complex to support type narrowing
 - https://github.com/python/mypy/issues/11008
 `@property` requires lots of special-casing
 
-- https://github.com/python/mypy/issues/11009
-Appears to have been fixed
-
 - https://github.com/python/mypy/issues/11023
 Runtime state can't be tracked statically, so this check isn't feasible for a static type checker
 
@@ -377,9 +368,6 @@ Poorly-motivated feature request
 
 - https://github.com/python/mypy/issues/11404
 Conditional types not feasible to track; not supported
-
-- https://github.com/python/mypy/issues/11427
-Working correctly (not a bug in mypy)
 
 - https://github.com/python/mypy/issues/11477
 Working correctly (not a bug)
@@ -452,9 +440,6 @@ Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/12285
 Poorly-motivated feature request; not worth special-casing
-
-- https://github.com/python/mypy/issues/12328
-Working correctly; if anything, this is just poorly-worded documentation
 
 - https://github.com/python/mypy/issues/12361
 Working correctly (not a bug)
@@ -554,9 +539,6 @@ Poorly-motivated feature request
 
 - https://github.com/python/mypy/issues/13365
 Poorly-motivated feature request; requires special-casing
-
-- https://github.com/python/mypy/issues/13426
-Working correctly (no bug)
 
 - https://github.com/python/mypy/issues/13434
 `@staticmethod` must be used as decorator; type system is not expressive enough to handle otherwise
@@ -672,9 +654,6 @@ This isn't a reasonable type narrowing pattern, too complex; use walrus operator
 - https://github.com/python/mypy/issues/14776
 Working correctly (not a bug)
 
-- https://github.com/python/mypy/issues/14813
-Working correctly (not a bug)
-
 - https://github.com/python/mypy/issues/14863
 Working correctly (not a bug)
 
@@ -701,9 +680,6 @@ Requires global analysis, not practical
 
 - https://github.com/python/mypy/issues/15692
 Working correctly
-
-- https://github.com/python/mypy/issues/15755
-Working correctly (not a bug)
 
 - https://github.com/python/mypy/issues/15835
 Working correctly (not a bug)
@@ -951,9 +927,6 @@ Not a bug, user misunderstanding
 - https://github.com/python/mypy/issues/17209
 Not a mypy bug, may be a typeshed issue
 
-- https://github.com/python/mypy/issues/17213
-Creates a cyclical dependency between metaclass and class
-
 - https://github.com/python/mypy/issues/17218
 Not a bug, a feature request, and probably not a feasible one
 
@@ -1053,17 +1026,11 @@ Insufficient type information to correctly infer type of lambda
 - https://github.com/python/mypy/issues/17721
 Type narrowing not possible here; user misunderstanding
 
-- https://github.com/python/mypy/issues/17734
-Duplicate
-
 - https://github.com/python/mypy/issues/17737
 Mypy is working as designed here
 
 - https://github.com/python/mypy/issues/17758
 User misunderstanding
-
-- https://github.com/python/mypy/issues/17791
-Error message seems fine to me
 
 - https://github.com/python/mypy/issues/17799
 Mypy is working correctly here
@@ -1140,9 +1107,6 @@ Error message is fine
 - https://github.com/python/mypy/issues/18394
 User misunderstanding
 
-- https://github.com/python/mypy/issues/18400
-User misunderstanding
-
 - https://github.com/python/mypy/issues/18425
 User misunderstanding
 
@@ -1203,15 +1167,6 @@ User misunderstanding
 - https://github.com/python/mypy/issues/18869
 Mypy is working correctly based on the constructors for `list` and `set`
 
-- https://github.com/python/mypy/issues/18894
-Not a mypy bug
-
-- https://github.com/python/mypy/issues/18901
-Type checkers are not required to support complex version checks like this
-
-- https://github.com/python/mypy/issues/18911
-Poorly motivated feature
-
 - https://github.com/python/mypy/issues/18927
 Not enough information supplied by user
 
@@ -1221,11 +1176,42 @@ Not enough information supplied by user
 - https://github.com/python/mypy/issues/18932
 Duplicate
 
-- https://github.com/python/mypy/issues/18945
-Poorly motivated feature request
-
 - https://github.com/python/mypy/issues/18947
 User misunderstanding
 
 - https://github.com/python/mypy/issues/18968
 User misunderstanding
+
+- https://github.com/python/mypy/issues/18987
+Too convoluted to support
+
+- https://github.com/python/mypy/issues/19067
+User misunderstanding, see typeshed
+
+- https://github.com/python/mypy/issues/19081
+User misunderstanding
+
+- https://github.com/python/mypy/issues/19094
+This is a feature request (and a poorly-motivated one)
+
+- https://github.com/python/mypy/issues/19098
+Error messages seems OK to me, not a bug
+
+- https://github.com/python/mypy/issues/19117
+Working correctly given typeshed definitions
+
+- https://github.com/python/mypy/issues/19227
+Not a mypy bug
+
+- https://github.com/python/mypy/issues/19232
+Mypy is working correctly here
+
+- https://github.com/python/mypy/issues/19243
+Not a bug
+
+- https://github.com/python/mypy/issues/19244
+User misunderstanding
+
+- https://github.com/python/mypy/issues/19302
+User misunderstanding about how type checking works
+

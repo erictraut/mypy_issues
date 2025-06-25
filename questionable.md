@@ -12,7 +12,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/2351
 - https://github.com/python/mypy/issues/2352
 - https://github.com/python/mypy/issues/2353
-- https://github.com/python/mypy/issues/2354
 - https://github.com/python/mypy/issues/2388
 - https://github.com/python/mypy/issues/2410
 - https://github.com/python/mypy/issues/2538
@@ -55,7 +54,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/9159
 - https://github.com/python/mypy/issues/9168
 - https://github.com/python/mypy/issues/9176
-- https://github.com/python/mypy/issues/9202
 - https://github.com/python/mypy/issues/9600
 - https://github.com/python/mypy/issues/10008
 - https://github.com/python/mypy/issues/10104
@@ -189,8 +187,6 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/17511
 - https://github.com/python/mypy/issues/17519
 - https://github.com/python/mypy/issues/17520
-- https://github.com/python/mypy/issues/17553
-- https://github.com/python/mypy/issues/17562
 - https://github.com/python/mypy/issues/17614
 - https://github.com/python/mypy/issues/17621
 - https://github.com/python/mypy/issues/17647
@@ -214,3 +210,10 @@ I need to think more about these, but would probably end up closing the majority
 - https://github.com/python/mypy/issues/18891
 - https://github.com/python/mypy/issues/18922
 - https://github.com/python/mypy/issues/18950
+- https://github.com/python/mypy/issues/18989
+- https://github.com/python/mypy/issues/19080
+- https://github.com/python/mypy/issues/19134
+- https://github.com/python/mypy/issues/19178
+- https://github.com/python/mypy/issues/19255
+- https://github.com/python/mypy/issues/19304
+- https://github.com/python/mypy/issues/19336
